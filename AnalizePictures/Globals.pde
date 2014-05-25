@@ -11,4 +11,23 @@ static class Globals {
   public static String authorId = "";
   public static JSONObject author;
   public static JSONArray works;
+
+  public static String makeShorter(String text, int maxLength) {
+    int max = maxLength - 4;
+    String[] words = text.split(" ");
+    String newText = "";
+    for (int i = 0; i < words.length; i++) {
+      if (((newText + words[i]).length()+1) < max) {
+        newText += " " + words[i];
+      }
+      else { break; }
+    }
+    if (newText.length() == 0) {
+      newText = text.substring(0, max);
+    }
+    if (newText.length() < text.length()) {
+      newText += "...";
+    }
+    return newText;
+  }
 }

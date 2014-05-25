@@ -148,7 +148,8 @@ void draw() {
   background(255);  
   fill(0,150,253);
   textFont(font);
-  text("Analizing and comparing works of art",(Fwidth/2)-150,40);
+  textAlign(CENTER);
+  text("Analizing and comparing works of art",(Fwidth/2),40);
   //draw line
   stroke(212,212,210);
   line(Fwidth/2,70,Fwidth/2,Fheight/2);
@@ -183,32 +184,45 @@ void drawAuthor() {
   int fromX = 10,
     toX = Globals.FRAME_WIDTH - 10;
 
-  plotRGB(fromX, toY, 0);
-  plotRGB(fromX + 300, toY, 1);
-  plotRGB(fromX + 600, toY, 2);
-  plotRGB(fromX + 900, toY, 2);
+  plotRGB(fromX + 0*256, toY - 100, 0);
+  plotRGB(fromX + 1*256, toY - 100, 1);
+  plotRGB(fromX + 2*256, toY - 100, 2);
+  plotRGB(fromX + 3*256, toY - 100, 3);
+  plotRGB(fromX + 4*256, toY - 100, 4);
+  
 }
 
 void plotRGB(int xStart, int yStart, int workId) {
   JSONObject work = Globals.works.getJSONObject(workId);
+  JSONObject meta = Globals.author.getJSONArray("works").getJSONObject(workId);
+  
   colorMode(RGB);
   String[] chans = {"r", "g", "b"};
-  int[] colors = {
-    color(255, 0, 0), color(0, 255, 0), color(0, 0, 255)
+  int[][] colors = {
+    new int[] {255, 0, 0}, new int[] {0, 255, 0}, new int[] {0, 0, 255}
   };
   for (int ch=0; ch < 3; ch++) {
     float prevX = xStart, prevY = yStart;
     JSONArray data = work.getJSONArray(chans[ch]);
-    stroke(colors[ch]);
+    
     for (int col=0; col < 256; col++) {
-      float size = data.getInt(col);
-      float newX = xStart + col, newY = yStart - (size/10);
+      float size = data.getInt(col) / 30.0;
+      float newX = xStart + col, newY = yStart - size;
       //point(xStart + col, yStart + (size/10));
+
+      stroke(colors[ch][0], colors[ch][1], colors[ch][2]);
       line(prevX, prevY, newX, newY);
+      
       prevX = newX;
       prevY = newY;
     }
   }
+  textAlign(CENTER);
+  textFont(font);
+  text(Globals.makeShorter(meta.getString("title"), 30),
+       xStart + 128, yStart + 30);
+  text(meta.getString("year") + " - " + meta.getString("teh"),
+       xStart + 128, yStart + 60);
 }
 
 

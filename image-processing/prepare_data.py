@@ -47,6 +47,7 @@ for work in author['works']:
 		img_data['g'] = []
 		img_data['b'] = []
 		channels = [{}, {}, {}]
+
 		for col in colors:
 			#im g_data['colors'].append([
 			# 	col[0], col[1], hexencode(col[1])
@@ -63,7 +64,6 @@ for work in author['works']:
 		img_data['r'] = [val for _, val in sorted(channels[0].items())]
 		img_data['g'] = [val for _, val in sorted(channels[1].items())]
 		img_data['b'] = [val for _, val in sorted(channels[2].items())]
-		
 	
 	with file(fjson, 'w') as fd:
 		fd.write(json.dumps(img_data))
