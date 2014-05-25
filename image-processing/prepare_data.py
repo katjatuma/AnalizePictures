@@ -56,9 +56,13 @@ for work in author['works']:
 				if col[1][i] in channels[i]:
 					count += channels[i][col[1][i]]
 				channels[i][col[1][i]] = count
-		img_data['r'] = list(sorted(channels[0].items()))
-		img_data['g'] = list(sorted(channels[1].items()))
-		img_data['b'] = list(sorted(channels[2].items()))
+		for j in range(3):
+			for i in range(256):
+				if i not in channels[j]:
+					channels[j][i] = 0
+		img_data['r'] = [val for _, val in sorted(channels[0].items())]
+		img_data['g'] = [val for _, val in sorted(channels[1].items())]
+		img_data['b'] = [val for _, val in sorted(channels[2].items())]
 		
 	
 	with file(fjson, 'w') as fd:

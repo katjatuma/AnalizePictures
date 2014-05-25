@@ -76,7 +76,7 @@ author = None
 print 'Works processed:', len(works)
 with file(author_path + '.json', 'r') as fd:
 	author = json.loads(fd.read())
-	author['works'] = works
+	author['works'] = sorted(works, key=lambda x: x.get('year', '3000'))
 if author is None:
 	print 'No author data'
 	exit(1)

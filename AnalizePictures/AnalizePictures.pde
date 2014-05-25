@@ -2,8 +2,8 @@
 zanekrat delam na dveh statičnih slikah, ne najdem primerne baze
 */
 PFont font = createFont("Arial", 16,true); 
-int Fwidth = 1400;
-int Fheight = 1000;
+int Fwidth = Globals.FRAME_WIDTH;
+int Fheight = Globals.FRAME_HEIGHT;
 PImage img1;
 PImage img2;
 
@@ -47,38 +47,40 @@ void setup() {
   //buttons
   cp5.addButton("RGB1")
      .setValue(0)
-     .setPosition(Fwidth/20,460)
+     .setPosition(Fwidth/20,Fheight/2 - 50)
      .setSize(50,20)
      ;
   
   cp5.addButton("HSB1")
      .setValue(0)
-     .setPosition(Fwidth/20 + 50 + 3,460)
+     .setPosition(Fwidth/20 + 50 + 3,Fheight/2 - 50)
      .setSize(50,20)
      ;
      
   cp5.addButton("...")
      .setValue(0)
-     .setPosition(Fwidth/20 + 50*2 + 6,460)
+     .setPosition(Fwidth/20 + 50*2 + 6,Fheight/2 - 50)
      .setSize(50,20)
      ;
   cp5.addButton("RGB2")
      .setValue(0)
-     .setPosition((Fwidth/2) + Fwidth/20,460)
+     .setPosition((Fwidth/2) + Fwidth/20,Fheight/2 - 50)
      .setSize(50,20)
      ;
 
   cp5.addButton("HSB2")
      .setValue(0)
-     .setPosition((Fwidth/2) + Fwidth/20  + 50 + 3,460)
+     .setPosition((Fwidth/2) + Fwidth/20  + 50 + 3,Fheight/2 - 50)
      .setSize(50,20)
      ;
      
   cp5.addButton("....")
      .setValue(0)
-     .setPosition((Fwidth/2) + Fwidth/20 + 50*2 + 6,460)
+     .setPosition((Fwidth/2) + Fwidth/20 + 50*2 + 6,Fheight/2 - 50)
      .setSize(50,20)
      ;
+
+  prepareData("brugel");
 }
 
 void customize(DropdownList ddl) {
@@ -149,17 +151,65 @@ void draw() {
   text("Analizing and comparing works of art",(Fwidth/2)-150,40);
   //draw line
   stroke(212,212,210);
-  line(Fwidth/2,70,Fwidth/2,Fheight-70);
+  line(Fwidth/2,70,Fwidth/2,Fheight/2);
   
   //draw images
-  img1.resize(0,300);
-  img2.resize(0,300);
+  img1.resize(0,200);
+  img2.resize(0,200);
   imageMode(CENTER);
   image(img1,Fwidth/4,Fheight/4 + 30);
   image(img2,(Fwidth/4)*3,Fheight/4 + 30);
-  
+
+  drawAuthor();
 }
 
+void prepareData(String author) {
+  Globals.authorId = author;
+  Globals.author = loadJSONObject(Globals.DATA_DIR + author + ".json");
+
+
+  Globals.works = new JSONArray();
+  JSONArray worksMeta = Globals.author.getJSONArray("works");
+  for (int i = 0; i < worksMeta.size(); i++) {
+    String id = worksMeta.getJSONObject(i).getString("id");
+    String path = Globals.DATA_DIR + author + "/" + id + ".json";
+    Globals.works.setJSONObject(i, loadJSONObject(path));
+  }
+}
+
+void drawAuthor() {
+  int fromY = Globals.FRAME_HEIGHT / 2,
+    toY = Globals.FRAME_HEIGHT - 10;
+  int fromX = 10,
+    toX = Globals.FRAME_WIDTH - 10;
+
+  plotRGB(fromX, toY, 0);
+  plotRGB(fromX + 300, toY, 1);
+  plotRGB(fromX + 600, toY, 2);
+  plotRGB(fromX + 900, toY, 2);
+}
+
+void plotRGB(int xStart, int yStart, int workId) {
+  JSONObject work = Globals.works.getJSONObject(workId);
+  colorMode(RGB);
+  String[] chans = {"r", "g", "b"};
+  int[] colors = {
+    color(255, 0, 0), color(0, 255, 0), color(0, 0, 255)
+  };
+  for (int ch=0; ch < 3; ch++) {
+    float prevX = xStart, prevY = yStart;
+    JSONArray data = work.getJSONArray(chans[ch]);
+    stroke(colors[ch]);
+    for (int col=0; col < 256; col++) {
+      float size = data.getInt(col);
+      float newX = xStart + col, newY = yStart - (size/10);
+      //point(xStart + col, yStart + (size/10));
+      line(prevX, prevY, newX, newY);
+      prevX = newX;
+      prevY = newY;
+    }
+  }
+}
 
 
 
