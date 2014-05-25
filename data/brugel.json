@@ -1,22 +1,416 @@
 {
-	"author": "Pieter Bruegel the Elder",
-	"country": "",
-	"language": "",
-	"styles": [],
-	"birth": "",
-	"death": "",
-	"work": [
-		{
-			"id": "",
-			"date": "",
-			"year": "",
-			"title": ""
-		},
-		{
-			"id": "",
-			"date": "",
-			"year": "",
-			"title": ""
-		}
-	]
+    "author": "Pieter Bruegel the Elder",
+    "birth": "",
+    "country": "",
+    "death": "",
+    "language": "",
+    "styles": [],
+    "work": [
+        {
+            "date": "",
+            "id": "",
+            "title": "",
+            "year": ""
+        },
+        {
+            "date": "",
+            "id": "",
+            "title": "",
+            "year": ""
+        }
+    ],
+    "works": [
+        {
+            "id": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias",
+            "large": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias__large.jpg",
+            "small": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Landscape with Christ and the Apostles at the Sea of Tiberias",
+            "year": "1553"
+        },
+        {
+            "id": "The_Adoration_of_the_Kings",
+            "large": "The_Adoration_of_the_Kings__large.jpg",
+            "small": "The_Adoration_of_the_Kings__small.jpg",
+            "teh": "Tempera on canvas",
+            "title": "The Adoration of the Kings",
+            "year": "c. 1556"
+        },
+        {
+            "id": "Parable_of_the_Sower",
+            "large": "Parable_of_the_Sower__large.jpg",
+            "small": "Parable_of_the_Sower__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Parable of the Sower",
+            "year": "1557"
+        },
+        {
+            "id": "Twelve_Proverbs",
+            "large": "Twelve_Proverbs__large.jpg",
+            "small": "Twelve_Proverbs__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Twelve Proverbs",
+            "year": "1558"
+        },
+        {
+            "id": "Netherlandish_Proverbs",
+            "large": "Netherlandish_Proverbs__large.jpg",
+            "small": "Netherlandish_Proverbs__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Netherlandish Proverbs",
+            "year": "1559"
+        },
+        {
+            "id": "The_Fight_Between_Carnival_and_Lent",
+            "large": "The_Fight_Between_Carnival_and_Lent__large.jpg",
+            "small": "The_Fight_Between_Carnival_and_Lent__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Fight Between Carnival and Lent",
+            "year": "1559"
+        },
+        {
+            "id": "Children's_Games",
+            "large": "Children's_Games__large.jpg",
+            "small": "Children's_Games__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Children's Games",
+            "year": "1560"
+        },
+        {
+            "id": "Battle_in_the_Bay_of_Naples",
+            "large": "Battle_in_the_Bay_of_Naples__large.jpg",
+            "small": "Battle_in_the_Bay_of_Naples__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Battle in the Bay of Naples",
+            "year": "1560"
+        },
+        {
+            "id": "Landscape_with_the_Fall_of_Icarus",
+            "large": "Landscape_with_the_Fall_of_Icarus__large.jpg",
+            "small": "Landscape_with_the_Fall_of_Icarus__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Landscape with the Fall of Icarus",
+            "year": "1560s"
+        },
+        {
+            "id": "The_Fall_of_the_Rebel_Angels",
+            "large": "The_Fall_of_the_Rebel_Angels__large.jpg",
+            "small": "The_Fall_of_the_Rebel_Angels__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Fall of the Rebel Angels",
+            "year": "1562"
+        },
+        {
+            "id": "Mad_Meg_-Dulle_Griet",
+            "large": "Mad_Meg_-Dulle_Griet__large.jpg",
+            "small": "Mad_Meg_-Dulle_Griet__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Mad Meg (Dulle Griet)",
+            "year": "1562"
+        },
+        {
+            "id": "The_Triumph_of_Death",
+            "large": "The_Triumph_of_Death__large.jpg",
+            "small": "The_Triumph_of_Death__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Triumph of Death",
+            "year": "\u0441. 1562"
+        },
+        {
+            "id": "Two_Monkeys",
+            "large": "Two_Monkeys__large.jpg",
+            "small": "Two_Monkeys__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Two Monkeys",
+            "year": "1562"
+        },
+        {
+            "id": "The_Suicide_of_Saul",
+            "large": "The_Suicide_of_Saul__large.jpg",
+            "small": "The_Suicide_of_Saul__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Suicide of Saul",
+            "year": "1562"
+        },
+        {
+            "id": "Portrait_of_an_Old_Woman",
+            "large": "Portrait_of_an_Old_Woman__large.jpg",
+            "small": "Portrait_of_an_Old_Woman__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of an Old Woman",
+            "year": "1563"
+        },
+        {
+            "id": "Yawning_Man_-disputed_attribution",
+            "large": "Yawning_Man_-disputed_attribution__large.jpg",
+            "small": "Yawning_Man_-disputed_attribution__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Yawning Man (disputed attribution)",
+            "year": "1563?"
+        },
+        {
+            "id": "Landscape_with_the_Flight_into_Egypt",
+            "large": "Landscape_with_the_Flight_into_Egypt__large.jpg",
+            "small": "Landscape_with_the_Flight_into_Egypt__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Landscape with the Flight into Egypt",
+            "year": "1563"
+        },
+        {
+            "id": "The_Tower_of_Babel",
+            "large": "The_Tower_of_Babel__large.jpg",
+            "small": "The_Tower_of_Babel__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Tower of Babel",
+            "year": "1563"
+        },
+        {
+            "id": "The_Adoration_of_the_Kings",
+            "large": "The_Adoration_of_the_Kings__large.jpg",
+            "small": "The_Adoration_of_the_Kings__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Adoration of the Kings",
+            "year": "1564"
+        },
+        {
+            "id": "Death_of_the_Virgin",
+            "large": "Death_of_the_Virgin__large.jpg",
+            "small": "Death_of_the_Virgin__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Death of the Virgin",
+            "year": "1564"
+        },
+        {
+            "id": "The_Procession_to_Calvary",
+            "large": "The_Procession_to_Calvary__large.jpg",
+            "small": "The_Procession_to_Calvary__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Procession to Calvary",
+            "year": "1564"
+        },
+        {
+            "id": "Peasant_Wedding_Dance_Outdoors",
+            "large": "Peasant_Wedding_Dance_Outdoors__large.jpg",
+            "small": "Peasant_Wedding_Dance_Outdoors__small.jpg",
+            "teh": "Tempera on parchment applied on wood",
+            "title": "Peasant Wedding Dance Outdoors",
+            "year": "1564-1565"
+        },
+        {
+            "id": "Winter_Landscape_with_a_Bird_Trap",
+            "large": "Winter_Landscape_with_a_Bird_Trap__large.jpg",
+            "small": "Winter_Landscape_with_a_Bird_Trap__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Winter Landscape with a Bird Trap",
+            "year": "1565"
+        },
+        {
+            "id": "The_Hunters_in_the_Snow",
+            "large": "The_Hunters_in_the_Snow__large.jpg",
+            "small": "The_Hunters_in_the_Snow__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Hunters in the Snow",
+            "year": "1565"
+        },
+        {
+            "id": "The_Return_of_the_Herd",
+            "large": "The_Return_of_the_Herd__large.jpg",
+            "small": "The_Return_of_the_Herd__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Return of the Herd",
+            "year": "1565"
+        },
+        {
+            "id": "Haymaking",
+            "large": "Haymaking__large.jpg",
+            "small": "Haymaking__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Haymaking",
+            "year": "1565"
+        },
+        {
+            "id": "The_Harvesters",
+            "large": "The_Harvesters__large.jpg",
+            "small": "The_Harvesters__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Harvesters",
+            "year": "1565"
+        },
+        {
+            "id": "The_Gloomy_Day",
+            "large": "The_Gloomy_Day__large.jpg",
+            "small": "The_Gloomy_Day__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Gloomy Day",
+            "year": "1565"
+        },
+        {
+            "id": "Christ_and_the_Woman_Taken_in_Adultery",
+            "large": "Christ_and_the_Woman_Taken_in_Adultery__large.jpg",
+            "small": "Christ_and_the_Woman_Taken_in_Adultery__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Christ and the Woman Taken in Adultery",
+            "year": "c. 1565"
+        },
+        {
+            "id": "The_Tower_of_Babel",
+            "large": "The_Tower_of_Babel__large.jpg",
+            "small": "The_Tower_of_Babel__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Tower of Babel",
+            "year": "c. 1565"
+        },
+        {
+            "id": "Massacre_of_the_Innocents",
+            "large": "Massacre_of_the_Innocents__large.jpg",
+            "small": "Massacre_of_the_Innocents__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Massacre of the Innocents",
+            "year": "c. 1565-1567"
+        },
+        {
+            "id": "The_Wine_of_Saint_Martin's_Day",
+            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
+            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
+            "teh": "Tempera on canvas",
+            "title": "The Wine of Saint Martin's Day",
+            "year": "1565\u20131568"
+        },
+        {
+            "id": "The_Wine_of_Saint_Martin's_Day",
+            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
+            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Wine of Saint Martin's Day",
+            "year": "c. 1565\u20131568"
+        },
+        {
+            "id": "The_Census_at_Bethlehem",
+            "large": "The_Census_at_Bethlehem__large.jpg",
+            "small": "The_Census_at_Bethlehem__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Census at Bethlehem",
+            "year": "1566"
+        },
+        {
+            "id": "The_Land_of_Cockaigne",
+            "large": "The_Land_of_Cockaigne__large.jpg",
+            "small": "The_Land_of_Cockaigne__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Land of Cockaigne",
+            "year": "1566"
+        },
+        {
+            "id": "The_Sermon_of_Saint_John_the_Baptist",
+            "large": "The_Sermon_of_Saint_John_the_Baptist__large.jpg",
+            "small": "The_Sermon_of_Saint_John_the_Baptist__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Sermon of Saint John the Baptist",
+            "year": "1566"
+        },
+        {
+            "id": "The_Wedding_Dance",
+            "large": "The_Wedding_Dance__large.jpg",
+            "small": "The_Wedding_Dance__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Wedding Dance",
+            "year": "c. 1566"
+        },
+        {
+            "id": "Adoration_of_the_Kings_in_the_Snow",
+            "large": "Adoration_of_the_Kings_in_the_Snow__large.jpg",
+            "small": "Adoration_of_the_Kings_in_the_Snow__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "Adoration of the Kings in the Snow",
+            "year": "1567"
+        },
+        {
+            "id": "Conversion_of_Paul",
+            "large": "Conversion_of_Paul__large.jpg",
+            "small": "Conversion_of_Paul__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Conversion of Paul",
+            "year": "1567"
+        },
+        {
+            "id": "The_Beggars",
+            "large": "The_Beggars__large.jpg",
+            "small": "The_Beggars__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Beggars",
+            "year": "1568"
+        },
+        {
+            "id": "The_Three_Soldiers",
+            "large": "The_Three_Soldiers__large.jpg",
+            "small": "The_Three_Soldiers__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Three Soldiers",
+            "year": "1568"
+        },
+        {
+            "id": "The_Magpie_on_the_Gallows",
+            "large": "The_Magpie_on_the_Gallows__large.jpg",
+            "small": "The_Magpie_on_the_Gallows__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Magpie on the Gallows",
+            "year": "1568"
+        },
+        {
+            "id": "Parable_of_the_Blind",
+            "large": "Parable_of_the_Blind__large.jpg",
+            "small": "Parable_of_the_Blind__small.jpg",
+            "teh": "Tempera on canvas",
+            "title": "Parable of the Blind",
+            "year": "1568"
+        },
+        {
+            "id": "The_Misanthrope",
+            "large": "The_Misanthrope__large.jpg",
+            "small": "The_Misanthrope__small.jpg",
+            "teh": "Tempera on canvas",
+            "title": "The Misanthrope",
+            "year": "1568"
+        },
+        {
+            "id": "The_Peasant_Wedding",
+            "large": "The_Peasant_Wedding__large.jpg",
+            "small": "The_Peasant_Wedding__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Peasant Wedding",
+            "year": "1568"
+        },
+        {
+            "id": "The_Peasant_Dance",
+            "large": "The_Peasant_Dance__large.jpg",
+            "small": "The_Peasant_Dance__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Peasant Dance",
+            "year": "1568"
+        },
+        {
+            "id": "The_Peasant_and_the_Nest_Robber",
+            "large": "The_Peasant_and_the_Nest_Robber__large.jpg",
+            "small": "The_Peasant_and_the_Nest_Robber__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Peasant and the Nest Robber",
+            "year": "1568"
+        },
+        {
+            "id": "The_Drunkard_pushed_into_the_Pigsty",
+            "large": "The_Drunkard_pushed_into_the_Pigsty__large.jpg",
+            "small": "The_Drunkard_pushed_into_the_Pigsty__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Drunkard pushed into the Pigsty",
+            "year": "1568?"
+        },
+        {
+            "id": "The_Storm_at_Sea",
+            "large": "The_Storm_at_Sea__large.jpg",
+            "small": "The_Storm_at_Sea__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Storm at Sea",
+            "year": "1569"
+        }
+    ]
 }
