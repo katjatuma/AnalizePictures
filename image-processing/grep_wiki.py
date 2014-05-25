@@ -1,4 +1,4 @@
-#!/bin/env python2
+#!/usr/bin/python
 from optparse import OptionParser
 from pyquery import PyQuery as pq
 import urllib

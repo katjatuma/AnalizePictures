@@ -1,9 +1,15 @@
 static class Globals {
   // Constants
-  public static final long[] h1 = new long[361];
-  public static final long[] s1 = new long[361];
-  public static final long[] b1 = new long[361];
-
+  //dropdowns
+  public static final int boderLeftDD = 200;
+  public static final int bodertopDD = 100;
+  //buttons
+  public static final int buttonWidth = 50;
+  public static final int buttonHeight = 20;
+  public static final int spaceBetweenButtons = 3;
+  //paintings
+  public static final int imageMargin = 30;
+  
   public static final int FRAME_WIDTH = 1400, FRAME_HEIGHT = 800;
   public static final String DATA_DIR = "../data/";
 

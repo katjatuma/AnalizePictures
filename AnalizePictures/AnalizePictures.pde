@@ -19,21 +19,21 @@ void setup() {
   cp5 = new ControlP5(this);
   //dropdowns
   d1 = cp5.addDropdownList("list1_0")
-          .setSize(200,200)
-          .setPosition(Fwidth/4 - 200, 100)
+          .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
+          .setPosition(Fwidth/4 - Globals.boderLeftDD, Globals.bodertopDD)
           ;
 
   d2 = cp5.addDropdownList("list1_1")
-          .setSize(200,200)
-          .setPosition(Fwidth/4 + 3, 100)
+          .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
+          .setPosition(Fwidth/4 + 3, Globals.bodertopDD)
           ;
   d3 = cp5.addDropdownList("list2_0")
-          .setSize(200,200)
-          .setPosition( 3*(Fwidth/4) - 200, 100)
+          .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
+          .setPosition( 3*(Fwidth/4) - Globals.boderLeftDD, Globals.bodertopDD)
           ;
   d4 = cp5.addDropdownList("list2_1")
-          .setSize(200,200)
-          .setPosition( 3*(Fwidth/4) + 3 , 100)
+          .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
+          .setPosition( 3*(Fwidth/4) + 3 , Globals.bodertopDD)
           ;
   
   d1.captionLabel().set("Pick a painter");
@@ -47,37 +47,37 @@ void setup() {
   //buttons
   cp5.addButton("RGB1")
      .setValue(0)
-     .setPosition(Fwidth/20,Fheight/2 - 50)
-     .setSize(50,20)
+     .setPosition(Fwidth/Globals.buttonHeight,Fheight/2 - Globals.buttonWidth)
+     .setSize(Globals.buttonWidth,Globals.buttonHeight)
      ;
   
   cp5.addButton("HSB1")
      .setValue(0)
-     .setPosition(Fwidth/20 + 50 + 3,Fheight/2 - 50)
-     .setSize(50,20)
+     .setPosition(Fwidth/Globals.buttonHeight + Globals.buttonWidth + Globals.spaceBetweenButtons,Fheight/2 - Globals.buttonWidth)
+     .setSize(Globals.buttonWidth,Globals.buttonHeight)
      ;
      
   cp5.addButton("...")
      .setValue(0)
-     .setPosition(Fwidth/20 + 50*2 + 6,Fheight/2 - 50)
-     .setSize(50,20)
+     .setPosition(Fwidth/Globals.buttonHeight + Globals.buttonWidth*2 + Globals.spaceBetweenButtons*2,Fheight/2 - Globals.buttonWidth)
+     .setSize(Globals.buttonWidth,Globals.buttonHeight)
      ;
   cp5.addButton("RGB2")
      .setValue(0)
-     .setPosition((Fwidth/2) + Fwidth/20,Fheight/2 - 50)
-     .setSize(50,20)
+     .setPosition((Fwidth/2) + Fwidth/Globals.buttonHeight,Fheight/2 - Globals.buttonWidth)
+     .setSize(Globals.buttonWidth,Globals.buttonHeight)
      ;
 
   cp5.addButton("HSB2")
      .setValue(0)
-     .setPosition((Fwidth/2) + Fwidth/20  + 50 + 3,Fheight/2 - 50)
-     .setSize(50,20)
+     .setPosition((Fwidth/2) + Fwidth/Globals.buttonHeight  + Globals.buttonWidth + Globals.spaceBetweenButtons,Fheight/2 - Globals.buttonWidth)
+     .setSize(Globals.buttonWidth,Globals.buttonHeight)
      ;
      
   cp5.addButton("....")
      .setValue(0)
-     .setPosition((Fwidth/2) + Fwidth/20 + 50*2 + 6,Fheight/2 - 50)
-     .setSize(50,20)
+     .setPosition((Fwidth/2) + Fwidth/Globals.buttonHeight + Globals.buttonWidth*2 + Globals.spaceBetweenButtons*2,Fheight/2 - Globals.buttonWidth)
+     .setSize(Globals.buttonWidth,Globals.buttonHeight)
      ;
 
   prepareData("brugel");
@@ -149,17 +149,17 @@ void draw() {
   fill(0,150,253);
   textFont(font);
   textAlign(CENTER);
-  text("Analizing and comparing works of art",(Fwidth/2),40);
+  text("Analizing and comparing works of art",(Fwidth/2),Globals.buttonWidth);
   //draw line
   stroke(212,212,210);
-  line(Fwidth/2,70,Fwidth/2,Fheight/2);
+  line(Fwidth/2,Globals.buttonWidth + Globals.buttonHeight,Fwidth/2,Fheight/2);
   
   //draw images
   img1.resize(0,200);
   img2.resize(0,200);
   imageMode(CENTER);
-  image(img1,Fwidth/4,Fheight/4 + 30);
-  image(img2,(Fwidth/4)*3,Fheight/4 + 30);
+  image(img1,Fwidth/4,Fheight/4 + Globals.imageMargin);
+  image(img2,(Fwidth/4)*3,Fheight/4 + Globals.imageMargin);
 
   drawAuthor();
 }
@@ -224,28 +224,3 @@ void plotRGB(int xStart, int yStart, int workId) {
   text(meta.getString("year") + " - " + meta.getString("teh"),
        xStart + 128, yStart + 60);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
