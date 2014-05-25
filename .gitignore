@@ -1,2 +1,5 @@
 build/
 *.pyc
+
+# Data dirs
+data/brugel/
