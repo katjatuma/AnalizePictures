@@ -1,10 +1,14 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 from optparse import OptionParser
 import json
 import os.path
+import colorsys
+import numpy as np
 from PIL import Image
 
-SUPPORTED_FILE_TYPES = ('jpg', 'png', )
+HUE_RANGE = 12
+GRAY_RANGE = 6
+GRAY_MSE_THRESHOLD = 14
 
 parser = OptionParser(usage='usage: %prog [options] [work1 [work2 ... ]]')
 parser.add_option('-a', '--author', dest='author', default=None,
@@ -28,15 +32,16 @@ if not author:
 
 def hexencode(rgb):
 	return '#%02x%02x%02x' % rgb
+step = len(author['works']) / 10
 
-for work in author['works']:
+for work_i, work in enumerate(author['works']):
 	fjson = os.path.join(author_work_dir, work['id'] + '.json')
 
 	img_small = work['small'] and os.path.join(author_work_dir, work['small'])
 	img_large = work['large'] and os.path.join(author_work_dir, work['large'])
 
 	img_data = {}
-	# TODO: process image data
+	
 	if img_large:
 		im = Image.open(img_large)	
 		w, h = im.size
@@ -64,8 +69,37 @@ for work in author['works']:
 		img_data['r'] = [val for _, val in sorted(channels[0].items())]
 		img_data['g'] = [val for _, val in sorted(channels[1].items())]
 		img_data['b'] = [val for _, val in sorted(channels[2].items())]
+
+		
+		img_data['maxRGB'] = max(max(img_data[ch]) for ch in ('r', 'g', 'b'))
+		
+		img_data['huehist'] = {}
+		img_data['grayhist'] = {}
+		for _, col in colors:
+			col_ary = np.array(col)
+			dummy_gray = col_ary.mean()
+			if np.sqrt(np.sum((col_ary - dummy_gray)**2)) < GRAY_MSE_THRESHOLD:
+				# is gray
+				key = int(round((dummy_gray/255.)*GRAY_RANGE)) * 255/GRAY_RANGE
+				if key not in img_data['grayhist']:
+					img_data['grayhist'][key] = 0
+				img_data['grayhist'][key] += 1
+			else:
+				hsv = colorsys.rgb_to_hsv(*col)
+				key = int(round(hsv[0]*HUE_RANGE))
+				if key not in img_data['huehist']:
+					img_data['huehist'][key] = 0
+				img_data['huehist'][key] += 1
+		img_data['maxHG'] = max(
+			max(img_data['huehist'].values()),
+			max(img_data['grayhist'].values())
+		)
 	
 	with file(fjson, 'w') as fd:
 		fd.write(json.dumps(img_data))
+
+	if (work_i+1) % step == 0:
+		print "#",
+print "# DONE"
 exit(0)
 
