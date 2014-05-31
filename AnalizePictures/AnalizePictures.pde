@@ -204,6 +204,8 @@ void drawCompare() {
   image(img2,(Fwidth/4)*3,Fheight/4 + Globals.imageMargin);
 }
 
+float dragIndex = 0.0, maxDrag = 0.0;
+float prevX = 0.0, zoom = 1.0;
 void drawWorks() {
   compareViewElements.hide();
   pushMatrix();
@@ -211,22 +213,40 @@ void drawWorks() {
     toY = Globals.FRAME_HEIGHT - 10;
   int fromX = 10,
     toX = Globals.FRAME_WIDTH - 10;
-  
+
   translate(fromX, toY);
+
+  scale(zoom);
   // TODO: draw only the ones that are visible
 
+  int numInViewPort = (int)(zoom * Globals.FRAME_WIDTH / 256);
+  maxDrag = (Globals.works.size() - numInViewPort) * 256.;
   for (int i = 0; i < Globals.works.size(); i++) {
-    plotRGB(i*256, -100, i); // TODO: relative size (use zoom)
+    plotRGB(dragIndex + i*256, -100, i); // TODO: relative size (use zoom)
   }
   
   popMatrix();
+  prevX = mouseX;
 }
 
 // TODO: click
-// TODO: drag
-// TODO: zoom
+void mouseDragged() { // TODO: more smooth
+  dragIndex += (mouseX - prevX);
+  if (dragIndex > 0) {
+    dragIndex = 0;
+  }
+  if (dragIndex < -maxDrag) {
+    dragIndex = -maxDrag;
+  }
+}
 
-void plotRGB(int xStart, int yStart, int workId) {
+void mouseWheel(MouseEvent event) {
+  zoom -= (0.01 * event.getCount());
+  println(zoom);
+}
+
+
+void plotRGB(float xStart, float yStart, int workId) {
   JSONObject work = Globals.works.getJSONObject(workId);
   JSONObject meta = Globals.author.getJSONArray("works").getJSONObject(workId);
   
