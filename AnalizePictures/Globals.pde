@@ -1,5 +1,8 @@
 static class Globals {
   // Constants
+  public static final int VIEW_MODE_WORKS = 1,
+    VIEW_MODE_COMPARE=2;
+  
   //dropdowns
   public static final int boderLeftDD = 200;
   public static final int bodertopDD = 100;
@@ -14,6 +17,7 @@ static class Globals {
   public static final String DATA_DIR = "../data/";
 
   // Data
+  public static int viewMode = VIEW_MODE_WORKS;
   public static String authorId = "";
   public static JSONObject author;
   public static JSONArray works;
