@@ -247,6 +247,10 @@ void drawWorks() {
   
   popMatrix();
   prevX = mouseX;
+  if (Globals.selectedWork1 >= 0 && Globals.selectedWork2 >= 0) {
+    Globals.viewMode = Globals.VIEW_MODE_COMPARE;
+    drawChanges = true;
+  }
 }
 
 void mouseClicked() {
@@ -254,15 +258,16 @@ void mouseClicked() {
     drawChanges = true;
     int fromX = 10;
     for (int i = 0; i < Globals.works.size(); i++) {
-      float bottom = fromX + dragIndex + i*(256*zoom),
-        top = fromX + dragIndex + (i + 1)*(256*zoom);
-      if (mouseX >= bottom  && mouseY < top) {
-        if (Globals.selectedWork1 < 0) {
+      float left = fromX + dragIndex + i*(256*zoom),
+        right = fromX + dragIndex + (i + 1)*(256*zoom);
+      if (mouseX >= left && mouseX < right) {
+        if (Globals.selectedWork1 < 0 || i == Globals.selectedWork1) {
           Globals.selectedWork1 = i;
         } else if (Globals.selectedWork2 < 0) {
           Globals.selectedWork2 = i;
-          Globals.viewMode = Globals.VIEW_MODE_COMPARE;
+          
         }
+        break;
       }
     }
   }
