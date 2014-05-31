@@ -21,6 +21,8 @@ static class Globals {
   public static String authorId = "";
   public static JSONObject author;
   public static JSONArray works;
+  public static int selectedWork1 = -1;
+  public static int selectedWork2 = -1;
 
   public static String makeShorter(String text, int maxLength) {
     int max = maxLength - 4;

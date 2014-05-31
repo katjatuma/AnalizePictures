@@ -15,6 +15,8 @@ int cnt = 0;
 
 Group compareViewElements;
 
+boolean drawChanges = true;
+
 void setup() {
   size(Fwidth, Fheight);
   img1 = loadImage("tm.jpg");
@@ -179,6 +181,7 @@ void prepareData(String author) {
 
 
 void draw() {
+  if (!drawChanges) { return; }
   background(255);  
   fill(0,150,253);
   textFont(font);
@@ -189,13 +192,12 @@ void draw() {
 
   textFont(font);
 
-  
-
   if (Globals.viewMode == Globals.VIEW_MODE_WORKS) {
     drawWorks();
   } else {
     drawCompare();
   }
+  drawChanges = false;
 }
 
 void drawCompare() {
@@ -221,16 +223,8 @@ void drawWorks() {
   int fromX = 10,
     toX = Globals.FRAME_WIDTH - 10;
 
-  if (mouseY >= Globals.FRAME_HEIGHT - 110) {
-    cursor(HAND);
-  }
-  else {
-    cursor(ARROW);
-  }
-  
   // translate(fromX, toY);
   //scale(zoom);
-
   
   // TODO: draw only the ones that are visible
 
@@ -257,19 +251,25 @@ void drawWorks() {
 
 void mouseClicked() {
   if (mouseY >= Globals.FRAME_HEIGHT - 110) {
+    drawChanges = true;
     int fromX = 10;
     for (int i = 0; i < Globals.works.size(); i++) {
       float bottom = fromX + dragIndex + i*(256*zoom),
         top = fromX + dragIndex + (i + 1)*(256*zoom);
       if (mouseX >= bottom  && mouseY < top) {
-        println(i);
-        println(Globals.author.getJSONArray("works").getJSONObject(i));
+        if (Globals.selectedWork1 < 0) {
+          Globals.selectedWork1 = i;
+        } else if (Globals.selectedWork2 < 0) {
+          Globals.selectedWork2 = i;
+          Globals.viewMode = Globals.VIEW_MODE_COMPARE;
+        }
       }
     }
   }
 }
 
 void mouseDragged() { // TODO: more smooth
+  drawChanges = true;
   dragIndex += (mouseX - prevX);
   if (dragIndex > 0) {
     dragIndex = 0;
@@ -280,6 +280,7 @@ void mouseDragged() { // TODO: more smooth
 }
 
 void mouseWheel(MouseEvent event) {
+  drawChanges = true;
   zoom -= (0.1 * event.getCount());
   if (zoom < 0.3) { zoom = 0.3; }
   else if (zoom > 1.5) { zoom = 1.5; }
@@ -332,15 +333,21 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
   popMatrix();
 
   float textX = xStart + graphWidth/2, textY1 = yStart + 30, textY2 = yStart + 60;
-  if (zoom >= 0.7) {
-    textAlign(CENTER);
-    textFont(font);
 
+  textAlign(CENTER);
+  if (Globals.selectedWork1 == workId || Globals.selectedWork2 == workId) {
+    fill(110,20,30);
+  } else {
+    fill(0,150,253);
+  }
+  textFont(font);
+  
+  if (zoom >= 0.7) {
+    
     String top = Globals.makeShorter(meta.getString("title"), (int)(35*zoom));
     String bottom = Globals.makeShorter(meta.getString("year") + 
                                         " - " + meta.getString("teh"),
                                         (int)(35*zoom));
-    
     text(top, textX, textY1);
     text(bottom, textX, textY2);
   }
