@@ -15,7 +15,13 @@ static class Globals {
   
   public static final int FRAME_WIDTH = 1400, FRAME_HEIGHT = 800;
   public static final String DATA_DIR = "../data/";
-
+  public static final String[] AUTHORS = {
+    "brugel"
+  };
+  public static final String[] AUTHOR_NAMES = {
+    "Pieter Bruegel the Elder"
+  };
+  
   // Data
   public static int viewMode = VIEW_MODE_WORKS;
   public static String authorId = "";

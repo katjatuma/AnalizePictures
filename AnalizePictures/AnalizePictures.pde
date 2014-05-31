@@ -11,25 +11,34 @@ PImage img2;
 import controlP5.*;
 ControlP5 cp5;
 DropdownList d1, d2, d3, d4;
+DropdownList ddAuthors;
 int cnt = 0;
 
 Group compareViewElements;
+Group worksViewElements;
 
 boolean drawChanges = true;
 
 void setup() {
   size(Fwidth, Fheight);
-  img1 = loadImage("tm.jpg");
-  img2 = loadImage("house.jpg");
+
   cp5 = new ControlP5(this);
 
-  compareViewElements = cp5.addGroup("g1")
-    .setPosition(0,0)
-//    .setBackgroundHeight(100)
-//    .setBackgroundColor(color(255,50))
-    ;
+  compareViewElements = cp5.addGroup("g1").setPosition(0,0);
+  worksViewElements = cp5.addGroup("g2").setPosition(0,0);
   
   //dropdowns
+  ddAuthors = cp5.addDropdownList("authors")
+    .setLabel("Select an author to analyze")
+    .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
+    .setPosition(Globals.FRAME_WIDTH - 210, 40)
+    .setGroup(worksViewElements)
+    ;
+  for (int i=0; i<Globals.AUTHOR_NAMES.length; i++) {
+    ddAuthors.addItem(Globals.AUTHOR_NAMES[i], i);
+  }
+  customize(ddAuthors);
+  
   d1 = cp5.addDropdownList("list1_0")
     .setSize(Globals.boderLeftDD, Globals.boderLeftDD)
     .setPosition(Fwidth/4 - Globals.boderLeftDD, Globals.bodertopDD)
@@ -61,6 +70,26 @@ void setup() {
   customize(d3);
   customize(d4); 
   //buttons
+  cp5.addButton("back")
+    .setValue(0)
+    .setLabel("Return")
+    .setPosition(Globals.FRAME_WIDTH - Globals.buttonWidth - 10, 15)
+    .setSize(Globals.buttonWidth, Globals.buttonHeight)
+    .setGroup(compareViewElements)
+    .addCallback(new CallbackListener() {
+        public void controlEvent(CallbackEvent event) {
+          if (event.getAction() == ControlP5.ACTION_RELEASED) {
+            Globals.selectedWork1 = -1;
+            Globals.selectedWork2 = -1;
+            img1 = null;
+            img2 = null;
+            Globals.viewMode = Globals.VIEW_MODE_WORKS;
+            drawChanges = true;
+          }
+        }
+      })
+    ;
+  
   cp5.addButton("RGB1")
     .setValue(0)
     .setPosition(Fwidth/Globals.buttonHeight,Fheight/2 - Globals.buttonWidth)
@@ -113,56 +142,38 @@ void customize(DropdownList ddl) {
   ddl.captionLabel().style().marginTop = 10;
   ddl.captionLabel().style().marginLeft = 5;
   ddl.valueLabel().style().marginTop = 5;
-  for (int i=0;i<40;i++) {
-    ddl.addItem("item "+i, i);
-  }
+//  for (int i=0;i<40;i++) {
+//    ddl.addItem("item "+i, i);
+//  }
   ddl.scroll(0);
   ddl.setColorBackground(color(60));
   ddl.setColorActive(color(255, 128));
 }
 
-void keyPressed() {
-  // some key events to change the properties of DropdownList d1
-  if (key=='1') {
-    // set the height of a pulldown menu, should always be a multiple of itemHeight
-    d1.setHeight(210);
-  } 
-  else if (key=='2') {
-    // set the height of a pulldown menu, should always be a multiple of itemHeight
-    d1.setHeight(120);
-  }
-  else if (key=='3') {
-    // set the height of a pulldown menu item, should always be a fraction of the pulldown menu
-    d1.setItemHeight(30);
-  } 
-  else if (key=='4') {
-    // set the height of a pulldown menu item, should always be a fraction of the pulldown menu
-    d1.setItemHeight(12);
-    d1.setBackgroundColor(color(255));
-  } 
-  else if (key=='5') {
-    // add new items to the pulldown menu
-    int n = (int)(random(100000));
-    d1.addItem("item "+n, n);
-  } 
-  else if (key=='6') {
-    // remove items from the pulldown menu  by name
-    d1.removeItem("item "+cnt);
-    cnt++;
-  }
-  else if (key=='7') {
-    d1.clear();
-  }
-}
-
 void controlEvent(ControlEvent theEvent) {
+  String element = null;
+  float value = 0.0;
   if (theEvent.isGroup()) {
     // check if the Event was triggered from a ControlGroup
     println("event from group : "+theEvent.getGroup().getValue()+" from "+theEvent.getGroup());
+    element = theEvent.getGroup().getName();
+    value = theEvent.getGroup().getValue();
   } 
   else if (theEvent.isController()) {
     println("event from controller : "+theEvent.getController().getValue()+" from "+theEvent.getController());
+    value = theEvent.getController().getValue();
+    element = theEvent.getController().getName();
   }
+  if (element == null) { return; }
+
+  if (element.equals("authors")) {
+    println("reinit");
+    zoom = 1.0;
+    drawChanges = true;
+    dragIndex = 0.0;
+    prepareData(Globals.AUTHORS[(int)value]);
+  }
+  drawChanges = true;
 }
 
 void prepareData(String author) {
@@ -182,6 +193,8 @@ void prepareData(String author) {
 
 void draw() {
   if (!drawChanges) { return; }
+  drawChanges = false;
+  
   background(255);  
   fill(0,150,253);
   textFont(font);
@@ -197,16 +210,32 @@ void draw() {
   } else {
     drawCompare();
   }
-  drawChanges = false;
 }
 
 void drawCompare() {
+  String imgDir = Globals.DATA_DIR + Globals.authorId + "/";
+  
+  JSONObject work1 = Globals.works.getJSONObject(Globals.selectedWork1);
+  JSONObject workMeta1 = Globals.author.getJSONArray("works").getJSONObject(Globals.selectedWork1);
+  JSONObject work2 = Globals.works.getJSONObject(Globals.selectedWork2);
+  JSONObject workMeta2 = Globals.author.getJSONArray("works").getJSONObject(Globals.selectedWork2);
+
+  if (img1 == null) {
+    img1 = loadImage(imgDir + workMeta1.getString("large"));
+    img1.resize(0,200);
+  }
+  if (img2 == null) {
+    img2 = loadImage(imgDir + workMeta2.getString("large"));
+    img2.resize(0,200);
+  }
+
+  compareViewElements.show();
+  worksViewElements.hide();
+  
   //draw line
   stroke(212,212,210);
   line(Fwidth/2,Globals.buttonWidth + Globals.buttonHeight,Fwidth/2,Fheight/2);
-  compareViewElements.show();
-  img1.resize(0,200);
-  img2.resize(0,200);
+  
   imageMode(CENTER);
   image(img1,Fwidth/4,Fheight/4 + Globals.imageMargin);
   image(img2,(Fwidth/4)*3,Fheight/4 + Globals.imageMargin);
@@ -217,6 +246,8 @@ float prevX = 0.0, zoom = 1.0;
 
 void drawWorks() {
   compareViewElements.hide();
+  worksViewElements.show();
+  
   pushMatrix();
   int fromY = Globals.FRAME_HEIGHT / 2,
     toY = Globals.FRAME_HEIGHT - 10;
