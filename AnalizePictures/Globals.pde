@@ -12,7 +12,7 @@ static class Globals {
   public static final int spaceBetweenButtons = 3;
   //paintings
   public static final int imageMargin = 30;
-  
+  public static final float plotHeight = 100;
   public static final int FRAME_WIDTH = 1400, FRAME_HEIGHT = 800;
   public static final String DATA_DIR = "../data/";
   public static final String[] AUTHORS = {
@@ -21,6 +21,10 @@ static class Globals {
   public static final String[] AUTHOR_NAMES = {
     "Pieter Bruegel the Elder"
   };
+
+  // Histogram values
+  public static final int NUM_OF_GRAYS = 6;
+  public static final int NUM_OF_HUES = 12;
   
   // Data
   public static int viewMode = VIEW_MODE_WORKS;

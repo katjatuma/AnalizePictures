@@ -296,7 +296,6 @@ void mouseClicked() {
           Globals.selectedWork1 = i;
         } else if (Globals.selectedWork2 < 0) {
           Globals.selectedWork2 = i;
-          
         }
         break;
       }
@@ -327,45 +326,12 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
   JSONObject work = Globals.works.getJSONObject(workId);
   JSONObject meta = Globals.author.getJSONArray("works").getJSONObject(workId);
   
-  colorMode(RGB);
-  String[] chans = {"r", "g", "b"};
-  int[][] colors = {
-    new int[] {255, 0, 0}, new int[] {0, 255, 0}, new int[] {0, 0, 255}
-  };
   pushMatrix();
   translate(xStart, yStart);
   scale(zoom);
-
-  float maxRGB = work.getFloat("maxRGB");
-  for (int ch=0; ch < 3; ch++) {
-    float prevX = 0, prevY = 0;
-    JSONArray data = work.getJSONArray(chans[ch]);
-
-    strokeWeight(1/zoom);
-    stroke(colors[ch][0], colors[ch][1], colors[ch][2]);
-    noFill();
-    //
-    beginShape();
-    //
-      
-    for (int col=0; col < 256; col++) {
-      float size = data.getInt(col) / maxRGB * 100*zoom;
-      float newX = col, newY = - size;
-      //point(xStart + col, yStart + (size/10));
-      //line(prevX, prevY, newX, newY);
-
-			//
-      curveVertex(newX, newY);
-      //
-      
-      prevX = newX;
-      prevY = newY;
-    }
-    //
-    endShape();
-    //
-
-  }
+  plotRGB(work, Globals.plotHeight, zoom);
+  translate(0, (-Globals.plotHeight - 20)*zoom);
+  plotHue(work, Globals.plotHeight, zoom);
   popMatrix();
 
   float textX = xStart + graphWidth/2, textY1 = yStart + 30, textY2 = yStart + 60;
@@ -379,11 +345,10 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
   textFont(font);
   
   if (zoom >= 0.7) {
-    
-    String top = Globals.makeShorter(meta.getString("title"), (int)(35*zoom));
-    String bottom = Globals.makeShorter(meta.getString("year") + 
-                                        " - " + meta.getString("teh"),
-                                        (int)(35*zoom));
+    int num = (int)(35*zoom);
+    String top = Globals.makeShorter(meta.getString("title"), num);
+    String main = meta.getString("year") + " - " + meta.getString("teh");
+    String bottom = Globals.makeShorter(main, num);
     text(top, textX, textY1);
     text(bottom, textX, textY2);
   }
@@ -395,3 +360,60 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
   }
 }
 
+void plotRGB(JSONObject work, float pHeight) {
+  plotRGB(work, pHeight, 1.0);
+}
+
+void plotRGB(JSONObject work, float pHeight, float intZoom) {
+  colorMode(RGB);
+  
+  String[] chans = {"r", "g", "b"};
+  int[][] colors = {
+    new int[] {255, 0, 0}, new int[] {0, 255, 0}, new int[] {0, 0, 255}
+  };
+  float maxRGB = work.getFloat("maxRGB");
+  for (int ch=0; ch < 3; ch++) {
+    JSONArray data = work.getJSONArray(chans[ch]);
+
+    strokeWeight(1/intZoom);
+    stroke(colors[ch][0], colors[ch][1], colors[ch][2]);
+    noFill();
+
+    beginShape();
+    for (int col=0; col < 256; col++) {
+      float size = data.getInt(col) / maxRGB * pHeight * intZoom;
+      float newX = col, newY = - size;
+      curveVertex(newX, newY);
+    }
+    endShape();
+  }
+}
+void plotHue(JSONObject work, float pHeight) {
+  plotHue(work, pHeight, 1.0);
+}
+void plotHue(JSONObject work, float pHeight, float intZoom) {
+  JSONObject grayhist = work.getJSONObject("grayhist");
+  JSONObject huehist = work.getJSONObject("huehist");
+
+  colorMode(HSB);
+  float xPos = 0, colWidth = 12 * intZoom,
+    colHeight = pHeight * intZoom;
+  int maxHG = work.getInt("maxHG");
+  for (float h = 0; h < Globals.NUM_OF_HUES; h++) {
+    float cSize = (float)huehist.getInt(""+(int)h, 0) / maxHG * colHeight;
+    fill(0);
+    rect(xPos, -pHeight, colWidth, cSize);
+    xPos += colWidth;
+    println(h + ", " + huehist.getFloat(""+h, 0.0));
+  }
+
+  colorMode(RGB);
+  float grayStep = 255/Globals.NUM_OF_GRAYS;
+  for (float gray = 0; gray < 256; gray += grayStep) {
+    float cSize = (float)grayhist.getInt(""+(int)gray, 0) / maxHG * colHeight;
+    fill(0);
+    rect(xPos, -pHeight, colWidth, cSize);
+    xPos += colWidth;
+    println(gray + ", " + grayhist.getFloat(""+gray, 0.0));
+  }
+}
