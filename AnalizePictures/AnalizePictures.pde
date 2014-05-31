@@ -206,6 +206,7 @@ void drawCompare() {
 
 float dragIndex = 0.0, maxDrag = 0.0;
 float prevX = 0.0, zoom = 1.0;
+
 void drawWorks() {
   compareViewElements.hide();
   pushMatrix();
@@ -214,15 +215,23 @@ void drawWorks() {
   int fromX = 10,
     toX = Globals.FRAME_WIDTH - 10;
 
-  translate(fromX, toY);
+  // translate(fromX, toY);
+  //scale(zoom);
 
-  scale(zoom);
+  
   // TODO: draw only the ones that are visible
 
   int numInViewPort = (int)(zoom * Globals.FRAME_WIDTH / 256);
   maxDrag = (Globals.works.size() - numInViewPort) * 256.;
   for (int i = 0; i < Globals.works.size(); i++) {
-    plotRGB(dragIndex + i*256, -100, i); // TODO: relative size (use zoom)
+    pushMatrix();
+
+    translate(fromX + dragIndex + i*(256*zoom), toY -100);
+    
+    plotRGB(0, 0, 256*zoom, i); 
+    popMatrix();
+    
+    //plotRGB(dragIndex + i*256, -100, i); // TODO: relative size (use zoom)
   }
   
   popMatrix();
@@ -246,7 +255,7 @@ void mouseWheel(MouseEvent event) {
 }
 
 
-void plotRGB(float xStart, float yStart, int workId) {
+void plotRGB(float xStart, float yStart, float graphWidth, int workId) {
   JSONObject work = Globals.works.getJSONObject(workId);
   JSONObject meta = Globals.author.getJSONArray("works").getJSONObject(workId);
   
@@ -255,6 +264,8 @@ void plotRGB(float xStart, float yStart, int workId) {
   int[][] colors = {
     new int[] {255, 0, 0}, new int[] {0, 255, 0}, new int[] {0, 0, 255}
   };
+  pushMatrix();
+  scale(zoom);
   for (int ch=0; ch < 3; ch++) {
     float prevX = xStart, prevY = yStart;
     JSONArray data = work.getJSONArray(chans[ch]);
@@ -271,11 +282,12 @@ void plotRGB(float xStart, float yStart, int workId) {
       prevY = newY;
     }
   }
+  popMatrix();
   textAlign(CENTER);
   textFont(font);
   text(Globals.makeShorter(meta.getString("title"), 30),
-       xStart + 128, yStart + 30);
+       xStart + graphWidth/2, yStart + 30);
   text(meta.getString("year") + " - " + meta.getString("teh"),
-       xStart + 128, yStart + 60);
+       xStart + graphWidth/2, yStart + 60);
 }
 
