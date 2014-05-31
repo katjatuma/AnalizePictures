@@ -35,9 +35,13 @@ works = parsers.parse(options)
 	
 author = None
 print 'Works processed:', len(works)
+
+def year(something):
+	return "".join(s for s in something.split() if s.isdigit())
+
 with file(author_path + '.json', 'r') as fd:
 	author = json.loads(fd.read())
-	author['works'] = sorted(works, key=lambda x: x.get('year', '3000'))
+	author['works'] = sorted(works, key=lambda x: year(x.get('year', '3000')))
 if author is None:
 	print 'No author data'
 	exit(1)

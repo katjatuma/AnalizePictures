@@ -1,5 +1,5 @@
 {
-    "author": "Pieter Bruegel the Elder",
+    "name": "Pieter Bruegel the Elder",
     "birth": "",
     "country": "",
     "death": "",
@@ -7,12 +7,76 @@
     "styles": [],
     "works": [
         {
+            "id": "Landscape_with_the_Fall_of_Icarus",
+            "large": "Landscape_with_the_Fall_of_Icarus__large.jpg",
+            "small": "Landscape_with_the_Fall_of_Icarus__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Landscape with the Fall of Icarus",
+            "year": "1560s"
+        },
+        {
+            "id": "Yawning_Man_-disputed_attribution",
+            "large": "Yawning_Man_-disputed_attribution__large.jpg",
+            "small": "Yawning_Man_-disputed_attribution__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Yawning Man (disputed attribution)",
+            "year": "1563?"
+        },
+        {
+            "id": "Peasant_Wedding_Dance_Outdoors",
+            "large": "Peasant_Wedding_Dance_Outdoors__large.jpg",
+            "small": "Peasant_Wedding_Dance_Outdoors__small.jpg",
+            "teh": "Tempera on parchment applied on wood",
+            "title": "Peasant Wedding Dance Outdoors",
+            "year": "1564-1565"
+        },
+        {
+            "id": "Massacre_of_the_Innocents",
+            "large": "Massacre_of_the_Innocents__large.jpg",
+            "small": "Massacre_of_the_Innocents__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Massacre of the Innocents",
+            "year": "c. 1565-1567"
+        },
+        {
+            "id": "The_Wine_of_Saint_Martin's_Day",
+            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
+            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
+            "teh": "Tempera on canvas",
+            "title": "The Wine of Saint Martin's Day",
+            "year": "1565\u20131568"
+        },
+        {
+            "id": "The_Wine_of_Saint_Martin's_Day",
+            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
+            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Wine of Saint Martin's Day",
+            "year": "c. 1565\u20131568"
+        },
+        {
+            "id": "The_Drunkard_pushed_into_the_Pigsty",
+            "large": "The_Drunkard_pushed_into_the_Pigsty__large.jpg",
+            "small": "The_Drunkard_pushed_into_the_Pigsty__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Drunkard pushed into the Pigsty",
+            "year": "1568?"
+        },
+        {
             "id": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias",
             "large": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias__large.jpg",
             "small": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias__small.jpg",
             "teh": "Oil on panel",
             "title": "Landscape with Christ and the Apostles at the Sea of Tiberias",
             "year": "1553"
+        },
+        {
+            "id": "The_Adoration_of_the_Kings",
+            "large": "The_Adoration_of_the_Kings__large.jpg",
+            "small": "The_Adoration_of_the_Kings__small.jpg",
+            "teh": "Tempera on canvas",
+            "title": "The Adoration of the Kings",
+            "year": "c. 1556"
         },
         {
             "id": "Parable_of_the_Sower",
@@ -63,14 +127,6 @@
             "year": "1560"
         },
         {
-            "id": "Landscape_with_the_Fall_of_Icarus",
-            "large": "Landscape_with_the_Fall_of_Icarus__large.jpg",
-            "small": "Landscape_with_the_Fall_of_Icarus__small.jpg",
-            "teh": "Oil on canvas",
-            "title": "Landscape with the Fall of Icarus",
-            "year": "1560s"
-        },
-        {
             "id": "The_Fall_of_the_Rebel_Angels",
             "large": "The_Fall_of_the_Rebel_Angels__large.jpg",
             "small": "The_Fall_of_the_Rebel_Angels__small.jpg",
@@ -85,6 +141,14 @@
             "teh": "Oil on panel",
             "title": "Mad Meg (Dulle Griet)",
             "year": "1562"
+        },
+        {
+            "id": "The_Triumph_of_Death",
+            "large": "The_Triumph_of_Death__large.jpg",
+            "small": "The_Triumph_of_Death__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Triumph of Death",
+            "year": "\u0441. 1562"
         },
         {
             "id": "Two_Monkeys",
@@ -127,14 +191,6 @@
             "year": "1563"
         },
         {
-            "id": "Yawning_Man_-disputed_attribution",
-            "large": "Yawning_Man_-disputed_attribution__large.jpg",
-            "small": "Yawning_Man_-disputed_attribution__small.jpg",
-            "teh": "Oil on panel",
-            "title": "Yawning Man (disputed attribution)",
-            "year": "1563?"
-        },
-        {
             "id": "The_Adoration_of_the_Kings",
             "large": "The_Adoration_of_the_Kings__large.jpg",
             "small": "The_Adoration_of_the_Kings__small.jpg",
@@ -157,14 +213,6 @@
             "teh": "Oil on panel",
             "title": "The Procession to Calvary",
             "year": "1564"
-        },
-        {
-            "id": "Peasant_Wedding_Dance_Outdoors",
-            "large": "Peasant_Wedding_Dance_Outdoors__large.jpg",
-            "small": "Peasant_Wedding_Dance_Outdoors__small.jpg",
-            "teh": "Tempera on parchment applied on wood",
-            "title": "Peasant Wedding Dance Outdoors",
-            "year": "1564-1565"
         },
         {
             "id": "Winter_Landscape_with_a_Bird_Trap",
@@ -215,12 +263,20 @@
             "year": "1565"
         },
         {
-            "id": "The_Wine_of_Saint_Martin's_Day",
-            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
-            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
-            "teh": "Tempera on canvas",
-            "title": "The Wine of Saint Martin's Day",
-            "year": "1565\u20131568"
+            "id": "Christ_and_the_Woman_Taken_in_Adultery",
+            "large": "Christ_and_the_Woman_Taken_in_Adultery__large.jpg",
+            "small": "Christ_and_the_Woman_Taken_in_Adultery__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Christ and the Woman Taken in Adultery",
+            "year": "c. 1565"
+        },
+        {
+            "id": "The_Tower_of_Babel",
+            "large": "The_Tower_of_Babel__large.jpg",
+            "small": "The_Tower_of_Babel__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Tower of Babel",
+            "year": "c. 1565"
         },
         {
             "id": "The_Census_at_Bethlehem",
@@ -245,6 +301,14 @@
             "teh": "Oil on panel",
             "title": "The Sermon of Saint John the Baptist",
             "year": "1566"
+        },
+        {
+            "id": "The_Wedding_Dance",
+            "large": "The_Wedding_Dance__large.jpg",
+            "small": "The_Wedding_Dance__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Wedding Dance",
+            "year": "c. 1566"
         },
         {
             "id": "Adoration_of_the_Kings_in_the_Snow",
@@ -327,76 +391,12 @@
             "year": "1568"
         },
         {
-            "id": "The_Drunkard_pushed_into_the_Pigsty",
-            "large": "The_Drunkard_pushed_into_the_Pigsty__large.jpg",
-            "small": "The_Drunkard_pushed_into_the_Pigsty__small.jpg",
-            "teh": "Oil on panel",
-            "title": "The Drunkard pushed into the Pigsty",
-            "year": "1568?"
-        },
-        {
             "id": "The_Storm_at_Sea",
             "large": "The_Storm_at_Sea__large.jpg",
             "small": "The_Storm_at_Sea__small.jpg",
             "teh": "Oil on panel",
             "title": "The Storm at Sea",
             "year": "1569"
-        },
-        {
-            "id": "The_Adoration_of_the_Kings",
-            "large": "The_Adoration_of_the_Kings__large.jpg",
-            "small": "The_Adoration_of_the_Kings__small.jpg",
-            "teh": "Tempera on canvas",
-            "title": "The Adoration of the Kings",
-            "year": "c. 1556"
-        },
-        {
-            "id": "Christ_and_the_Woman_Taken_in_Adultery",
-            "large": "Christ_and_the_Woman_Taken_in_Adultery__large.jpg",
-            "small": "Christ_and_the_Woman_Taken_in_Adultery__small.jpg",
-            "teh": "Oil on panel",
-            "title": "Christ and the Woman Taken in Adultery",
-            "year": "c. 1565"
-        },
-        {
-            "id": "The_Tower_of_Babel",
-            "large": "The_Tower_of_Babel__large.jpg",
-            "small": "The_Tower_of_Babel__small.jpg",
-            "teh": "Oil on panel",
-            "title": "The Tower of Babel",
-            "year": "c. 1565"
-        },
-        {
-            "id": "Massacre_of_the_Innocents",
-            "large": "Massacre_of_the_Innocents__large.jpg",
-            "small": "Massacre_of_the_Innocents__small.jpg",
-            "teh": "Oil on panel",
-            "title": "Massacre of the Innocents",
-            "year": "c. 1565-1567"
-        },
-        {
-            "id": "The_Wine_of_Saint_Martin's_Day",
-            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
-            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
-            "teh": "Oil on canvas",
-            "title": "The Wine of Saint Martin's Day",
-            "year": "c. 1565\u20131568"
-        },
-        {
-            "id": "The_Wedding_Dance",
-            "large": "The_Wedding_Dance__large.jpg",
-            "small": "The_Wedding_Dance__small.jpg",
-            "teh": "Oil on panel",
-            "title": "The Wedding Dance",
-            "year": "c. 1566"
-        },
-        {
-            "id": "The_Triumph_of_Death",
-            "large": "The_Triumph_of_Death__large.jpg",
-            "small": "The_Triumph_of_Death__small.jpg",
-            "teh": "Oil on panel",
-            "title": "The Triumph of Death",
-            "year": "\u0441. 1562"
         }
     ]
 }

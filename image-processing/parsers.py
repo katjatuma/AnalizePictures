@@ -29,10 +29,10 @@ def parse_brugel(options):
 			title = pq(cells[1])('a').text()
 		pid = title.replace(' ', '_').replace(')', '').replace('(','-')
 		paintings = {
-			'title': title,
+			'title': title.strip(),
 			'id': pid,
-			'year': cells[2].text,
-			'teh': cells[3].text,
+			'year': cells[2].text.strip(),
+			'teh': cells[3].text.strip(),
 			'small': False,
 			'large': False
 		}

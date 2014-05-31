@@ -36,7 +36,7 @@ static class Globals {
       newText = text.substring(0, max);
     }
     if (newText.length() < text.length()) {
-      newText += "...";
+      newText += "…";
     }
     return newText;
   }
