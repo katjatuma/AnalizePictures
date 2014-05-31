@@ -213,13 +213,18 @@ void drawWorks() {
     toX = Globals.FRAME_WIDTH - 10;
   
   translate(fromX, toY);
-  plotRGB(0*256, -100, 0);
-  plotRGB(1*256, -100, 1);
-  plotRGB(2*256, -100, 2);
-  plotRGB(3*256, -100, 3);
-  plotRGB(4*256, -100, 4);
+  // TODO: draw only the ones that are visible
+
+  for (int i = 0; i < Globals.works.size(); i++) {
+    plotRGB(i*256, -100, i); // TODO: relative size (use zoom)
+  }
+  
   popMatrix();
 }
+
+// TODO: click
+// TODO: drag
+// TODO: zoom
 
 void plotRGB(int xStart, int yStart, int workId) {
   JSONObject work = Globals.works.getJSONObject(workId);
