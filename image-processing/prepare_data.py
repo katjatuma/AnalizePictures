@@ -1,6 +1,8 @@
 #!/usr/bin/env python2
 from optparse import OptionParser
+from pprint import pprint
 import json
+
 import os.path
 import colorsys
 import numpy as np
@@ -8,12 +10,15 @@ from PIL import Image
 
 HUE_RANGE = 12
 GRAY_RANGE = 6
-GRAY_MSE_THRESHOLD = 14
+GRAY_MSE_THRESHOLD = 20
 
 parser = OptionParser(usage='usage: %prog [options] [work1 [work2 ... ]]')
 parser.add_option('-a', '--author', dest='author', default=None,
 				  help='Specify author to prepare data.')
 parser.add_option('-d', '--data', dest='data_dir', default='../data/',
+				  help='Specify data directory (default: ../data/)')
+parser.add_option('-s', '--simulation', dest='simulation', default=False,
+				  action='store_true',
 				  help='Specify data directory (default: ../data/)')
 (options, args) = parser.parse_args()
 if not options.author:
@@ -80,13 +85,15 @@ for work_i, work in enumerate(author['works']):
 			dummy_gray = col_ary.mean()
 			if np.sqrt(np.sum((col_ary - dummy_gray)**2)) < GRAY_MSE_THRESHOLD:
 				# is gray
-				key = int(round((dummy_gray/255.)*GRAY_RANGE)) * 255/GRAY_RANGE
+				key = int(round((dummy_gray/255.)*(GRAY_RANGE - 1)))
 				if key not in img_data['grayhist']:
 					img_data['grayhist'][key] = 0
 				img_data['grayhist'][key] += 1
 			else:
-				hsv = colorsys.rgb_to_hsv(*col)
-				key = int(round(hsv[0]*HUE_RANGE))
+				hsv = colorsys.rgb_to_hsv(*(np.array(col)/255.))
+				key = int(round(hsv[0]*(HUE_RANGE-1)))
+				if key > HUE_RANGE:
+					key = 0
 				if key not in img_data['huehist']:
 					img_data['huehist'][key] = 0
 				img_data['huehist'][key] += 1
@@ -94,12 +101,19 @@ for work_i, work in enumerate(author['works']):
 			max(img_data['huehist'].values()),
 			max(img_data['grayhist'].values())
 		)
-	
-	with file(fjson, 'w') as fd:
-		fd.write(json.dumps(img_data))
+			
+	if not options.simulation:
+		with file(fjson, 'w') as fd:
+			fd.write(json.dumps(img_data))
+	else:
+		print work['title']
+		pprint(img_data['huehist'])
+		pprint(img_data['grayhist'])
 
-	if (work_i+1) % step == 0:
+
+	if (work_i+1) % step == 0 and not options.simulation:
 		print "#",
-print "# DONE"
+if not options.simulation:
+	print "# DONE"
 exit(0)
 

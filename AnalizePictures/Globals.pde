@@ -33,6 +33,9 @@ static class Globals {
   public static JSONArray works;
   public static int selectedWork1 = -1;
   public static int selectedWork2 = -1;
+  public static float maxRGB = -1, maxHG = -1;
+  public static boolean rgbRelative = false;
+  public static boolean histRelative = false;
 
   public static String makeShorter(String text, int maxLength) {
     int max = maxLength - 4;

@@ -2,7 +2,9 @@
 zanekrat delam na dveh statičnih slikah, ne najdem primerne baze
 */
 PFont font = createFont("Arial", 16,true);
-PFont font24 = createFont("Arial", 24,true); 
+PFont font24 = createFont("Arial", 24,true);
+PFont fontSmall = createFont("Arial", 12,true);
+PFont fontTiny = createFont("Arial", 5,true); 
 int Fwidth = Globals.FRAME_WIDTH;
 int Fheight = Globals.FRAME_HEIGHT;
 PImage img1;
@@ -11,7 +13,7 @@ PImage img2;
 import controlP5.*;
 ControlP5 cp5;
 DropdownList d1, d2, d3, d4;
-DropdownList ddAuthors;
+DropdownList ddAuthors, ddAbsolute;
 int cnt = 0;
 
 Group compareViewElements;
@@ -34,10 +36,20 @@ void setup() {
     .setPosition(Globals.FRAME_WIDTH - 210, 40)
     .setGroup(worksViewElements)
     ;
+  ddAbsolute = cp5.addDropdownList("absolute")
+    .setLabel("Data display (absolute)")
+    .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
+    .setPosition(Globals.FRAME_WIDTH - 210, 80)
+    .setGroup(worksViewElements)
+    ;
   for (int i=0; i<Globals.AUTHOR_NAMES.length; i++) {
     ddAuthors.addItem(Globals.AUTHOR_NAMES[i], i);
   }
+  ddAbsolute.addItem("Absolute", 0);
+  ddAbsolute.addItem("Relative", 1);
+  
   customize(ddAuthors);
+  customize(ddAbsolute);
   
   d1 = cp5.addDropdownList("list1_0")
     .setSize(Globals.boderLeftDD, Globals.boderLeftDD)
@@ -172,6 +184,9 @@ void controlEvent(ControlEvent theEvent) {
     drawChanges = true;
     dragIndex = 0.0;
     prepareData(Globals.AUTHORS[(int)value]);
+  } else if (element.equals("absolute")) {
+    Globals.rgbRelative = (int)value == 1;
+    Globals.histRelative = (int)value == 1;
   }
   drawChanges = true;
 }
@@ -183,10 +198,15 @@ void prepareData(String author) {
 
   Globals.works = new JSONArray();
   JSONArray worksMeta = Globals.author.getJSONArray("works");
+  Globals.maxRGB = -1;
+  Globals.maxHG = -1;
   for (int i = 0; i < worksMeta.size(); i++) {
     String id = worksMeta.getJSONObject(i).getString("id");
     String path = Globals.DATA_DIR + author + "/" + id + ".json";
-    Globals.works.setJSONObject(i, loadJSONObject(path));
+    JSONObject data = loadJSONObject(path);
+    Globals.works.setJSONObject(i, data);
+    Globals.maxRGB = (float)Math.max(Globals.maxRGB, data.getInt("maxRGB"));
+    Globals.maxHG = (float)Math.max(Globals.maxHG, data.getInt("maxHG"));
   }
 }
 
@@ -318,7 +338,7 @@ void mouseWheel(MouseEvent event) {
   drawChanges = true;
   zoom -= (0.1 * event.getCount());
   if (zoom < 0.3) { zoom = 0.3; }
-  else if (zoom > 1.5) { zoom = 1.5; }
+  else if (zoom > 2.0) { zoom = 2.0; }
 }
 
 
@@ -329,8 +349,9 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
   pushMatrix();
   translate(xStart, yStart);
   scale(zoom);
+  
   plotRGB(work, Globals.plotHeight, zoom);
-  translate(0, (-Globals.plotHeight - 20)*zoom);
+  translate(0, -(yStart + 2*Globals.plotHeight));
   plotHue(work, Globals.plotHeight, zoom);
   popMatrix();
 
@@ -371,7 +392,7 @@ void plotRGB(JSONObject work, float pHeight, float intZoom) {
   int[][] colors = {
     new int[] {255, 0, 0}, new int[] {0, 255, 0}, new int[] {0, 0, 255}
   };
-  float maxRGB = work.getFloat("maxRGB");
+  float maxRGB = Globals.rgbRelative ? work.getFloat("maxRGB") : Globals.maxRGB;
   for (int ch=0; ch < 3; ch++) {
     JSONArray data = work.getJSONArray(chans[ch]);
 
@@ -381,7 +402,7 @@ void plotRGB(JSONObject work, float pHeight, float intZoom) {
 
     beginShape();
     for (int col=0; col < 256; col++) {
-      float size = data.getInt(col) / maxRGB * pHeight * intZoom;
+      float size = data.getInt(col) / Globals.maxRGB * pHeight;
       float newX = col, newY = - size;
       curveVertex(newX, newY);
     }
@@ -395,25 +416,39 @@ void plotHue(JSONObject work, float pHeight, float intZoom) {
   JSONObject grayhist = work.getJSONObject("grayhist");
   JSONObject huehist = work.getJSONObject("huehist");
 
+  strokeWeight(1/intZoom);
+  stroke(0);
+  textAlign(CENTER);
+  textFont(fontTiny);
   colorMode(HSB);
-  float xPos = 0, colWidth = 12 * intZoom,
-    colHeight = pHeight * intZoom;
-  int maxHG = work.getInt("maxHG");
+  float xPos = 0, colWidth = 254.0/(Globals.NUM_OF_HUES+Globals.NUM_OF_GRAYS),
+    colHeight = pHeight;// * intZoom;
+  
+  float maxHG = Globals.histRelative ? work.getInt("maxHG") : Globals.maxHG;
+  
   for (float h = 0; h < Globals.NUM_OF_HUES; h++) {
-    float cSize = (float)huehist.getInt(""+(int)h, 0) / maxHG * colHeight;
-    fill(0);
-    rect(xPos, -pHeight, colWidth, cSize);
+    float num = h >= 0 ? (float)huehist.getInt(""+(int)h, 0) : 0;
+    float cSize = num / maxHG * colHeight;
+    fill(h/Globals.NUM_OF_HUES * 255, 255, 255);
+    rect(xPos, pHeight - cSize, colWidth, cSize);
+    if (intZoom >= 1.5) {
+      fill(0, 0, 0);
+      text(""+(int)num, xPos + colWidth / 2, pHeight - cSize - 5);
+    }
     xPos += colWidth;
-    println(h + ", " + huehist.getFloat(""+h, 0.0));
   }
 
   colorMode(RGB);
-  float grayStep = 255/Globals.NUM_OF_GRAYS;
-  for (float gray = 0; gray < 256; gray += grayStep) {
-    float cSize = (float)grayhist.getInt(""+(int)gray, 0) / maxHG * colHeight;
-    fill(0);
-    rect(xPos, -pHeight, colWidth, cSize);
+  for (int g = 0; g < Globals.NUM_OF_GRAYS; g += 1) {
+    float gray = g * (255/Globals.NUM_OF_GRAYS);
+    float num = gray >= 0 ? (float)grayhist.getInt(""+g, 0) : 0;
+    float cSize = num / maxHG * colHeight;
+    fill(gray, gray, gray);
+    rect(xPos, pHeight - cSize, colWidth, cSize);
+    if (intZoom > 1.4) {
+      fill(0);
+      text(""+(int)num, xPos + colWidth / 2, pHeight - cSize - 5);
+    }
     xPos += colWidth;
-    println(gray + ", " + grayhist.getFloat(""+gray, 0.0));
   }
 }
