@@ -13,7 +13,10 @@ static class Globals {
   //paintings
   public static final int imageMargin = 30;
   public static final float plotHeight = 100;
-  public static final int FRAME_WIDTH = 1400, FRAME_HEIGHT = 800;
+  public static final int FRAME_WIDTH = 1000, FRAME_HEIGHT = 800;
+  public static final int TOP_HEIGHT = 60;
+  public static final float WORK_HEIGHT = 100.0;
+  public static final float MIN_ZOOM = 0.4, MAX_ZOOM = 1.0;
   public static final String DATA_DIR = "../data/";
   public static final String[] AUTHORS = {
     "brugel"
@@ -33,8 +36,7 @@ static class Globals {
   public static JSONArray works;
   public static int selectedWork1 = -1;
   public static int selectedWork2 = -1;
-  public static float maxRGB = -1, maxHG = -1;
-  public static boolean rgbRelative = false;
+  public static float maxHG = -1;
   public static boolean histRelative = false;
 
   public static String makeShorter(String text, int maxLength) {

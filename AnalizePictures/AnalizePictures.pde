@@ -33,13 +33,13 @@ void setup() {
   ddAuthors = cp5.addDropdownList("authors")
     .setLabel("Select an author to analyze")
     .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
-    .setPosition(Globals.FRAME_WIDTH - 210, 40)
+    .setPosition(Globals.FRAME_WIDTH - Globals.boderLeftDD - 10, 40)
     .setGroup(worksViewElements)
     ;
   ddAbsolute = cp5.addDropdownList("absolute")
     .setLabel("Data display (absolute)")
     .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
-    .setPosition(Globals.FRAME_WIDTH - 210, 80)
+    .setPosition(10, 40)
     .setGroup(worksViewElements)
     ;
   for (int i=0; i<Globals.AUTHOR_NAMES.length; i++) {
@@ -182,10 +182,8 @@ void controlEvent(ControlEvent theEvent) {
     println("reinit");
     zoom = 1.0;
     drawChanges = true;
-    dragIndex = 0.0;
     prepareData(Globals.AUTHORS[(int)value]);
   } else if (element.equals("absolute")) {
-    Globals.rgbRelative = (int)value == 1;
     Globals.histRelative = (int)value == 1;
   }
   drawChanges = true;
@@ -198,14 +196,14 @@ void prepareData(String author) {
 
   Globals.works = new JSONArray();
   JSONArray worksMeta = Globals.author.getJSONArray("works");
-  Globals.maxRGB = -1;
+
   Globals.maxHG = -1;
   for (int i = 0; i < worksMeta.size(); i++) {
     String id = worksMeta.getJSONObject(i).getString("id");
     String path = Globals.DATA_DIR + author + "/" + id + ".json";
     JSONObject data = loadJSONObject(path);
     Globals.works.setJSONObject(i, data);
-    Globals.maxRGB = (float)Math.max(Globals.maxRGB, data.getInt("maxRGB"));
+   
     Globals.maxHG = (float)Math.max(Globals.maxHG, data.getInt("maxHG"));
   }
 }
@@ -214,14 +212,8 @@ void prepareData(String author) {
 void draw() {
   if (!drawChanges) { return; }
   drawChanges = false;
-  
+
   background(255);  
-  fill(0,150,253);
-  textFont(font);
-  textAlign(CENTER);
-  text("Analizing and comparing works of art",(Fwidth/2), 20);
-  textFont(font24);
-  text(Globals.author.getString("name"),(Fwidth/2), 50);
 
   textFont(font);
 
@@ -230,6 +222,19 @@ void draw() {
   } else {
     drawCompare();
   }
+  
+  colorMode(RGB);
+  fill(255, 255, 255);
+  noStroke();
+  rect(0, 0, Globals.FRAME_WIDTH, Globals.TOP_HEIGHT);
+  
+  fill(0,150,253);
+  textFont(font);
+  textAlign(CENTER);
+  text("Analizing and comparing works of art",(Fwidth/2), 20);
+  textFont(font24);
+  text(Globals.author.getString("name"),(Fwidth/2), 50);
+
 }
 
 void drawCompare() {
@@ -261,84 +266,60 @@ void drawCompare() {
   image(img2,(Fwidth/4)*3,Fheight/4 + Globals.imageMargin);
 }
 
-float dragIndex = 0.0, maxDrag = 0.0;
-float prevX = 0.0, zoom = 1.0;
+float zoom = 1.0, dragIndex = 0.0,
+  maxDrag = 0.0;
 
 void drawWorks() {
   compareViewElements.hide();
   worksViewElements.show();
   
-  pushMatrix();
-  int fromY = Globals.FRAME_HEIGHT / 2,
+  int fromY = Globals.TOP_HEIGHT + 10,
     toY = Globals.FRAME_HEIGHT - 10;
   int fromX = 10,
     toX = Globals.FRAME_WIDTH - 10;
 
-  // translate(fromX, toY);
-  //scale(zoom);
+  int numDisplayed = (int)(Globals.FRAME_HEIGHT / Globals.WORK_HEIGHT * zoom);
+  maxDrag = (Globals.works.size() - numDisplayed + 1) * Globals.WORK_HEIGHT * zoom;
   
-  // TODO: draw only the ones that are visible
-
-  int numInViewPort = (int)(Globals.FRAME_WIDTH / (256*zoom));
-  maxDrag = (Globals.works.size() - numInViewPort) * (256*zoom);
+  pushMatrix();
+  translate(fromX, fromY - dragIndex);
   for (int i = 0; i < Globals.works.size(); i++) {
-    boolean left = fromX + dragIndex + (i+1)*(256*zoom) > 0;
-    boolean right = fromX + dragIndex + (i+1)*(256*zoom) < Globals.FRAME_WIDTH;
-
-    // optimization
-    if (!left && !right) { continue; }
-    
     pushMatrix();
-    translate(fromX + dragIndex + i*(256*zoom), toY -100);
-    plotWork(0, 0, 256*zoom, i); 
-    popMatrix();
+    translate(0, i*Globals.WORK_HEIGHT*zoom);
+    scale(zoom);
     
-    //plotWork(dragIndex + i*256, -100, i); // TODO: relative size (use zoom)
+    plotWork(0, 0, toX - toY, i);
+    popMatrix();
   }
-  
   popMatrix();
-  prevX = mouseX;
+
   if (Globals.selectedWork1 >= 0 && Globals.selectedWork2 >= 0) {
     Globals.viewMode = Globals.VIEW_MODE_COMPARE;
     drawChanges = true;
   }
 }
 
+
 void mouseClicked() {
-  if (mouseY >= Globals.FRAME_HEIGHT - 110) {
-    drawChanges = true;
-    int fromX = 10;
-    for (int i = 0; i < Globals.works.size(); i++) {
-      float left = fromX + dragIndex + i*(256*zoom),
-        right = fromX + dragIndex + (i + 1)*(256*zoom);
-      if (mouseX >= left && mouseX < right) {
-        if (Globals.selectedWork1 < 0 || i == Globals.selectedWork1) {
-          Globals.selectedWork1 = i;
-        } else if (Globals.selectedWork2 < 0) {
-          Globals.selectedWork2 = i;
-        }
-        break;
-      }
-    }
-  }
+}
+float prevY = 0;
+void mouseDragged() { // TODO: more smooth
+  dragIndex -= (mouseY - prevY);// > 0 ? 10 : -10;
+  prevY = mouseY;
+  if (dragIndex > maxDrag) { dragIndex = maxDrag; }
+  if (dragIndex < 0) { dragIndex = 0; }
+  drawChanges = true;
 }
 
-void mouseDragged() { // TODO: more smooth
-  drawChanges = true;
-  dragIndex += (mouseX - prevX);
-  if (dragIndex > 0) {
-    dragIndex = 0;
-  }
-  if (dragIndex < -maxDrag) {
-    dragIndex = -maxDrag;
-  }
+void mouseMoved() {
+  prevY = mouseY;
 }
 
 void mouseWheel(MouseEvent event) {
   drawChanges = true;
   zoom -= (0.1 * event.getCount());
-  if (zoom < 0.3) { zoom = 0.3; }
-  else if (zoom > 2.0) { zoom = 2.0; }
+  if (zoom < Globals.MIN_ZOOM) { zoom = Globals.MIN_ZOOM; }
+  else if (zoom > Globals.MAX_ZOOM) { zoom = Globals.MAX_ZOOM; }
 }
 
 
@@ -346,69 +327,9 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
   JSONObject work = Globals.works.getJSONObject(workId);
   JSONObject meta = Globals.author.getJSONArray("works").getJSONObject(workId);
   
-  pushMatrix();
-  translate(xStart, yStart);
-  scale(zoom);
-  
-  plotRGB(work, Globals.plotHeight, zoom);
-  translate(0, -(yStart + 2*Globals.plotHeight));
-  plotHue(work, Globals.plotHeight, zoom);
-  popMatrix();
-
-  float textX = xStart + graphWidth/2, textY1 = yStart + 30, textY2 = yStart + 60;
-
-  textAlign(CENTER);
-  if (Globals.selectedWork1 == workId || Globals.selectedWork2 == workId) {
-    fill(110,20,30);
-  } else {
-    fill(0,150,253);
-  }
-  textFont(font);
-  
-  if (zoom >= 0.7) {
-    int num = (int)(35*zoom);
-    String top = Globals.makeShorter(meta.getString("title"), num);
-    String main = meta.getString("year") + " - " + meta.getString("teh");
-    String bottom = Globals.makeShorter(main, num);
-    text(top, textX, textY1);
-    text(bottom, textX, textY2);
-  }
-  else if (zoom >= 0.4 || zoom >= 0.2 && meta.getString("year").length() <= 6) {
-    text(meta.getString("year"), textX, textY2);
-  }
-  else {
-    text("…", textX, textY2);
-  }
+  plotHue(work, Globals.WORK_HEIGHT * 0.95, zoom);
 }
 
-void plotRGB(JSONObject work, float pHeight) {
-  plotRGB(work, pHeight, 1.0);
-}
-
-void plotRGB(JSONObject work, float pHeight, float intZoom) {
-  colorMode(RGB);
-  
-  String[] chans = {"r", "g", "b"};
-  int[][] colors = {
-    new int[] {255, 0, 0}, new int[] {0, 255, 0}, new int[] {0, 0, 255}
-  };
-  float maxRGB = Globals.rgbRelative ? work.getFloat("maxRGB") : Globals.maxRGB;
-  for (int ch=0; ch < 3; ch++) {
-    JSONArray data = work.getJSONArray(chans[ch]);
-
-    strokeWeight(1/intZoom);
-    stroke(colors[ch][0], colors[ch][1], colors[ch][2]);
-    noFill();
-
-    beginShape();
-    for (int col=0; col < 256; col++) {
-      float size = data.getInt(col) / Globals.maxRGB * pHeight;
-      float newX = col, newY = - size;
-      curveVertex(newX, newY);
-    }
-    endShape();
-  }
-}
 void plotHue(JSONObject work, float pHeight) {
   plotHue(work, pHeight, 1.0);
 }

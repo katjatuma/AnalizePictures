@@ -41,7 +41,9 @@ def year(something):
 
 with file(author_path + '.json', 'r') as fd:
 	author = json.loads(fd.read())
-	author['works'] = sorted(works, key=lambda x: year(x.get('year', '3000')))
+	for i in range(len(works)):
+		works[i]['yearKey'] = year(works[i].get('year', '3000'))
+	author['works'] = sorted(works, key=lambda x: x['yearKey'])
 if author is None:
 	print 'No author data'
 	exit(1)
