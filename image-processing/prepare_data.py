@@ -11,6 +11,7 @@ from PIL import Image
 HUE_RANGE = 12
 GRAY_RANGE = 6
 GRAY_MSE_THRESHOLD = 20
+GRAY_BORDER = 0.1
 MAIN_COLORS = 4
 COLOR_SIMILARITY = 10
 
@@ -70,7 +71,7 @@ for work_i, work in enumerate(author['works']):
 			hsv = colorsys.rgb_to_hsv(*(np.array(col)/255.))
 			dummy_gray = col_ary.mean()
 			is_gray1 = np.sqrt(np.sum((col_ary - dummy_gray)**2)) < GRAY_MSE_THRESHOLD
-			is_gray2 = hsv[1] < 0.5
+			is_gray2 = hsv[1] < GRAY_BORDER 
 
 			most_similar = list(sorted(
 				(color_distance(np.array(mc), col_ary), mc)
@@ -83,7 +84,7 @@ for work_i, work in enumerate(author['works']):
 				key = int(round((dummy_gray/255.)*(GRAY_RANGE - 1)))
 				if key not in img_data['grayhist']:
 					img_data['grayhist'][key] = 0
-				img_data['grayhist'][key] += 1
+				img_data['grayhist'][key] += cnt
 			else:
 				key = int(round(hsv[0]*(HUE_RANGE-1)))
 				if key > HUE_RANGE:

@@ -12,69 +12,6 @@
     "styles": [],
     "works": [
         {
-            "id": "Landscape_with_the_Fall_of_Icarus",
-            "large": "Landscape_with_the_Fall_of_Icarus__large.jpg",
-            "small": "Landscape_with_the_Fall_of_Icarus__small.jpg",
-            "teh": "Oil on canvas",
-            "title": "Landscape with the Fall of Icarus",
-            "year": "1560s",
-            "yearKey": ""
-        },
-        {
-            "id": "Yawning_Man_-disputed_attribution",
-            "large": "Yawning_Man_-disputed_attribution__large.jpg",
-            "small": "Yawning_Man_-disputed_attribution__small.jpg",
-            "teh": "Oil on panel",
-            "title": "Yawning Man (disputed attribution)",
-            "year": "1563?",
-            "yearKey": ""
-        },
-        {
-            "id": "Peasant_Wedding_Dance_Outdoors",
-            "large": "Peasant_Wedding_Dance_Outdoors__large.jpg",
-            "small": "Peasant_Wedding_Dance_Outdoors__small.jpg",
-            "teh": "Tempera on parchment applied on wood",
-            "title": "Peasant Wedding Dance Outdoors",
-            "year": "1564-1565",
-            "yearKey": ""
-        },
-        {
-            "id": "Massacre_of_the_Innocents",
-            "large": "Massacre_of_the_Innocents__large.jpg",
-            "small": "Massacre_of_the_Innocents__small.jpg",
-            "teh": "Oil on panel",
-            "title": "Massacre of the Innocents",
-            "year": "c. 1565-1567",
-            "yearKey": ""
-        },
-        {
-            "id": "The_Wine_of_Saint_Martin's_Day",
-            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
-            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
-            "teh": "Tempera on canvas",
-            "title": "The Wine of Saint Martin's Day",
-            "year": "1565\u20131568",
-            "yearKey": ""
-        },
-        {
-            "id": "The_Wine_of_Saint_Martin's_Day",
-            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
-            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
-            "teh": "Oil on canvas",
-            "title": "The Wine of Saint Martin's Day",
-            "year": "c. 1565\u20131568",
-            "yearKey": ""
-        },
-        {
-            "id": "The_Drunkard_pushed_into_the_Pigsty",
-            "large": "The_Drunkard_pushed_into_the_Pigsty__large.jpg",
-            "small": "The_Drunkard_pushed_into_the_Pigsty__small.jpg",
-            "teh": "Oil on panel",
-            "title": "The Drunkard pushed into the Pigsty",
-            "year": "1568?",
-            "yearKey": ""
-        },
-        {
             "id": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias",
             "large": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias__large.jpg",
             "small": "Landscape_with_Christ_and_the_Apostles_at_the_Sea_of_Tiberias__small.jpg",
@@ -147,6 +84,15 @@
             "yearKey": "1560"
         },
         {
+            "id": "Landscape_with_the_Fall_of_Icarus",
+            "large": "Landscape_with_the_Fall_of_Icarus__large.jpg",
+            "small": "Landscape_with_the_Fall_of_Icarus__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Landscape with the Fall of Icarus",
+            "year": "1560s",
+            "yearKey": "1560"
+        },
+        {
             "id": "The_Fall_of_the_Rebel_Angels",
             "large": "The_Fall_of_the_Rebel_Angels__large.jpg",
             "small": "The_Fall_of_the_Rebel_Angels__small.jpg",
@@ -201,6 +147,15 @@
             "yearKey": "1563"
         },
         {
+            "id": "Yawning_Man_-disputed_attribution",
+            "large": "Yawning_Man_-disputed_attribution__large.jpg",
+            "small": "Yawning_Man_-disputed_attribution__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Yawning Man (disputed attribution)",
+            "year": "1563?",
+            "yearKey": "1563"
+        },
+        {
             "id": "Landscape_with_the_Flight_into_Egypt",
             "large": "Landscape_with_the_Flight_into_Egypt__large.jpg",
             "small": "Landscape_with_the_Flight_into_Egypt__small.jpg",
@@ -243,6 +198,15 @@
             "teh": "Oil on panel",
             "title": "The Procession to Calvary",
             "year": "1564",
+            "yearKey": "1564"
+        },
+        {
+            "id": "Peasant_Wedding_Dance_Outdoors",
+            "large": "Peasant_Wedding_Dance_Outdoors__large.jpg",
+            "small": "Peasant_Wedding_Dance_Outdoors__small.jpg",
+            "teh": "Tempera on parchment applied on wood",
+            "title": "Peasant Wedding Dance Outdoors",
+            "year": "1564-1565",
             "yearKey": "1564"
         },
         {
@@ -315,6 +279,33 @@
             "teh": "Oil on panel",
             "title": "The Tower of Babel",
             "year": "c. 1565",
+            "yearKey": "1565"
+        },
+        {
+            "id": "Massacre_of_the_Innocents",
+            "large": "Massacre_of_the_Innocents__large.jpg",
+            "small": "Massacre_of_the_Innocents__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Massacre of the Innocents",
+            "year": "c. 1565-1567",
+            "yearKey": "1565"
+        },
+        {
+            "id": "The_Wine_of_Saint_Martin's_Day",
+            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
+            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
+            "teh": "Tempera on canvas",
+            "title": "The Wine of Saint Martin's Day",
+            "year": "1565\u20131568",
+            "yearKey": "1565"
+        },
+        {
+            "id": "The_Wine_of_Saint_Martin's_Day",
+            "large": "The_Wine_of_Saint_Martin's_Day__large.jpg",
+            "small": "The_Wine_of_Saint_Martin's_Day__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Wine of Saint Martin's Day",
+            "year": "c. 1565\u20131568",
             "yearKey": "1565"
         },
         {
@@ -441,6 +432,15 @@
             "teh": "Oil on panel",
             "title": "The Peasant and the Nest Robber",
             "year": "1568",
+            "yearKey": "1568"
+        },
+        {
+            "id": "The_Drunkard_pushed_into_the_Pigsty",
+            "large": "The_Drunkard_pushed_into_the_Pigsty__large.jpg",
+            "small": "The_Drunkard_pushed_into_the_Pigsty__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Drunkard pushed into the Pigsty",
+            "year": "1568?",
             "yearKey": "1568"
         },
         {

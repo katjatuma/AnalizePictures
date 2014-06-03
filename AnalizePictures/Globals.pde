@@ -16,7 +16,7 @@ static class Globals {
   public static final int FRAME_WIDTH = 1000, FRAME_HEIGHT = 800;
   public static final int TOP_HEIGHT = 60;
   public static final float WORK_HEIGHT = 100.0;
-  public static final float MIN_ZOOM = 0.4, MAX_ZOOM = 1.0;
+  public static final float MIN_ZOOM = 0.4, MAX_ZOOM = 1.0, COMPACT_ZOOM = 0.5;
   public static final String DATA_DIR = "../data/";
   public static final String[] AUTHORS = {
     "brugel"

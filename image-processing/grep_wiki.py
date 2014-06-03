@@ -37,7 +37,7 @@ author = None
 print 'Works processed:', len(works)
 
 def year(something):
-	return "".join(s for s in something.split() if s.isdigit())
+	return "".join(s for s in something if s.isdigit())[:4]
 
 with file(author_path + '.json', 'r') as fd:
 	author = json.loads(fd.read())
