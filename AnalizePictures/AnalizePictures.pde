@@ -281,7 +281,6 @@ void drawWorks() {
   int lastYear = 0, workInYear = 0;
   int numDisplayed = (int)(Globals.FRAME_HEIGHT / Globals.WORK_HEIGHT * zoom);
   int row = 0;
-  int yOffset = 0;
   maxDrag = (Globals.works.size() - numDisplayed + 1) * Globals.WORK_HEIGHT * zoom;
   
   pushMatrix();
@@ -289,31 +288,31 @@ void drawWorks() {
   for (int i = 0; i < Globals.works.size(); i++) {
     JSONObject workMeta = Globals.author.getJSONArray("works").getJSONObject(i);
     
-    float workX = 0, workY = (yOffset + row*Globals.WORK_HEIGHT)*zoom;
+    float workX = 0, workY = (row*Globals.WORK_HEIGHT)*zoom;
     int year = Integer.parseInt(workMeta.getString("yearKey", "3000"));
     boolean newYear = year != lastYear;
 
     if (newYear) {
       workInYear = 0;
-      
-      // String yearString = new String(year + "");
-      // String yearEvent = events.getString(yearString, "");
-      // if (yearEvent.length() > 0) yearString += " - " + yearEvent;
+      String yearString = new String(year + "");
+      String yearEvent = events.getString(yearString, "");
+      if (yearEvent.length() > 0) yearString += " - " + yearEvent;
 
-      // pushMatrix();
-      // translate(10, workY);
-      // scale(zoom);
-      // fill(0);
-      // textFont(font24);
-      // text(yearString, 0, 0);
-      
-      // yOffset += 30;
-      // popMatrix();
+      pushMatrix();
+      translate(2, workY);
+      scale(zoom);
+      fill(0);
+      textFont(font24);
+      textAlign(LEFT);
+      text(yearString, 0, workY == 0 ? 30 : 30);
+      popMatrix();
+
+      translate(0, 30*zoom);
     }
     
     if (!newYear && zoom <= Globals.COMPACT_ZOOM && (workInYear % 2 == 1)) {
       workX = Globals.FRAME_WIDTH / 2;
-      workY = (yOffset + (row-1)*Globals.WORK_HEIGHT)*zoom;
+      workY = (row-1)*Globals.WORK_HEIGHT*zoom;
       row -= 1;
     }
     println(year + "-" + workMeta.getString("title", "") + " - " + workY);
