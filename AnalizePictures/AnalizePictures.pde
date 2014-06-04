@@ -339,14 +339,12 @@ void drawWorks() {
     }
     else {
       positions[row][0] = i;
-    }
-    
-    if (positionBounds[row][1] == 0) {
       positionBounds[row] = new float[] {
         fromY + Globals.yearSepSize*newYears + row*Globals.WORK_HEIGHT,
         fromY + Globals.yearSepSize*newYears + (row+1)*Globals.WORK_HEIGHT
       };
     }
+    
     pushMatrix();
     
     translate(workX, workY);
@@ -369,14 +367,23 @@ void drawWorks() {
 
 
 void mouseClicked() {
+  if (Globals.viewMode != Globals.VIEW_MODE_WORKS) { return; }
+  if (mouseY < Globals.TOP_HEIGHT) { return; }
   int workId = workNum(mouseX, mouseY);
   if (workId >= 0) {
-    if (Globals.selectedWork1 >= 0 && Globals.selectedWork1 != workId) {
+    if (Globals.selectedWork1 == workId) {
+      return;
+    }
+    if (Globals.selectedWork1 >= 0) {
       Globals.selectedWork2 = workId;
     } else {
       Globals.selectedWork1 = workId;
     }
     drawChanges = true;
+  }
+  else {
+    Globals.selectedWork1 = -1;
+    Globals.selectedWork2 = -1;
   }
 }
 float prevY = 0;
@@ -386,6 +393,10 @@ void mouseDragged() { // TODO: more smooth
   if (dragIndex > maxDrag) { dragIndex = maxDrag; }
   if (dragIndex < 0) { dragIndex = 0; }
   drawChanges = true;
+
+  println("selected");
+  println(Globals.selectedWork1);
+  println(Globals.selectedWork2);
 }
 
 void mouseMoved() {
