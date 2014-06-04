@@ -40,7 +40,7 @@ void setup() {
     .setGroup(worksViewElements)
     ;
   ddAbsolute = cp5.addDropdownList("absolute")
-    .setLabel("Data display (absolute)")
+    .setLabel("Data display (relative)")
     .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
     .setPosition(10, 40)
     .setGroup(worksViewElements)
@@ -326,7 +326,7 @@ void drawWorks() {
 
       popMatrix();
 
-      translate(0, 30*zoom);
+      translate(0, Globals.yearSepSize*zoom);
       newYears++;
     }
 
@@ -343,8 +343,8 @@ void drawWorks() {
     
     if (positionBounds[row][1] == 0) {
       positionBounds[row] = new float[] {
-        fromY + 30*newYears + row*Globals.WORK_HEIGHT,
-        fromY + 30*newYears + (row+1)*Globals.WORK_HEIGHT
+        fromY + Globals.yearSepSize*newYears + row*Globals.WORK_HEIGHT,
+        fromY + Globals.yearSepSize*newYears + (row+1)*Globals.WORK_HEIGHT
       };
     }
     pushMatrix();
@@ -371,7 +371,7 @@ void drawWorks() {
 void mouseClicked() {
   int workId = workNum(mouseX, mouseY);
   if (workId >= 0) {
-    if (Globals.selectedWork1 >= 0) {
+    if (Globals.selectedWork1 >= 0 && Globals.selectedWork1 != workId) {
       Globals.selectedWork2 = workId;
     } else {
       Globals.selectedWork1 = workId;
@@ -416,20 +416,21 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
 }
 
 int workNum(int x, int y) {
-  float rY = dragIndex + y;
+  float rY = (dragIndex + y);
   for (int i = 0; i < Globals.works.size(); i++) {
     float up = positionBounds[i][0]*zoom, down = positionBounds[i][1]*zoom;
     if (up < rY && rY < down) {
-      if (zoom <= Globals.COMPACT_ZOOM) {
-        return x > Globals.FRAME_WIDTH/2.0 ? positions[i][0] : positions[i][1];
-      }
-      else {
-        println("--");
+              println("--");
         println(i);
         println(y);
         println(rY);
         println(up);
         println(down);
+
+      if (zoom <= Globals.COMPACT_ZOOM) {
+        return x < Globals.FRAME_WIDTH/2.0/zoom ? positions[i][0] : positions[i][1];
+      }
+      else {
         return positions[i][0];
       }
     }

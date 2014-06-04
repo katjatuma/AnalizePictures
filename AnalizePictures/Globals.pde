@@ -13,6 +13,7 @@ static class Globals {
   //paintings
   public static final int imageMargin = 30;
   public static final float plotHeight = 100;
+  public static final float yearSepSize = 35;
   public static final int FRAME_WIDTH = 1000, FRAME_HEIGHT = 800;
   public static final int TOP_HEIGHT = 60;
   public static final float WORK_HEIGHT = 100.0;
@@ -38,7 +39,7 @@ static class Globals {
   public static int selectedWork2 = -1;
   public static float maxHG = -1;
   public static float maxV = -1;
-  public static boolean histRelative = false;
+  public static boolean histRelative = true;
 
   public static String makeShorter(String text, int maxLength) {
     int max = maxLength - 4;
