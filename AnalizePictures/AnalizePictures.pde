@@ -335,7 +335,7 @@ void drawWorks() {
       workX = Globals.FRAME_WIDTH / 2;
       workY = (row-1)*Globals.WORK_HEIGHT*zoom;
       row -= 1;
-      positions[row][i] = i;
+      positions[row][1] = i;
     }
     else {
       positions[row][0] = i;
