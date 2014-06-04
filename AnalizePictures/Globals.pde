@@ -37,6 +37,7 @@ static class Globals {
   public static int selectedWork1 = -1;
   public static int selectedWork2 = -1;
   public static float maxHG = -1;
+  public static float maxV = -1;
   public static boolean histRelative = false;
 
   public static String makeShorter(String text, int maxLength) {

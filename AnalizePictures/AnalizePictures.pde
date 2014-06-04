@@ -21,6 +21,9 @@ Group worksViewElements;
 
 boolean drawChanges = true;
 
+int[][] positions;
+float[][] positionBounds;
+
 void setup() {
   size(Fwidth, Fheight);
 
@@ -198,6 +201,7 @@ void prepareData(String author) {
   JSONArray worksMeta = Globals.author.getJSONArray("works");
 
   Globals.maxHG = -1;
+  Globals.maxV = -1;
   for (int i = 0; i < worksMeta.size(); i++) {
     String id = worksMeta.getJSONObject(i).getString("id");
     String path = Globals.DATA_DIR + author + "/" + id + ".json";
@@ -205,6 +209,7 @@ void prepareData(String author) {
     Globals.works.setJSONObject(i, data);
    
     Globals.maxHG = (float)Math.max(Globals.maxHG, data.getInt("maxHG"));
+    Globals.maxV = (float)Math.max(Globals.maxV, data.getInt("maxV")); // TODO: uncomment
   }
 }
 
@@ -278,12 +283,16 @@ void drawWorks() {
   int fromX = 10,
     toX = Globals.FRAME_WIDTH - 10;
   JSONObject events = Globals.author.getJSONObject("events");
-  int lastYear = 0, workInYear = 0;
+  int lastYear = 0, workInYear = 0, newYears = 0;
   int numDisplayed = (int)(Globals.FRAME_HEIGHT / Globals.WORK_HEIGHT * zoom);
   int row = 0;
+
   maxDrag = (Globals.works.size() - numDisplayed + 1) * Globals.WORK_HEIGHT * zoom;
-  
+
+  positions = new int[Globals.works.size()][2];
+  positionBounds = new float[Globals.works.size()][2];
   pushMatrix();
+  println(dragIndex);
   translate(fromX, fromY - dragIndex);
   for (int i = 0; i < Globals.works.size(); i++) {
     JSONObject workMeta = Globals.author.getJSONArray("works").getJSONObject(i);
@@ -296,33 +305,54 @@ void drawWorks() {
       workInYear = 0;
       String yearString = new String(year + "");
       String yearEvent = events.getString(yearString, "");
-      if (yearEvent.length() > 0) yearString += " - " + yearEvent;
+      
 
       pushMatrix();
       translate(2, workY);
       scale(zoom);
       fill(0);
+      stroke(0);
+      strokeWeight(1);
+      if (yearEvent.length() > 0) {
+        yearString += " - " + yearEvent;
+        line(600/zoom, 23, (Globals.FRAME_WIDTH - 70)/zoom, 23);
+      }
+      else {
+        line(100/zoom, 23, (Globals.FRAME_WIDTH - 70)/zoom, 23);
+      }
       textFont(font24);
       textAlign(LEFT);
-      text(yearString, 0, workY == 0 ? 30 : 30);
+      text(yearString, 0, 30);
+
       popMatrix();
 
       translate(0, 30*zoom);
+      newYears++;
     }
+
     
     if (!newYear && zoom <= Globals.COMPACT_ZOOM && (workInYear % 2 == 1)) {
       workX = Globals.FRAME_WIDTH / 2;
       workY = (row-1)*Globals.WORK_HEIGHT*zoom;
       row -= 1;
+      positions[row][i] = i;
     }
-    println(year + "-" + workMeta.getString("title", "") + " - " + workY);
-
+    else {
+      positions[row][0] = i;
+    }
+    
+    if (positionBounds[row][1] == 0) {
+      positionBounds[row] = new float[] {
+        fromY + 30*newYears + row*Globals.WORK_HEIGHT,
+        fromY + 30*newYears + (row+1)*Globals.WORK_HEIGHT
+      };
+    }
     pushMatrix();
+    
     translate(workX, workY);
     scale(zoom);
     
     plotWork(0, 0, toX - toY, i);
-    
     popMatrix();
 
     lastYear = year;
@@ -339,6 +369,15 @@ void drawWorks() {
 
 
 void mouseClicked() {
+  int workId = workNum(mouseX, mouseY);
+  if (workId >= 0) {
+    if (Globals.selectedWork1 >= 0) {
+      Globals.selectedWork2 = workId;
+    } else {
+      Globals.selectedWork1 = workId;
+    }
+    drawChanges = true;
+  }
 }
 float prevY = 0;
 void mouseDragged() { // TODO: more smooth
@@ -364,8 +403,38 @@ void mouseWheel(MouseEvent event) {
 void plotWork(float xStart, float yStart, float graphWidth, int workId) {
   JSONObject work = Globals.works.getJSONObject(workId);
   JSONObject meta = Globals.author.getJSONArray("works").getJSONObject(workId);
-  
-  plotHue(work, Globals.WORK_HEIGHT * 0.95, zoom);
+  boolean selected = workId == Globals.selectedWork1 || workId == Globals.selectedWork2;
+  float plotHeight = Globals.WORK_HEIGHT * 0.95;
+  float margin = 5;
+  plotHue(work, plotHeight, zoom);
+  translate(margin, 0);
+  plotValue(work, plotHeight, zoom);
+  translate(margin, 0);
+  plotMainColors(work, plotHeight, zoom);
+  translate(margin, 0);
+  plotWorkMeta(meta, plotHeight, zoom, selected);
+}
+
+int workNum(int x, int y) {
+  float rY = dragIndex + y;
+  for (int i = 0; i < Globals.works.size(); i++) {
+    float up = positionBounds[i][0]*zoom, down = positionBounds[i][1]*zoom;
+    if (up < rY && rY < down) {
+      if (zoom <= Globals.COMPACT_ZOOM) {
+        return x > Globals.FRAME_WIDTH/2.0 ? positions[i][0] : positions[i][1];
+      }
+      else {
+        println("--");
+        println(i);
+        println(y);
+        println(rY);
+        println(up);
+        println(down);
+        return positions[i][0];
+      }
+    }
+  }
+  return -1;
 }
 
 void plotHue(JSONObject work, float pHeight) {
@@ -410,4 +479,69 @@ void plotHue(JSONObject work, float pHeight, float intZoom) {
     }
     xPos += colWidth;
   }
+  // Move correctly right
+  translate(xPos, 0);
+}
+
+void plotValue(JSONObject work, float pHeight, float intZoom) {
+  JSONObject hist = work.getJSONObject("valhist");
+
+  stroke(0);
+  textAlign(CENTER);
+  textFont(fontTiny);
+  colorMode(RGB);
+  float xPos = 0, colWidth = 1,
+    colHeight = pHeight;
+  
+  float maxV = Globals.histRelative ? work.getInt("maxV") : Globals.maxV;
+
+  for (int i = 0; i < 255; i++) {
+    float num = (float)hist.getInt(""+(int)i, 0);
+    float cSize = num / maxV * colHeight;
+    fill(150);
+    noStroke();
+    rect(xPos, pHeight - cSize, colWidth, cSize);
+    if (intZoom >= 1.5) {
+      fill(0);
+      text(""+(int)num, xPos + colWidth / 2, pHeight - cSize - 5);
+    }
+    xPos += colWidth;
+  }
+  translate(xPos, 0);
+}
+
+void plotMainColors(JSONObject work, float pHeight, float intZoom) {
+  JSONArray colors = work.getJSONArray("colors");
+  float plotWidth = 200;
+  for (int i = 0; i < colors.size(); i++) {
+    JSONArray mainColorData = colors.getJSONArray(i);
+    JSONArray rgb = mainColorData.getJSONArray(0);
+    float rectSize = mainColorData.getFloat(2) * plotWidth;
+    colorMode(RGB);
+    fill(rgb.getInt(0), rgb.getInt(1), rgb.getInt(2));
+    noStroke();
+    rect(0, 0.3*pHeight, rectSize, 0.7*pHeight);
+    translate(rectSize, 0);
+  }
+}
+void plotWorkMeta(JSONObject meta, float pHeight, float intZoom, boolean sel) {
+  int textNum = 40;
+  String title = Globals.makeShorter(meta.getString("title", "No title"), textNum);
+  String teh = Globals.makeShorter(meta.getString("teh", "/"), textNum);
+  String year = Globals.makeShorter(meta.getString("year", ""), textNum);
+  String bullet = "○ ";
+  
+  textFont(font);
+  textAlign(LEFT);
+  colorMode(RGB);
+  if (sel) {
+    fill(255, 0, 0);
+  } else {
+    fill(0);
+  }
+  
+  text(bullet + title, 0, 30);
+  text(bullet + teh, 0, 60);
+  text(bullet + year, 0, 90);
+  
 }
