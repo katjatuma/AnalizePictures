@@ -431,15 +431,8 @@ int workNum(int x, int y) {
   for (int i = 0; i < Globals.works.size(); i++) {
     float up = positionBounds[i][0]*zoom, down = positionBounds[i][1]*zoom;
     if (up < rY && rY < down) {
-              println("--");
-        println(i);
-        println(y);
-        println(rY);
-        println(up);
-        println(down);
-
       if (zoom <= Globals.COMPACT_ZOOM) {
-        return x < Globals.FRAME_WIDTH/2.0/zoom ? positions[i][0] : positions[i][1];
+        return x/zoom < Globals.FRAME_WIDTH/2.0 ? positions[i][0] : positions[i][1];
       }
       else {
         return positions[i][0];
