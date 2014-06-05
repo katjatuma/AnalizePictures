@@ -1,0 +1,2287 @@
+{
+    "birth": "",
+    "country": "",
+    "death": "",
+    "events": {},
+    "language": "",
+    "name": "Blah",
+    "works": [
+        {
+            "id": "The_Operation_-Touch",
+            "large": "The_Operation_-Touch__large.jpg",
+            "small": "The_Operation_-Touch__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Operation (Touch)",
+            "year": "1624/1625",
+            "yearKey": "1624"
+        },
+        {
+            "id": "The_Spectacles-pedlar_-Sight",
+            "large": "The_Spectacles-pedlar_-Sight__large.jpg",
+            "small": "The_Spectacles-pedlar_-Sight__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Spectacles-pedlar (Sight)",
+            "year": "1624/1625",
+            "yearKey": "1624"
+        },
+        {
+            "id": "The_Three_Singers_-Hearing",
+            "large": "The_Three_Singers_-Hearing__large.jpg",
+            "small": "The_Three_Singers_-Hearing__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Three Singers (Hearing)",
+            "year": "1624/1625",
+            "yearKey": "1624"
+        },
+        {
+            "id": "The_Stoning_of_St._Stephen",
+            "large": "The_Stoning_of_St._Stephen__large.jpg",
+            "small": "The_Stoning_of_St._Stephen__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Stoning of St. Stephen",
+            "year": "1625",
+            "yearKey": "1625"
+        },
+        {
+            "id": "History_Painting",
+            "large": "History_Painting__large.jpg",
+            "small": "History_Painting__small.jpg",
+            "teh": "Oil on panel",
+            "title": "History Painting",
+            "year": "1626",
+            "yearKey": "1626"
+        },
+        {
+            "id": "Balaam_and_the_Ass",
+            "large": "Balaam_and_the_Ass__large.jpg",
+            "small": "Balaam_and_the_Ass__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Balaam and the Ass",
+            "year": "1626",
+            "yearKey": "1626"
+        },
+        {
+            "id": "The_Baptism_of_the_Eunuch",
+            "large": "The_Baptism_of_the_Eunuch__large.jpg",
+            "small": "The_Baptism_of_the_Eunuch__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Baptism of the Eunuch",
+            "year": "1626",
+            "yearKey": "1626"
+        },
+        {
+            "id": "Christ_Driving_the_Moneychangers_from_the_Temple",
+            "large": "Christ_Driving_the_Moneychangers_from_the_Temple__large.jpg",
+            "small": "Christ_Driving_the_Moneychangers_from_the_Temple__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Christ Driving the Moneychangers from the Temple",
+            "year": "1626",
+            "yearKey": "1626"
+        },
+        {
+            "id": "Tobit_and_Anna_with_the_Kid",
+            "large": "Tobit_and_Anna_with_the_Kid__large.jpg",
+            "small": "Tobit_and_Anna_with_the_Kid__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Tobit and Anna with the Kid",
+            "year": "1626",
+            "yearKey": "1626"
+        },
+        {
+            "id": "Musical_Allegory",
+            "large": "Musical_Allegory__large.jpg",
+            "small": "Musical_Allegory__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Musical Allegory",
+            "year": "1626",
+            "yearKey": "1626"
+        },
+        {
+            "id": "Bust_of_a_Man_in_a_Gorget_and_Cap",
+            "large": "Bust_of_a_Man_in_a_Gorget_and_Cap__large.jpg",
+            "small": "Bust_of_a_Man_in_a_Gorget_and_Cap__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Bust of a Man in a Gorget and Cap",
+            "year": "1627",
+            "yearKey": "1627"
+        },
+        {
+            "id": "David_with_the_Head_of_Goliath_before_Saul",
+            "large": "David_with_the_Head_of_Goliath_before_Saul__large.jpg",
+            "small": "David_with_the_Head_of_Goliath_before_Saul__small.jpg",
+            "teh": "Oil on panel",
+            "title": "David with the Head of Goliath before Saul",
+            "year": "1627",
+            "yearKey": "1627"
+        },
+        {
+            "id": "The_Rich_Man_from_the_Parable",
+            "large": "The_Rich_Man_from_the_Parable__large.jpg",
+            "small": "The_Rich_Man_from_the_Parable__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Rich Man from the Parable",
+            "year": "1627",
+            "yearKey": "1627"
+        },
+        {
+            "id": "St._Paul_in_Prison",
+            "large": "St._Paul_in_Prison__large.jpg",
+            "small": "St._Paul_in_Prison__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. Paul in Prison",
+            "year": "1627",
+            "yearKey": "1627"
+        },
+        {
+            "id": "Simeon_in_the_Temple",
+            "large": "Simeon_in_the_Temple__large.jpg",
+            "small": "Simeon_in_the_Temple__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Simeon in the Temple",
+            "year": "1627/1628",
+            "yearKey": "1627"
+        },
+        {
+            "id": "Two_Old_Men_Disputing_-St._Peter_and_St._Paul",
+            "large": "Two_Old_Men_Disputing_-St._Peter_and_St._Paul__large.jpg",
+            "small": "Two_Old_Men_Disputing_-St._Peter_and_St._Paul__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Two Old Men Disputing (St. Peter and St. Paul)",
+            "year": "1628",
+            "yearKey": "1628"
+        },
+        {
+            "id": "The_Artist_in_his_Studio",
+            "large": "The_Artist_in_his_Studio__large.jpg",
+            "small": "The_Artist_in_his_Studio__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Artist in his Studio",
+            "year": "1628",
+            "yearKey": "1628"
+        },
+        {
+            "id": "St._Paul_at_his_Writing-Desk",
+            "large": "St._Paul_at_his_Writing-Desk__large.jpg",
+            "small": "St._Paul_at_his_Writing-Desk__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. Paul at his Writing-Desk",
+            "year": "1628/1629",
+            "yearKey": "1628"
+        },
+        {
+            "id": "The_Supper_at_Emmaus",
+            "large": "The_Supper_at_Emmaus__large.jpg",
+            "small": "The_Supper_at_Emmaus__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Supper at Emmaus",
+            "year": "1628/1629",
+            "yearKey": "1628"
+        },
+        {
+            "id": "Samson_Betrayed_by_Delilah",
+            "large": "Samson_Betrayed_by_Delilah__large.jpg",
+            "small": "Samson_Betrayed_by_Delilah__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Samson Betrayed by Delilah",
+            "year": "1628/1629",
+            "yearKey": "1628"
+        },
+        {
+            "id": "David_Playing_the_Harp_to_Saul",
+            "large": "David_Playing_the_Harp_to_Saul__large.jpg",
+            "small": "David_Playing_the_Harp_to_Saul__small.jpg",
+            "teh": "Oil on panel",
+            "title": "David Playing the Harp to Saul",
+            "year": "1628/1629",
+            "yearKey": "1628"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1629",
+            "yearKey": "1629"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1629",
+            "yearKey": "1629"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1629",
+            "yearKey": "1629"
+        },
+        {
+            "id": "An_Old_Man_Asleep,_Seated_by_the_Fire",
+            "large": "An_Old_Man_Asleep,_Seated_by_the_Fire__large.jpg",
+            "small": "An_Old_Man_Asleep,_Seated_by_the_Fire__small.jpg",
+            "teh": "Oil on panel",
+            "title": "An Old Man Asleep, Seated by the Fire",
+            "year": "1629",
+            "yearKey": "1629"
+        },
+        {
+            "id": "Judas_Repentant,_Returning_the_Pieces_of_Silver",
+            "large": "Judas_Repentant,_Returning_the_Pieces_of_Silver__large.jpg",
+            "small": "Judas_Repentant,_Returning_the_Pieces_of_Silver__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Judas Repentant, Returning the Pieces of Silver",
+            "year": "1629",
+            "yearKey": "1629"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1629",
+            "yearKey": "1629"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1630",
+            "yearKey": "1630"
+        },
+        {
+            "id": "Bust_of_a_Laughing_Man_in_a_Gorget",
+            "large": "Bust_of_a_Laughing_Man_in_a_Gorget__large.jpg",
+            "small": "Bust_of_a_Laughing_Man_in_a_Gorget__small.jpg",
+            "teh": "Oil on copper",
+            "title": "Bust of a Laughing Man in a Gorget",
+            "year": "1630",
+            "yearKey": "1630"
+        },
+        {
+            "id": "An_Old_Woman_at_Prayer",
+            "large": "An_Old_Woman_at_Prayer__large.jpg",
+            "small": "An_Old_Woman_at_Prayer__small.jpg",
+            "teh": "Oil on copper",
+            "title": "An Old Woman at Prayer",
+            "year": "1630",
+            "yearKey": "1630"
+        },
+        {
+            "id": "Bust_of_an_Old_Man_in_a_Fur_Cap",
+            "large": "Bust_of_an_Old_Man_in_a_Fur_Cap__large.JPG",
+            "small": "Bust_of_an_Old_Man_in_a_Fur_Cap__small.JPG",
+            "teh": "Oil on panel",
+            "title": "Bust of an Old Man in a Fur Cap",
+            "year": "1630",
+            "yearKey": "1630"
+        },
+        {
+            "id": "Andromeda",
+            "large": "Andromeda__large.jpg",
+            "small": "Andromeda__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Andromeda",
+            "year": "1630",
+            "yearKey": "1630"
+        },
+        {
+            "id": "Jeremiah_Lamenting_the_Destruction_of_Jeruselem",
+            "large": "Jeremiah_Lamenting_the_Destruction_of_Jeruselem__large.jpg",
+            "small": "Jeremiah_Lamenting_the_Destruction_of_Jeruselem__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Jeremiah Lamenting the Destruction of Jeruselem",
+            "year": "1630",
+            "yearKey": "1630"
+        },
+        {
+            "id": "The_Raising_of_Lazarus",
+            "large": "The_Raising_of_Lazarus__large.jpg",
+            "small": "The_Raising_of_Lazarus__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Raising of Lazarus",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Simeon_in_the_Temple",
+            "large": "Simeon_in_the_Temple__large.jpg",
+            "small": "Simeon_in_the_Temple__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Simeon in the Temple",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "St._Peter_in_Prison",
+            "large": "St._Peter_in_Prison__large.jpg",
+            "small": "St._Peter_in_Prison__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. Peter in Prison",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "An_Old_Woman_Reading,_probably_the_Prophetess_Anna",
+            "large": "An_Old_Woman_Reading,_probably_the_Prophetess_Anna__large.jpg",
+            "small": "An_Old_Woman_Reading,_probably_the_Prophetess_Anna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "An Old Woman Reading, probably the Prophetess Anna",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Bust_of_an_Old_Man",
+            "large": "Bust_of_an_Old_Man__large.jpg",
+            "small": "Bust_of_an_Old_Man__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Bust of an Old Man",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Head_of_an_Old_Man",
+            "large": "Head_of_an_Old_Man__large.jpg",
+            "small": "Head_of_an_Old_Man__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Head of an Old Man",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Christ_on_the_Cross",
+            "large": "Christ_on_the_Cross__large.jpg",
+            "small": "Christ_on_the_Cross__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Christ on the Cross",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Minerva_in_her_Study",
+            "large": "Minerva_in_her_Study__large.jpg",
+            "small": "Minerva_in_her_Study__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Minerva in her Study",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "The_Artist_in_an_Oriental_Costume,_with_a_Poodle_at_His_Feet",
+            "large": "The_Artist_in_an_Oriental_Costume,_with_a_Poodle_at_His_Feet__large.jpg",
+            "small": "The_Artist_in_an_Oriental_Costume,_with_a_Poodle_at_His_Feet__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Artist in an Oriental Costume, with a Poodle at His Feet",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "The_Abduction_of_Proserpina",
+            "large": "The_Abduction_of_Proserpina__large.jpg",
+            "small": "The_Abduction_of_Proserpina__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Abduction of Proserpina",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Old_Man_in_a_Gorget_and_Black_Cap",
+            "large": "Old_Man_in_a_Gorget_and_Black_Cap__large.jpg",
+            "small": "Old_Man_in_a_Gorget_and_Black_Cap__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Old Man in a Gorget and Black Cap",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Portrait_of_Nicolaes_Ruts",
+            "large": "Portrait_of_Nicolaes_Ruts__large.jpg",
+            "small": "Portrait_of_Nicolaes_Ruts__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Nicolaes Ruts",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Portrait_of_a_Man_at_his_Writing_Desk",
+            "large": "Portrait_of_a_Man_at_his_Writing_Desk__large.jpg",
+            "small": "Portrait_of_a_Man_at_his_Writing_Desk__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Man at his Writing Desk",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Portrait_of_a_Man_Seated",
+            "large": "Portrait_of_a_Man_Seated__large.jpg",
+            "small": "Portrait_of_a_Man_Seated__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of a Man Seated",
+            "year": "1631",
+            "yearKey": "1631"
+        },
+        {
+            "id": "Portrait_of_Marten_Looten",
+            "large": "Portrait_of_Marten_Looten__large.jpg",
+            "small": "Portrait_of_Marten_Looten__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Marten Looten",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Knee-length_Figure_of_a_Man_in_an_Oriental_Dress",
+            "large": "Knee-length_Figure_of_a_Man_in_an_Oriental_Dress__large.jpg",
+            "small": "Knee-length_Figure_of_a_Man_in_an_Oriental_Dress__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Knee-length Figure of a Man in an Oriental Dress",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "The_Anatomy_Lesson_of_Dr._Tulp",
+            "large": "The_Anatomy_Lesson_of_Dr._Tulp__large.jpg",
+            "small": "The_Anatomy_Lesson_of_Dr._Tulp__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Anatomy Lesson of Dr. Tulp",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Portrait_of_Joris_de_Caullery",
+            "large": "Portrait_of_Joris_de_Caullery__large.jpg",
+            "small": "Portrait_of_Joris_de_Caullery__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Joris de Caullery",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Portrait_of_Princess_Amalia_van_Solms",
+            "large": "Portrait_of_Princess_Amalia_van_Solms__large.jpg",
+            "small": "Portrait_of_Princess_Amalia_van_Solms__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Princess Amalia van Solms",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Portrait_of_Maurits_Huygens",
+            "large": "Portrait_of_Maurits_Huygens__large.jpg",
+            "small": "Portrait_of_Maurits_Huygens__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Maurits Huygens",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Portrait_of_Jacques_de_Gheyn_III",
+            "large": "Portrait_of_Jacques_de_Gheyn_III__large.jpg",
+            "small": "Portrait_of_Jacques_de_Gheyn_III__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Jacques de Gheyn III",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "A_Young_Woman_in_Profile_with_a_Fan",
+            "large": "A_Young_Woman_in_Profile_with_a_Fan__large.jpg",
+            "small": "A_Young_Woman_in_Profile_with_a_Fan__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Young Woman in Profile with a Fan",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Bust_of_a_Young_Woman",
+            "large": "Bust_of_a_Young_Woman__large.jpg",
+            "small": "Bust_of_a_Young_Woman__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Bust of a Young Woman",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Bust_of_a_Young_Woman_in_a_Cap",
+            "large": "Bust_of_a_Young_Woman_in_a_Cap__large.jpg",
+            "small": "Bust_of_a_Young_Woman_in_a_Cap__small.jpg",
+            "teh": "Oil on canvas on panel",
+            "title": "Bust of a Young Woman in a Cap",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Portrait_of_a_Man_Trimming_his_Quill",
+            "large": "Portrait_of_a_Man_Trimming_his_Quill__large.jpg",
+            "small": "Portrait_of_a_Man_Trimming_his_Quill__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Man Trimming his Quill",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Portrait_of_a_Young_Woman_Seated",
+            "large": "Portrait_of_a_Young_Woman_Seated__large.jpg",
+            "small": "Portrait_of_a_Young_Woman_Seated__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Young Woman Seated",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "Self-portrait_as_a_Burger",
+            "large": "Self-portrait_as_a_Burger__large.jpg",
+            "small": "Self-portrait_as_a_Burger__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait as a Burger",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "The_Rape_of_Europa",
+            "large": "The_Rape_of_Europa__large.jpg",
+            "small": "The_Rape_of_Europa__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Rape of Europa",
+            "year": "1632",
+            "yearKey": "1632"
+        },
+        {
+            "id": "A_Young_Woman_at_her_Toilet",
+            "large": "A_Young_Woman_at_her_Toilet__large.jpg",
+            "small": "A_Young_Woman_at_her_Toilet__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Young Woman at her Toilet",
+            "year": "1632/1633",
+            "yearKey": "1632"
+        },
+        {
+            "id": "The_Descent_from_the_Cross",
+            "large": "The_Descent_from_the_Cross__large.jpg",
+            "small": "The_Descent_from_the_Cross__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Descent from the Cross",
+            "year": "1632/1633",
+            "yearKey": "1632"
+        },
+        {
+            "id": "The_Raising_of_the_Cross",
+            "large": "The_Raising_of_the_Cross__large.jpg",
+            "small": "The_Raising_of_the_Cross__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Raising of the Cross",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Bellona",
+            "large": "Bellona__large.jpg",
+            "small": "Bellona__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Bellona",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Bust_of_a_Man_in_Oriental_Dress",
+            "large": "Bust_of_a_Man_in_Oriental_Dress__large.jpg",
+            "small": "Bust_of_a_Man_in_Oriental_Dress__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Bust of a Man in Oriental Dress",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Bust_of_Young_Woman_-probably_Saskia_van_Uylenburgh",
+            "large": "Bust_of_Young_Woman_-probably_Saskia_van_Uylenburgh__large.jpg",
+            "small": "Bust_of_Young_Woman_-probably_Saskia_van_Uylenburgh__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Bust of Young Woman (probably Saskia van Uylenburgh)",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Bust_of_Young_Woman_Smiling_-probably_Saskia_van_Uylenburgh",
+            "large": "Bust_of_Young_Woman_Smiling_-probably_Saskia_van_Uylenburgh__large.jpg",
+            "small": "Bust_of_Young_Woman_Smiling_-probably_Saskia_van_Uylenburgh__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Bust of Young Woman Smiling (probably Saskia van Uylenburgh)",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "A_Bust_of_an_Old_Man",
+            "large": "A_Bust_of_an_Old_Man__large.jpg",
+            "small": "A_Bust_of_an_Old_Man__small.jpg",
+            "teh": "?",
+            "title": "A Bust of an Old Man",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Christ_in_the_Storm_on_the_Sea_of_Galilee",
+            "large": "Christ_in_the_Storm_on_the_Sea_of_Galilee__large.jpg",
+            "small": "Christ_in_the_Storm_on_the_Sea_of_Galilee__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Christ in the Storm on the Sea of Galilee",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Joseph_Telling_his_Dreams",
+            "large": "Joseph_Telling_his_Dreams__large.jpg",
+            "small": "Joseph_Telling_his_Dreams__small.jpg",
+            "teh": "Grisaille on paper",
+            "title": "Joseph Telling his Dreams",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Daniel_and_Cyrus_before_the_Idol_Bel",
+            "large": "Daniel_and_Cyrus_before_the_Idol_Bel__large.jpg",
+            "small": "Daniel_and_Cyrus_before_the_Idol_Bel__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Daniel and Cyrus before the Idol Bel",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_a_Bearded_Man_in_a_Wide-Brimmed_Hat",
+            "large": "Portrait_of_a_Bearded_Man_in_a_Wide-Brimmed_Hat__large.jpg",
+            "small": "Portrait_of_a_Bearded_Man_in_a_Wide-Brimmed_Hat__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of a Bearded Man in a Wide-Brimmed Hat",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_Jan_Hermansz_Krul",
+            "large": "Portrait_of_Jan_Hermansz_Krul__large.jpg",
+            "small": "Portrait_of_Jan_Hermansz_Krul__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Jan Hermansz Krul",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_a_Man_Rising_from_His_Chair",
+            "large": "Portrait_of_a_Man_Rising_from_His_Chair__large.jpg",
+            "small": "Portrait_of_a_Man_Rising_from_His_Chair__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Man Rising from His Chair",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_a_Young_Woman_with_a_Fan",
+            "large": "Portrait_of_a_Young_Woman_with_a_Fan__large.jpg",
+            "small": "Portrait_of_a_Young_Woman_with_a_Fan__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Young Woman with a Fan",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_a_Young_Woman",
+            "large": "Portrait_of_a_Young_Woman__large.jpg",
+            "small": "Portrait_of_a_Young_Woman__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of a Young Woman",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_Maertgen_van_Bilderbeecq",
+            "large": "Portrait_of_Maertgen_van_Bilderbeecq__large.jpg",
+            "small": "Portrait_of_Maertgen_van_Bilderbeecq__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Maertgen van Bilderbeecq",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_Johannes_Wtenbogaert",
+            "large": "Portrait_of_Johannes_Wtenbogaert__large.jpg",
+            "small": "Portrait_of_Johannes_Wtenbogaert__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Johannes Wtenbogaert",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Portrait_of_Jan_Rijcksen_and_his_Wife,_Griet_Jans",
+            "large": "Portrait_of_Jan_Rijcksen_and_his_Wife,_Griet_Jans__large.jpg",
+            "small": "Portrait_of_Jan_Rijcksen_and_his_Wife,_Griet_Jans__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Jan Rijcksen and his Wife, Griet Jans",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Self-portrait_in_a_Cap",
+            "large": "Self-portrait_in_a_Cap__large.jpg",
+            "small": "Self-portrait_in_a_Cap__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait in a Cap",
+            "year": "1633",
+            "yearKey": "1633"
+        },
+        {
+            "id": "Half-length_Figure_of_Saskia_in_a_Red_Hat",
+            "large": "Half-length_Figure_of_Saskia_in_a_Red_Hat__large.jpg",
+            "small": "Half-length_Figure_of_Saskia_in_a_Red_Hat__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Half-length Figure of Saskia in a Red Hat",
+            "year": "1633/1634",
+            "yearKey": "1633"
+        },
+        {
+            "id": "The_Entombment",
+            "large": "The_Entombment__large.jpg",
+            "small": "The_Entombment__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Entombment",
+            "year": "1633/1635",
+            "yearKey": "1633"
+        },
+        {
+            "id": "A_Scholar_Seated_at_a_Table_with_Books",
+            "large": "A_Scholar_Seated_at_a_Table_with_Books__large.jpg",
+            "small": "A_Scholar_Seated_at_a_Table_with_Books__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Scholar Seated at a Table with Books",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Diana_Bathing_with_her_Nymphs",
+            "large": "Diana_Bathing_with_her_Nymphs__large.jpg",
+            "small": "Diana_Bathing_with_her_Nymphs__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Diana Bathing with her Nymphs",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Ecce_Homo",
+            "large": "Ecce_Homo__large.jpg",
+            "small": "Ecce_Homo__small.jpg",
+            "teh": "Grisaille on paper",
+            "title": "Ecce Homo",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Flora",
+            "large": "Flora__large.jpg",
+            "small": "Flora__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Flora",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Portrait_of_Dirck_Jansz_Pesser",
+            "large": "Portrait_of_Dirck_Jansz_Pesser__large.jpg",
+            "small": "Portrait_of_Dirck_Jansz_Pesser__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Dirck Jansz Pesser",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Portret_of_van_Haesje_Jacobsdr_van_Cleyburgh",
+            "large": "Portret_of_van_Haesje_Jacobsdr_van_Cleyburgh__large.jpg",
+            "small": "Portret_of_van_Haesje_Jacobsdr_van_Cleyburgh__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portret of van Haesje Jacobsdr van Cleyburgh",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Portrait_of_Aechje_Claesdr",
+            "large": "Portrait_of_Aechje_Claesdr__large.jpg",
+            "small": "Portrait_of_Aechje_Claesdr__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Aechje Claesdr",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Portrait_of_Reverend_Johannes_Elison",
+            "large": "Portrait_of_Reverend_Johannes_Elison__large.jpg",
+            "small": "Portrait_of_Reverend_Johannes_Elison__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Reverend Johannes Elison",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Portrait_of_Maria_Bockenolle",
+            "large": "Portrait_of_Maria_Bockenolle__large.jpg",
+            "small": "Portrait_of_Maria_Bockenolle__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Maria Bockenolle",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Portrait_of_Marten_Soolmans",
+            "large": "Portrait_of_Marten_Soolmans__large.jpg",
+            "small": "Portrait_of_Marten_Soolmans__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Marten Soolmans",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Portrait_of_Oopjen_Coppit",
+            "large": "Portrait_of_Oopjen_Coppit__large.jpg",
+            "small": "Portrait_of_Oopjen_Coppit__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Oopjen Coppit",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Self-portrait_in_a_Cap_and_Fur-trimmed_Cloak",
+            "large": "Self-portrait_in_a_Cap_and_Fur-trimmed_Cloak__large.jpg",
+            "small": "Self-portrait_in_a_Cap_and_Fur-trimmed_Cloak__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait in a Cap and Fur-trimmed Cloak",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Self-portrait_with_Shaded_Eyes",
+            "large": "Self-portrait_with_Shaded_Eyes__large.jpg",
+            "small": "Self-portrait_with_Shaded_Eyes__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait with Shaded Eyes",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Bust_of_Young_Woman_-probably_Saskia_van_Uylenburgh",
+            "large": "Bust_of_Young_Woman_-probably_Saskia_van_Uylenburgh__large.jpg",
+            "small": "Bust_of_Young_Woman_-probably_Saskia_van_Uylenburgh__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Bust of Young Woman (probably Saskia van Uylenburgh)",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Sophonisba,_Receiving_the_Poisoned_Cup",
+            "large": "Sophonisba,_Receiving_the_Poisoned_Cup__large.jpg",
+            "small": "Sophonisba,_Receiving_the_Poisoned_Cup__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Sophonisba, Receiving the Poisoned Cup",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "The_Incredulity_of_Thomas",
+            "large": "The_Incredulity_of_Thomas__large.jpg",
+            "small": "The_Incredulity_of_Thomas__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Incredulity of Thomas",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "The_Holy_Family",
+            "large": "The_Holy_Family__large.jpg",
+            "small": "The_Holy_Family__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Holy Family",
+            "year": "1634",
+            "yearKey": "1634"
+        },
+        {
+            "id": "John_the_Baptist_Preaching",
+            "large": "John_the_Baptist_Preaching__large.jpg",
+            "small": "John_the_Baptist_Preaching__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "John the Baptist Preaching",
+            "year": "1634/1635",
+            "yearKey": "1634"
+        },
+        {
+            "id": "The_Lamentation",
+            "large": "The_Lamentation__large.jpg",
+            "small": "The_Lamentation__small.jpg",
+            "teh": "Oil on paper and pieces of canvas, mounted onto oak",
+            "title": "The Lamentation",
+            "year": "1634/1635",
+            "yearKey": "1634"
+        },
+        {
+            "id": "Abraham's_Sacrifice",
+            "large": "Abraham's_Sacrifice__large.jpg",
+            "small": "Abraham's_Sacrifice__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Abraham's Sacrifice",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "Belshazzar\u2019s_Feast",
+            "large": "Belshazzar\u2019s_Feast__large.jpg",
+            "small": "Belshazzar\u2019s_Feast__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Belshazzar\u2019s Feast",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "Flora",
+            "large": "Flora__large.jpg",
+            "small": "Flora__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Flora",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "Minerva",
+            "large": "Minerva__large.jpg",
+            "small": "Minerva__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Minerva",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "Portrait_of_Philips_Lucasz",
+            "large": "Portrait_of_Philips_Lucasz__large.jpg",
+            "small": "Portrait_of_Philips_Lucasz__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Philips Lucasz",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "Samson_Threatening_his_Father-in-law",
+            "large": "Samson_Threatening_his_Father-in-law__large.jpg",
+            "small": "Samson_Threatening_his_Father-in-law__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Samson Threatening his Father-in-law",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "The_Prodigal_Son_in_the_Tavern",
+            "large": "The_Prodigal_Son_in_the_Tavern__large.jpg",
+            "small": "The_Prodigal_Son_in_the_Tavern__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Prodigal Son in the Tavern",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "The_Rape_of_Ganymede",
+            "large": "The_Rape_of_Ganymede__large.jpg",
+            "small": "The_Rape_of_Ganymede__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Rape of Ganymede",
+            "year": "1635",
+            "yearKey": "1635"
+        },
+        {
+            "id": "The_Entombment",
+            "large": "The_Entombment__large.jpg",
+            "small": "The_Entombment__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Entombment",
+            "year": "1635/1639",
+            "yearKey": "1635"
+        },
+        {
+            "id": "The_Resurrection",
+            "large": "The_Resurrection__large.jpg",
+            "small": "The_Resurrection__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Resurrection",
+            "year": "1635/1639",
+            "yearKey": "1635"
+        },
+        {
+            "id": "The_Ascension",
+            "large": "The_Ascension__large.jpg",
+            "small": "The_Ascension__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Ascension",
+            "year": "1636",
+            "yearKey": "1636"
+        },
+        {
+            "id": "Susanna_at_the_Bath",
+            "large": "Susanna_at_the_Bath__large.jpg",
+            "small": "Susanna_at_the_Bath__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Susanna at the Bath",
+            "year": "1636",
+            "yearKey": "1636"
+        },
+        {
+            "id": "The_Blinding_of_Samson",
+            "large": "The_Blinding_of_Samson__large.jpg",
+            "small": "The_Blinding_of_Samson__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Blinding of Samson",
+            "year": "1636",
+            "yearKey": "1636"
+        },
+        {
+            "id": "The_Standard-Bearer",
+            "large": "The_Standard-Bearer__large.jpg",
+            "small": "The_Standard-Bearer__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Standard-Bearer",
+            "year": "1636",
+            "yearKey": "1636"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1636/1638",
+            "yearKey": "1636"
+        },
+        {
+            "id": "Danae",
+            "large": "Danae__large.jpg",
+            "small": "Danae__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Danae",
+            "year": "1636/1643",
+            "yearKey": "1636"
+        },
+        {
+            "id": "A_Polish_Nobleman",
+            "large": "A_Polish_Nobleman__large.PNG",
+            "small": "A_Polish_Nobleman__small.PNG",
+            "teh": "Oil on panel",
+            "title": "A Polish Nobleman",
+            "year": "1637",
+            "yearKey": "1637"
+        },
+        {
+            "id": "The_Angel_Raphael_Leaving_Tobit_and_his_Family",
+            "large": "The_Angel_Raphael_Leaving_Tobit_and_his_Family__large.jpg",
+            "small": "The_Angel_Raphael_Leaving_Tobit_and_his_Family__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Angel Raphael Leaving Tobit and his Family",
+            "year": "1637",
+            "yearKey": "1637"
+        },
+        {
+            "id": "Landscape_with_a_Stone_Bridge",
+            "large": "Landscape_with_a_Stone_Bridge__large.jpg",
+            "small": "Landscape_with_a_Stone_Bridge__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Landscape with a Stone Bridge",
+            "year": "1638",
+            "yearKey": "1638"
+        },
+        {
+            "id": "Landscape_with_the_Good_Samaritan",
+            "large": "Landscape_with_the_Good_Samaritan__large.jpg",
+            "small": "Landscape_with_the_Good_Samaritan__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Landscape with the Good Samaritan",
+            "year": "1638",
+            "yearKey": "1638"
+        },
+        {
+            "id": "Mountain_Landscape_with_a_Thunderstorm",
+            "large": "Mountain_Landscape_with_a_Thunderstorm__large.jpg",
+            "small": "Mountain_Landscape_with_a_Thunderstorm__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Mountain Landscape with a Thunderstorm",
+            "year": "1638",
+            "yearKey": "1638"
+        },
+        {
+            "id": "The_Rising_Christ_Appearing_to_Mary_Magdalene",
+            "large": "The_Rising_Christ_Appearing_to_Mary_Magdalene__large.jpg",
+            "small": "The_Rising_Christ_Appearing_to_Mary_Magdalene__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Rising Christ Appearing to Mary Magdalene",
+            "year": "1638",
+            "yearKey": "1638"
+        },
+        {
+            "id": "The_Wedding_of_Samson",
+            "large": "The_Wedding_of_Samson__large.jpg",
+            "small": "The_Wedding_of_Samson__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Wedding of Samson",
+            "year": "1638",
+            "yearKey": "1638"
+        },
+        {
+            "id": "A_Dead_Bittern_Held_by_a_Hunter",
+            "large": "A_Dead_Bittern_Held_by_a_Hunter__large.jpg",
+            "small": "A_Dead_Bittern_Held_by_a_Hunter__small.jpg",
+            "teh": "Oil on panel",
+            "title": "A Dead Bittern Held by a Hunter",
+            "year": "1639",
+            "yearKey": "1639"
+        },
+        {
+            "id": "Dead_Peacocks_and_a_Girl",
+            "large": "Dead_Peacocks_and_a_Girl__large.jpg",
+            "small": "Dead_Peacocks_and_a_Girl__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Dead Peacocks and a Girl",
+            "year": "1639",
+            "yearKey": "1639"
+        },
+        {
+            "id": "Man_in_Oriental_Costume",
+            "large": "Man_in_Oriental_Costume__large.jpg",
+            "small": "Man_in_Oriental_Costume__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Man in Oriental Costume",
+            "year": "1639",
+            "yearKey": "1639"
+        },
+        {
+            "id": "Portrait_of_a_Man_Holding_a_Hat",
+            "large": "Portrait_of_a_Man_Holding_a_Hat__large.jpg",
+            "small": "Portrait_of_a_Man_Holding_a_Hat__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of a Man Holding a Hat",
+            "year": "1639",
+            "yearKey": "1639"
+        },
+        {
+            "id": "Portrait_of_Andries_de_Graeff",
+            "large": "Portrait_of_Andries_de_Graeff__large.jpg",
+            "small": "Portrait_of_Andries_de_Graeff__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Andries de Graeff",
+            "year": "1639",
+            "yearKey": "1639"
+        },
+        {
+            "id": "Portrait_of_Aletta_Adriaensdr",
+            "large": "Portrait_of_Aletta_Adriaensdr__large.jpg",
+            "small": "Portrait_of_Aletta_Adriaensdr__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Aletta Adriaensdr",
+            "year": "1639",
+            "yearKey": "1639"
+        },
+        {
+            "id": "Portrait_of_Maria_Trip",
+            "large": "Portrait_of_Maria_Trip__large.jpg",
+            "small": "Portrait_of_Maria_Trip__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Maria Trip",
+            "year": "1639",
+            "yearKey": "1639"
+        },
+        {
+            "id": "Portrait_of_Herman_Doomer",
+            "large": "Portrait_of_Herman_Doomer__large.jpg",
+            "small": "Portrait_of_Herman_Doomer__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Herman Doomer",
+            "year": "1640",
+            "yearKey": "1640"
+        },
+        {
+            "id": "Portrait_of_Baertje_Martens",
+            "large": "Portrait_of_Baertje_Martens__large.jpg",
+            "small": "Portrait_of_Baertje_Martens__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Baertje Martens",
+            "year": "1640",
+            "yearKey": "1640"
+        },
+        {
+            "id": "River_Landscape_with_a_Windmill",
+            "large": "River_Landscape_with_a_Windmill__large.jpg",
+            "small": "River_Landscape_with_a_Windmill__small.jpg",
+            "teh": "Oil on panel",
+            "title": "River Landscape with a Windmill",
+            "year": "1640",
+            "yearKey": "1640"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1640",
+            "yearKey": "1640"
+        },
+        {
+            "id": "The_Visitation",
+            "large": "The_Visitation__large.jpg",
+            "small": "The_Visitation__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Visitation",
+            "year": "1640",
+            "yearKey": "1640"
+        },
+        {
+            "id": "Portrait_of_the_Mennonite_Preacher_Cornelius_Claesz_Anslo_and_his_Wife_Aaltje_Gerritsdr_Shouten",
+            "large": "Portrait_of_the_Mennonite_Preacher_Cornelius_Claesz_Anslo_and_his_Wife_Aaltje_Gerritsdr_Shouten__large.jpg",
+            "small": "Portrait_of_the_Mennonite_Preacher_Cornelius_Claesz_Anslo_and_his_Wife_Aaltje_Gerritsdr_Shouten__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of the Mennonite Preacher Cornelius Claesz Anslo and his Wife Aaltje Gerritsdr Shouten",
+            "year": "1641",
+            "yearKey": "1641"
+        },
+        {
+            "id": "Portrait_of_Nicolas_van_Bambeeck",
+            "large": "Portrait_of_Nicolas_van_Bambeeck__large.jpg",
+            "small": "Portrait_of_Nicolas_van_Bambeeck__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Nicolas van Bambeeck",
+            "year": "1641",
+            "yearKey": "1641"
+        },
+        {
+            "id": "Portrait_of_Agatha_Bas",
+            "large": "Portrait_of_Agatha_Bas__large.jpg",
+            "small": "Portrait_of_Agatha_Bas__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Agatha Bas",
+            "year": "1641",
+            "yearKey": "1641"
+        },
+        {
+            "id": "Saskia_as_a_Flora",
+            "large": "Saskia_as_a_Flora__large.jpg",
+            "small": "Saskia_as_a_Flora__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Saskia as a Flora",
+            "year": "1641",
+            "yearKey": "1641"
+        },
+        {
+            "id": "The_Concord_of_the_State",
+            "large": "The_Concord_of_the_State__large.jpg",
+            "small": "The_Concord_of_the_State__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Concord of the State",
+            "year": "1641",
+            "yearKey": "1641"
+        },
+        {
+            "id": "The_Company_of_Captain_Frans_Banning_Cocq_and_Lieutenant_Willem_van_Ruytenburch_-Night_Watch",
+            "large": "The_Company_of_Captain_Frans_Banning_Cocq_and_Lieutenant_Willem_van_Ruytenburch_-Night_Watch__large.jpg",
+            "small": "The_Company_of_Captain_Frans_Banning_Cocq_and_Lieutenant_Willem_van_Ruytenburch_-Night_Watch__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Company of Captain Frans Banning Cocq and Lieutenant Willem van Ruytenburch (Night Watch)",
+            "year": "1642",
+            "yearKey": "1642"
+        },
+        {
+            "id": "Self-Portrait_in_a_Flat_Cap",
+            "large": "Self-Portrait_in_a_Flat_Cap__large.jpg",
+            "small": "Self-Portrait_in_a_Flat_Cap__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-Portrait in a Flat Cap",
+            "year": "1642",
+            "yearKey": "1642"
+        },
+        {
+            "id": "Landscape_with_a_Castle",
+            "large": "Landscape_with_a_Castle__large.jpg",
+            "small": "Landscape_with_a_Castle__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Landscape with a Castle",
+            "year": "1643",
+            "yearKey": "1643"
+        },
+        {
+            "id": "A_Woman_Waiting_in_Bed",
+            "large": "A_Woman_Waiting_in_Bed__large.jpg",
+            "small": "A_Woman_Waiting_in_Bed__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Woman Waiting in Bed",
+            "year": "1644",
+            "yearKey": "1644"
+        },
+        {
+            "id": "Christ_and_Adulterous_Woman",
+            "large": "Christ_and_Adulterous_Woman__large.jpg",
+            "small": "Christ_and_Adulterous_Woman__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Christ and Adulterous Woman",
+            "year": "1644",
+            "yearKey": "1644"
+        },
+        {
+            "id": "Girl_in_the_Window",
+            "large": "Girl_in_the_Window__large.jpg",
+            "small": "Girl_in_the_Window__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Girl in the Window",
+            "year": "1645",
+            "yearKey": "1645"
+        },
+        {
+            "id": "Portrait_of_an_Old_Man",
+            "large": "Portrait_of_an_Old_Man__large.jpg",
+            "small": "Portrait_of_an_Old_Man__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of an Old Man",
+            "year": "1645",
+            "yearKey": "1645"
+        },
+        {
+            "id": "Joseph's_Dream",
+            "large": "Joseph's_Dream__large.jpg",
+            "small": "Joseph's_Dream__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Joseph's Dream",
+            "year": "1645",
+            "yearKey": "1645"
+        },
+        {
+            "id": "The_Holy_Family_with_Angels",
+            "large": "The_Holy_Family_with_Angels__large.jpg",
+            "small": "The_Holy_Family_with_Angels__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Holy Family with Angels",
+            "year": "1645",
+            "yearKey": "1645"
+        },
+        {
+            "id": "Tobit_and_Anna_with_a_Goat",
+            "large": "Tobit_and_Anna_with_a_Goat__large.jpg",
+            "small": "Tobit_and_Anna_with_a_Goat__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Tobit and Anna with a Goat",
+            "year": "1645",
+            "yearKey": "1645"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Self-portrait",
+            "year": "1645/1648",
+            "yearKey": "1645"
+        },
+        {
+            "id": "Abraham_and_the_Three_Angels",
+            "large": "Abraham_and_the_Three_Angels__large.jpg",
+            "small": "Abraham_and_the_Three_Angels__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Abraham and the Three Angels",
+            "year": "1646",
+            "yearKey": "1646"
+        },
+        {
+            "id": "The_Adoration_of_the_Shepards",
+            "large": "The_Adoration_of_the_Shepards__large.jpg",
+            "small": "The_Adoration_of_the_Shepards__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Adoration of the Shepards",
+            "year": "1646",
+            "yearKey": "1646"
+        },
+        {
+            "id": "The_Holy_Family_with_Painted_Frame_and_Curtains",
+            "large": "The_Holy_Family_with_Painted_Frame_and_Curtains__large.jpg",
+            "small": "The_Holy_Family_with_Painted_Frame_and_Curtains__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Holy Family with Painted Frame and Curtains",
+            "year": "1646",
+            "yearKey": "1646"
+        },
+        {
+            "id": "Winter_Landscape",
+            "large": "Winter_Landscape__large.jpg",
+            "small": "Winter_Landscape__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Winter Landscape",
+            "year": "1646",
+            "yearKey": "1646"
+        },
+        {
+            "id": "Portrait_of_Ephraim_Bueno",
+            "large": "Portrait_of_Ephraim_Bueno__large.jpg",
+            "small": "Portrait_of_Ephraim_Bueno__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Ephraim Bueno",
+            "year": "1647",
+            "yearKey": "1647"
+        },
+        {
+            "id": "Susanna_and_the_Elders",
+            "large": "Susanna_and_the_Elders__large.jpg",
+            "small": "Susanna_and_the_Elders__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Susanna and the Elders",
+            "year": "1647",
+            "yearKey": "1647"
+        },
+        {
+            "id": "The_Rest_on_the_Flight_into_Egypt",
+            "large": "The_Rest_on_the_Flight_into_Egypt__large.jpg",
+            "small": "The_Rest_on_the_Flight_into_Egypt__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Rest on the Flight into Egypt",
+            "year": "1647",
+            "yearKey": "1647"
+        },
+        {
+            "id": "Head_of_Christ",
+            "large": "Head_of_Christ__large.jpg",
+            "small": "Head_of_Christ__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Head of Christ",
+            "year": "1648",
+            "yearKey": "1648"
+        },
+        {
+            "id": "Portrait_of_a_Jewish_Young_Man",
+            "large": "Portrait_of_a_Jewish_Young_Man__large.jpg",
+            "small": "Portrait_of_a_Jewish_Young_Man__small.jpg",
+            "teh": "?",
+            "title": "Portrait of a Jewish Young Man",
+            "year": "1648",
+            "yearKey": "1648"
+        },
+        {
+            "id": "The_Supper_at_Emmaus",
+            "large": "The_Supper_at_Emmaus__large.jpg",
+            "small": "The_Supper_at_Emmaus__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Supper at Emmaus",
+            "year": "1648",
+            "yearKey": "1648"
+        },
+        {
+            "id": "Young_Girl_at_the_Window",
+            "large": "Young_Girl_at_the_Window__large.jpg",
+            "small": "Young_Girl_at_the_Window__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Young Girl at the Window",
+            "year": "1651",
+            "yearKey": "1651"
+        },
+        {
+            "id": "Large_Self-portrait",
+            "large": "Large_Self-portrait__large.jpg",
+            "small": "Large_Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Large Self-portrait",
+            "year": "1652",
+            "yearKey": "1652"
+        },
+        {
+            "id": "Portrait_of_a_Man",
+            "large": "Portrait_of_a_Man__large.jpg",
+            "small": "Portrait_of_a_Man__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Man",
+            "year": "1652",
+            "yearKey": "1652"
+        },
+        {
+            "id": "Portrait_of_Nicolaes_Bruyningh",
+            "large": "Portrait_of_Nicolaes_Bruyningh__large.jpg",
+            "small": "Portrait_of_Nicolaes_Bruyningh__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Nicolaes Bruyningh",
+            "year": "1652",
+            "yearKey": "1652"
+        },
+        {
+            "id": "Aristotle_with_a_Bust_of_Homer",
+            "large": "Aristotle_with_a_Bust_of_Homer__large.jpg",
+            "small": "Aristotle_with_a_Bust_of_Homer__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Aristotle with a Bust of Homer",
+            "year": "1653",
+            "yearKey": "1653"
+        },
+        {
+            "id": "A_Woman_Bathing_in_a_Stream",
+            "large": "A_Woman_Bathing_in_a_Stream__large.jpg",
+            "small": "A_Woman_Bathing_in_a_Stream__small.jpg",
+            "teh": "Oil on panel",
+            "title": "A Woman Bathing in a Stream",
+            "year": "1654",
+            "yearKey": "1654"
+        },
+        {
+            "id": "Bathsheba_Bathing",
+            "large": "Bathsheba_Bathing__large.jpg",
+            "small": "Bathsheba_Bathing__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Bathsheba Bathing",
+            "year": "1654",
+            "yearKey": "1654"
+        },
+        {
+            "id": "Hendrickje_as_Flora",
+            "large": "Hendrickje_as_Flora__large.jpg",
+            "small": "Hendrickje_as_Flora__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Hendrickje as Flora",
+            "year": "1654",
+            "yearKey": "1654"
+        },
+        {
+            "id": "Portrait_of_an_Old_Man_in_an_Armchair",
+            "large": "Portrait_of_an_Old_Man_in_an_Armchair__large.jpg",
+            "small": "Portrait_of_an_Old_Man_in_an_Armchair__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of an Old Man in an Armchair",
+            "year": "1654",
+            "yearKey": "1654"
+        },
+        {
+            "id": "Portrait_of_Floris_Soop",
+            "large": "Portrait_of_Floris_Soop__large.jpg",
+            "small": "Portrait_of_Floris_Soop__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Floris Soop",
+            "year": "1654",
+            "yearKey": "1654"
+        },
+        {
+            "id": "Portrait_of_Jan_Six",
+            "large": "Portrait_of_Jan_Six__large.jpg",
+            "small": "Portrait_of_Jan_Six__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Jan Six",
+            "year": "1654",
+            "yearKey": "1654"
+        },
+        {
+            "id": "Young_Woman_Trying_Earrings",
+            "large": "Young_Woman_Trying_Earrings__large.jpg",
+            "small": "Young_Woman_Trying_Earrings__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Young Woman Trying Earrings",
+            "year": "1654",
+            "yearKey": "1654"
+        },
+        {
+            "id": "A_Man_in_Armour",
+            "large": "A_Man_in_Armour__large.jpg",
+            "small": "A_Man_in_Armour__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Man in Armour",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "A_Warrior",
+            "large": "A_Warrior__large.jpg",
+            "small": "A_Warrior__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Warrior",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Hendrickje_Stoffels_at_a_Window",
+            "large": "Hendrickje_Stoffels_at_a_Window__large.jpg",
+            "small": "Hendrickje_Stoffels_at_a_Window__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Hendrickje Stoffels at a Window",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Joseph_Accused_by_Potiphar's_Wife",
+            "large": "Joseph_Accused_by_Potiphar's_Wife__large.jpg",
+            "small": "Joseph_Accused_by_Potiphar's_Wife__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Joseph Accused by Potiphar's Wife",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Man_in_a_Fur-lined_Coat",
+            "large": "Man_in_a_Fur-lined_Coat__large.jpg",
+            "small": "Man_in_a_Fur-lined_Coat__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Man in a Fur-lined Coat",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Portrait_of_a_Young_Woman",
+            "large": "Portrait_of_a_Young_Woman__large.jpg",
+            "small": "Portrait_of_a_Young_Woman__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Young Woman",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Portrait_of_an_Old_Woman_Reading",
+            "large": "Portrait_of_an_Old_Woman_Reading__large.jpg",
+            "small": "Portrait_of_an_Old_Woman_Reading__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of an Old Woman Reading",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Portrait_of_Hendrickje_Stoffels_with_a_Velvet_Beret",
+            "large": "Portrait_of_Hendrickje_Stoffels_with_a_Velvet_Beret__large.jpg",
+            "small": "Portrait_of_Hendrickje_Stoffels_with_a_Velvet_Beret__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Hendrickje Stoffels with a Velvet Beret",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Small_Self-portrait",
+            "large": "Small_Self-portrait__large.jpg",
+            "small": "Small_Self-portrait__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Small Self-portrait",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Titus_at_his_Desk",
+            "large": "Titus_at_his_Desk__large.jpg",
+            "small": "Titus_at_his_Desk__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Titus at his Desk",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "The_Flayed_Ox",
+            "large": "The_Flayed_Ox__large.jpg",
+            "small": "The_Flayed_Ox__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Flayed Ox",
+            "year": "1655",
+            "yearKey": "1655"
+        },
+        {
+            "id": "Jacob_Blessing_the_Children_of_Joseph",
+            "large": "Jacob_Blessing_the_Children_of_Joseph__large.jpg",
+            "small": "Jacob_Blessing_the_Children_of_Joseph__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Jacob Blessing the Children of Joseph",
+            "year": "1656",
+            "yearKey": "1656"
+        },
+        {
+            "id": "Portrait_of_Arnout_Tholincx",
+            "large": "Portrait_of_Arnout_Tholincx__large.jpg",
+            "small": "Portrait_of_Arnout_Tholincx__small.jpg",
+            "teh": "?",
+            "title": "Portrait of Arnout Tholincx",
+            "year": "1656",
+            "yearKey": "1656"
+        },
+        {
+            "id": "The_Anatomy_Lesson_of_Dr._Jan_Deyman",
+            "large": "The_Anatomy_Lesson_of_Dr._Jan_Deyman__large.jpg",
+            "small": "The_Anatomy_Lesson_of_Dr._Jan_Deyman__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Anatomy Lesson of Dr. Jan Deyman",
+            "year": "1656",
+            "yearKey": "1656"
+        },
+        {
+            "id": "Titus_Reading",
+            "large": "Titus_Reading__large.jpg",
+            "small": "Titus_Reading__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Titus Reading",
+            "year": "1656",
+            "yearKey": "1656"
+        },
+        {
+            "id": "A_Bearded_Man_in_a_Cap",
+            "large": "A_Bearded_Man_in_a_Cap__large.jpg",
+            "small": "A_Bearded_Man_in_a_Cap__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Bearded Man in a Cap",
+            "year": "1657",
+            "yearKey": "1657"
+        },
+        {
+            "id": "Portrait_of_Catrina_Hooghsaet",
+            "large": "Portrait_of_Catrina_Hooghsaet__large.jpg",
+            "small": "Portrait_of_Catrina_Hooghsaet__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Catrina Hooghsaet",
+            "year": "1657",
+            "yearKey": "1657"
+        },
+        {
+            "id": "The_Apostle_Bartholomew",
+            "large": "The_Apostle_Bartholomew__large.jpg",
+            "small": "The_Apostle_Bartholomew__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Apostle Bartholomew",
+            "year": "1657",
+            "yearKey": "1657"
+        },
+        {
+            "id": "The_Polish_Rider",
+            "large": "The_Polish_Rider__large.jpg",
+            "small": "The_Polish_Rider__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Polish Rider",
+            "year": "1657",
+            "yearKey": "1657"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1657/1659",
+            "yearKey": "1657"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1658",
+            "yearKey": "1658"
+        },
+        {
+            "id": "Titus",
+            "large": "Titus__large.jpg",
+            "small": "Titus__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Titus",
+            "year": "1658",
+            "yearKey": "1658"
+        },
+        {
+            "id": "A_Franciscan_Friar",
+            "large": "A_Franciscan_Friar__large.jpg",
+            "small": "A_Franciscan_Friar__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Franciscan Friar",
+            "year": "1659",
+            "yearKey": "1659"
+        },
+        {
+            "id": "Jacob_and_the_Angel",
+            "large": "Jacob_and_the_Angel__large.jpg",
+            "small": "Jacob_and_the_Angel__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Jacob and the Angel",
+            "year": "1659",
+            "yearKey": "1659"
+        },
+        {
+            "id": "Moses_Breaking_the_Tables_of_the_Law",
+            "large": "Moses_Breaking_the_Tables_of_the_Law__large.jpg",
+            "small": "Moses_Breaking_the_Tables_of_the_Law__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Moses Breaking the Tables of the Law",
+            "year": "1659",
+            "yearKey": "1659"
+        },
+        {
+            "id": "Tobit_and_Anna",
+            "large": "Tobit_and_Anna__large.jpg",
+            "small": "Tobit_and_Anna__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Tobit and Anna",
+            "year": "1659",
+            "yearKey": "1659"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1659",
+            "yearKey": "1659"
+        },
+        {
+            "id": "The_Apostle_Paul",
+            "large": "The_Apostle_Paul__large.jpg",
+            "small": "The_Apostle_Paul__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Apostle Paul",
+            "year": "1659",
+            "yearKey": "1659"
+        },
+        {
+            "id": "Assuerus,_Haman,_and_Esther",
+            "large": "Assuerus,_Haman,_and_Esther__large.jpg",
+            "small": "Assuerus,_Haman,_and_Esther__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Assuerus, Haman, and Esther",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Portrait_of_Hendrickje_Stoffels",
+            "large": "Portrait_of_Hendrickje_Stoffels__large.jpg",
+            "small": "Portrait_of_Hendrickje_Stoffels__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Hendrickje Stoffels",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Portrait_of_a_Gentleman_with_a_Pair_of_Gloves",
+            "large": "Portrait_of_a_Gentleman_with_a_Pair_of_Gloves__large.jpg",
+            "small": "Portrait_of_a_Gentleman_with_a_Pair_of_Gloves__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Gentleman with a Pair of Gloves",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Portrait_of_a_Lady_with_an_Ostrich_Feather_Fan",
+            "large": "Portrait_of_a_Lady_with_an_Ostrich_Feather_Fan__large.jpg",
+            "small": "Portrait_of_a_Lady_with_an_Ostrich_Feather_Fan__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Lady with an Ostrich Feather Fan",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "A_Young_Man_at_a_Table_-possibly_Govaert_Flinck",
+            "large": "A_Young_Man_at_a_Table_-possibly_Govaert_Flinck__large.jpg",
+            "small": "A_Young_Man_at_a_Table_-possibly_Govaert_Flinck__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "A Young Man at a Table (possibly Govaert Flinck)",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Portrait_of_Frederick_Rihel_on_Horseback",
+            "large": "Portrait_of_Frederick_Rihel_on_Horseback__large.jpg",
+            "small": "Portrait_of_Frederick_Rihel_on_Horseback__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Frederick Rihel on Horseback",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Portrait_of_Johan_Amos_Comenius",
+            "large": "Portrait_of_Johan_Amos_Comenius__large.jpg",
+            "small": "Portrait_of_Johan_Amos_Comenius__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Johan Amos Comenius",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Self-portrait_at_an_Easel",
+            "large": "Self-portrait_at_an_Easel__large.jpg",
+            "small": "Self-portrait_at_an_Easel__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait at an Easel",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "The_Denial_of_Peter",
+            "large": "The_Denial_of_Peter__large.jpg",
+            "small": "The_Denial_of_Peter__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Denial of Peter",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Titus_as_a_Monk",
+            "large": "Titus_as_a_Monk__large.jpg",
+            "small": "Titus_as_a_Monk__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Titus as a Monk",
+            "year": "1660",
+            "yearKey": "1660"
+        },
+        {
+            "id": "Christ_Resurrected",
+            "large": "Christ_Resurrected__large.jpg",
+            "small": "Christ_Resurrected__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Christ Resurrected",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Man_with_a_Falcon_on_his_Wrist",
+            "large": "Man_with_a_Falcon_on_his_Wrist__large.jpg",
+            "small": "Man_with_a_Falcon_on_his_Wrist__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Man with a Falcon on his Wrist",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Monk_Reading",
+            "large": "Monk_Reading__large.jpg",
+            "small": "Monk_Reading__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Monk Reading",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Portrait_of_a_Bearded_Man",
+            "large": "Portrait_of_a_Bearded_Man__large.jpg",
+            "small": "Portrait_of_a_Bearded_Man__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Bearded Man",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Portrait_of_Jacob_Trip",
+            "large": "Portrait_of_Jacob_Trip__large.jpg",
+            "small": "Portrait_of_Jacob_Trip__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Jacob Trip",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Portrait_of_Margaretha_de_Geer",
+            "large": "Portrait_of_Margaretha_de_Geer__large.jpg",
+            "small": "Portrait_of_Margaretha_de_Geer__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Margaretha de Geer",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Margaretha_de_Geer_-bust_length",
+            "large": "Margaretha_de_Geer_-bust_length__large.jpg",
+            "small": "Margaretha_de_Geer_-bust_length__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Margaretha de Geer (bust length)",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "The_Conspiracy_of_Claudius_Civilis",
+            "large": "The_Conspiracy_of_Claudius_Civilis__large.jpg",
+            "small": "The_Conspiracy_of_Claudius_Civilis__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Conspiracy of Claudius Civilis",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "The_Virgin_of_Sorrow",
+            "large": "The_Virgin_of_Sorrow__large.jpg",
+            "small": "The_Virgin_of_Sorrow__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Virgin of Sorrow",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Self-portrait_as_the_Apostle_Paul",
+            "large": "Self-portrait_as_the_Apostle_Paul__large.jpg",
+            "small": "Self-portrait_as_the_Apostle_Paul__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait as the Apostle Paul",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "St._Matthew_and_the_Angel",
+            "large": "St._Matthew_and_the_Angel__large.jpg",
+            "small": "St._Matthew_and_the_Angel__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "St. Matthew and the Angel",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "The_Apostle_Bartholomew",
+            "large": "The_Apostle_Bartholomew__large.jpg",
+            "small": "The_Apostle_Bartholomew__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Apostle Bartholomew",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "The_Apostle_James_the_Major",
+            "large": "The_Apostle_James_the_Major__large.jpg",
+            "small": "The_Apostle_James_the_Major__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Apostle James the Major",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "The_Apostle_Simon",
+            "large": "The_Apostle_Simon__large.jpg",
+            "small": "The_Apostle_Simon__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Apostle Simon",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Two_Negroes",
+            "large": "Two_Negroes__large.jpg",
+            "small": "Two_Negroes__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Two Negroes",
+            "year": "1661",
+            "yearKey": "1661"
+        },
+        {
+            "id": "Portrait_of_a_Man_with_a_Magnifying_Glass",
+            "large": "Portrait_of_a_Man_with_a_Magnifying_Glass__large.jpg",
+            "small": "Portrait_of_a_Man_with_a_Magnifying_Glass__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Man with a Magnifying Glass",
+            "year": "1662",
+            "yearKey": "1662"
+        },
+        {
+            "id": "Portrait_of_a_Lady_with_a_Pink",
+            "large": "Portrait_of_a_Lady_with_a_Pink__large.JPG",
+            "small": "Portrait_of_a_Lady_with_a_Pink__small.JPG",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Lady with a Pink",
+            "year": "1662",
+            "yearKey": "1662"
+        },
+        {
+            "id": "Portrait_of_a_Man_in_a_Tall_Hat",
+            "large": "Portrait_of_a_Man_in_a_Tall_Hat__large.jpg",
+            "small": "Portrait_of_a_Man_in_a_Tall_Hat__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Man in a Tall Hat",
+            "year": "1662",
+            "yearKey": "1662"
+        },
+        {
+            "id": "Portrait_of_a_Woman_with_a_Lapdog",
+            "large": "Portrait_of_a_Woman_with_a_Lapdog__large.jpg",
+            "small": "Portrait_of_a_Woman_with_a_Lapdog__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Woman with a Lapdog",
+            "year": "1662",
+            "yearKey": "1662"
+        },
+        {
+            "id": "Self-portrait_as_Zeuxis_Laughing",
+            "large": "Self-portrait_as_Zeuxis_Laughing__large.jpg",
+            "small": "Self-portrait_as_Zeuxis_Laughing__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait as Zeuxis Laughing",
+            "year": "1662",
+            "yearKey": "1662"
+        },
+        {
+            "id": "The_Syndics_of_the_Draper's_Guild",
+            "large": "The_Syndics_of_the_Draper's_Guild__large.jpg",
+            "small": "The_Syndics_of_the_Draper's_Guild__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Syndics of the Draper's Guild",
+            "year": "1662",
+            "yearKey": "1662"
+        },
+        {
+            "id": "Homer",
+            "large": "Homer__large.jpg",
+            "small": "Homer__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Homer",
+            "year": "1663",
+            "yearKey": "1663"
+        },
+        {
+            "id": "Lucretia",
+            "large": "Lucretia__large.jpg",
+            "small": "Lucretia__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Lucretia",
+            "year": "1664",
+            "yearKey": "1664"
+        },
+        {
+            "id": "Juno",
+            "large": "Juno__large.jpg",
+            "small": "Juno__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Juno",
+            "year": "1665",
+            "yearKey": "1665"
+        },
+        {
+            "id": "Portrait_of_Gerard_de_Lairesse",
+            "large": "Portrait_of_Gerard_de_Lairesse__large.jpg",
+            "small": "Portrait_of_Gerard_de_Lairesse__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Gerard de Lairesse",
+            "year": "1665",
+            "yearKey": "1665"
+        },
+        {
+            "id": "Portrait_of_a_Couple_as_Figures_from_the_Old_Testament_-The_Jewish_Bride",
+            "large": "Portrait_of_a_Couple_as_Figures_from_the_Old_Testament_-The_Jewish_Bride__large.jpg",
+            "small": "Portrait_of_a_Couple_as_Figures_from_the_Old_Testament_-The_Jewish_Bride__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Couple as Figures from the Old Testament (The Jewish Bride)",
+            "year": "1665",
+            "yearKey": "1665"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1665/1669",
+            "yearKey": "1665"
+        },
+        {
+            "id": "Lucretia",
+            "large": "Lucretia__large.jpg",
+            "small": "Lucretia__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Lucretia",
+            "year": "1666",
+            "yearKey": "1666"
+        },
+        {
+            "id": "Portrait_of_a_Young_Man",
+            "large": "Portrait_of_a_Young_Man__large.jpg",
+            "small": "Portrait_of_a_Young_Man__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Young Man",
+            "year": "1666",
+            "yearKey": "1666"
+        },
+        {
+            "id": "Portrait_of_Jeremias_de_Decker",
+            "large": "Portrait_of_Jeremias_de_Decker__large.jpg",
+            "small": "Portrait_of_Jeremias_de_Decker__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Jeremias de Decker",
+            "year": "1666",
+            "yearKey": "1666"
+        },
+        {
+            "id": "The_Return_of_the_Prodigal_Son",
+            "large": "The_Return_of_the_Prodigal_Son__large.jpg",
+            "small": "The_Return_of_the_Prodigal_Son__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Return of the Prodigal Son",
+            "year": "1666/1669",
+            "yearKey": "1666"
+        },
+        {
+            "id": "Portrait_of_a_White-haired_Man",
+            "large": "Portrait_of_a_White-haired_Man__large.jpg",
+            "small": "Portrait_of_a_White-haired_Man__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a White-haired Man",
+            "year": "1667",
+            "yearKey": "1667"
+        },
+        {
+            "id": "Portrait_of_an_Elderly_Man",
+            "large": "Portrait_of_an_Elderly_Man__large.jpg",
+            "small": "Portrait_of_an_Elderly_Man__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of an Elderly Man",
+            "year": "1667",
+            "yearKey": "1667"
+        },
+        {
+            "id": "Portrait_of_a_Family",
+            "large": "Portrait_of_a_Family__large.jpg",
+            "small": "Portrait_of_a_Family__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of a Family",
+            "year": "1668/1669",
+            "yearKey": "1668"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1669",
+            "yearKey": "1669"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1669",
+            "yearKey": "1669"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait",
+            "year": "1669",
+            "yearKey": "1669"
+        },
+        {
+            "id": "Simeon_in_the_Temple",
+            "large": "Simeon_in_the_Temple__large.jpg",
+            "small": "Simeon_in_the_Temple__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Simeon in the Temple",
+            "year": "1669",
+            "yearKey": "1669"
+        }
+    ]
+}

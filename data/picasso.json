@@ -1,0 +1,2341 @@
+{
+    "birth": "",
+    "country": "",
+    "death": "",
+    "events": {},
+    "language": "",
+    "name": "Blah",
+    "works": [
+        {
+            "id": "Guitar_1913",
+            "large": "Guitar_1913__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Guitar 1913",
+            "year": "- by Picasso",
+            "yearKey": ""
+        },
+        {
+            "id": "Lunch_on_the_Grass",
+            "large": "Lunch_on_the_Grass__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Lunch on the Grass",
+            "year": "- by Picasso",
+            "yearKey": ""
+        },
+        {
+            "id": "First_Communion",
+            "large": "First_Communion__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "First Communion",
+            "year": "1895",
+            "yearKey": "1895"
+        },
+        {
+            "id": "The_Barefoot_Girl",
+            "large": "The_Barefoot_Girl__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Barefoot Girl",
+            "year": "1895",
+            "yearKey": "1895"
+        },
+        {
+            "id": "Portrait_of_the_Artists_Mother",
+            "large": "Portrait_of_the_Artists_Mother__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of the Artists Mother",
+            "year": "1896",
+            "yearKey": "1896"
+        },
+        {
+            "id": "Self_Portrait",
+            "large": "Self_Portrait__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Self Portrait",
+            "year": "1896",
+            "yearKey": "1896"
+        },
+        {
+            "id": "Matador_Luis_Miguel_Dominguin",
+            "large": "Matador_Luis_Miguel_Dominguin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Matador Luis Miguel Dominguin",
+            "year": "1897",
+            "yearKey": "1897"
+        },
+        {
+            "id": "Science_and_Charity",
+            "large": "Science_and_Charity__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Science and Charity",
+            "year": "1897",
+            "yearKey": "1897"
+        },
+        {
+            "id": "Lola_Picassos_Sister",
+            "large": "Lola_Picassos_Sister__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Lola Picassos Sister",
+            "year": "1899",
+            "yearKey": "1899"
+        },
+        {
+            "id": "A_Spanish_Couple_in_front_of_an_Inn",
+            "large": "A_Spanish_Couple_in_front_of_an_Inn__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "A Spanish Couple in front of an Inn",
+            "year": "1900",
+            "yearKey": "1900"
+        },
+        {
+            "id": "Death_of_Casagemas",
+            "large": "Death_of_Casagemas__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Death of Casagemas",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "LAbsinthe",
+            "large": "LAbsinthe__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "LAbsinthe",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "Le_Gourmet",
+            "large": "Le_Gourmet__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Le Gourmet",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "Leaning_Harlequin",
+            "large": "Leaning_Harlequin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Leaning Harlequin",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "Portrait_of_the_Art_Dealer_Pedro_Manach",
+            "large": "Portrait_of_the_Art_Dealer_Pedro_Manach__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of the Art Dealer Pedro Manach",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "Self_portrait_in_Blue_Period",
+            "large": "Self_portrait_in_Blue_Period__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Self portrait in Blue Period",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "The_Absinth_Drinker",
+            "large": "The_Absinth_Drinker__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Absinth Drinker",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "The_Absinthe_Drinker",
+            "large": "The_Absinthe_Drinker__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Absinthe Drinker",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "Woman_in_a_Blue_Hat",
+            "large": "Woman_in_a_Blue_Hat__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman in a Blue Hat",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "Woman_with_a_Cigarette",
+            "large": "Woman_with_a_Cigarette__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman with a Cigarette",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "Woman_with_Chignon",
+            "large": "Woman_with_Chignon__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman with Chignon",
+            "year": "1901",
+            "yearKey": "1901"
+        },
+        {
+            "id": "The_Visit_Two_Sisters",
+            "large": "The_Visit_Two_Sisters__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Visit Two Sisters",
+            "year": "1902",
+            "yearKey": "1902"
+        },
+        {
+            "id": "Breakfast_of_a_Blind_Man",
+            "large": "Breakfast_of_a_Blind_Man__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Breakfast of a Blind Man",
+            "year": "1903",
+            "yearKey": "1903"
+        },
+        {
+            "id": "La_Vie_Life",
+            "large": "La_Vie_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "La Vie Life",
+            "year": "1903",
+            "yearKey": "1903"
+        },
+        {
+            "id": "Lascete",
+            "large": "Lascete__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Lascete",
+            "year": "1903",
+            "yearKey": "1903"
+        },
+        {
+            "id": "Portrait_of_a_Young_Woman",
+            "large": "Portrait_of_a_Young_Woman__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of a Young Woman",
+            "year": "1903",
+            "yearKey": "1903"
+        },
+        {
+            "id": "Portrait_of_Soler",
+            "large": "Portrait_of_Soler__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Soler",
+            "year": "1903",
+            "yearKey": "1903"
+        },
+        {
+            "id": "The_Old_Guitarist",
+            "large": "The_Old_Guitarist__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Old Guitarist",
+            "year": "1903",
+            "yearKey": "1903"
+        },
+        {
+            "id": "The_Tragedy",
+            "large": "The_Tragedy__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Tragedy",
+            "year": "1903",
+            "yearKey": "1903"
+        },
+        {
+            "id": "The_Catalan_Sculptor_Manolo_Manuel_Hugue",
+            "large": "The_Catalan_Sculptor_Manolo_Manuel_Hugue__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Catalan Sculptor Manolo Manuel Hugue",
+            "year": "1904",
+            "yearKey": "1904"
+        },
+        {
+            "id": "Woman_with_a_Crow",
+            "large": "Woman_with_a_Crow__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman with a Crow",
+            "year": "1904",
+            "yearKey": "1904"
+        },
+        {
+            "id": "Acrobat_and_Young_Harlequin",
+            "large": "Acrobat_and_Young_Harlequin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Acrobat and Young Harlequin",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Acrobat_on_a_Ball",
+            "large": "Acrobat_on_a_Ball__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Acrobat on a Ball",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Boy_with_a_Dog",
+            "large": "Boy_with_a_Dog__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Boy with a Dog",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Girl_in_a_Chemise",
+            "large": "Girl_in_a_Chemise__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Girl in a Chemise",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Harlequin_Sitting_on_a_Red_Couch",
+            "large": "Harlequin_Sitting_on_a_Red_Couch__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Harlequin Sitting on a Red Couch",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "In_Lapin_Agile_or_Harlequin_with_a_Glass",
+            "large": "In_Lapin_Agile_or_Harlequin_with_a_Glass__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "In Lapin Agile or Harlequin with a Glass",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Juggler_with_Still_Life",
+            "large": "Juggler_with_Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Juggler with Still Life",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Lady_with_a_Fan",
+            "large": "Lady_with_a_Fan__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Lady with a Fan",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "The_Family_of_Saltimbanques",
+            "large": "The_Family_of_Saltimbanques__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Family of Saltimbanques",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Tumblers_Mother_and_Son",
+            "large": "Tumblers_Mother_and_Son__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Tumblers Mother and Son",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Two_Brothers",
+            "large": "Two_Brothers__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Two Brothers",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Two_Youths",
+            "large": "Two_Youths__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Two Youths",
+            "year": "1905",
+            "yearKey": "1905"
+        },
+        {
+            "id": "Boy_Leading_a_Horse",
+            "large": "Boy_Leading_a_Horse__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Boy Leading a Horse",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "Glassware_Still_Life_with_a_Porro",
+            "large": "Glassware_Still_Life_with_a_Porro__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Glassware Still Life with a Porro",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "Hairdressing",
+            "large": "Hairdressing__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Hairdressing",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "La_Toilette",
+            "large": "La_Toilette__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "La Toilette",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "Nude_Youth",
+            "large": "Nude_Youth__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude Youth",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "Portrait_of_Gertrude_Stein",
+            "large": "Portrait_of_Gertrude_Stein__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Gertrude Stein",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "Self_Portrait_with_a_Palette",
+            "large": "Self_Portrait_with_a_Palette__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Self Portrait with a Palette",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "The_Peasants_Composition",
+            "large": "The_Peasants_Composition__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Peasants Composition",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "Young_Girl_with_a_Goat",
+            "large": "Young_Girl_with_a_Goat__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Young Girl with a Goat",
+            "year": "1906",
+            "yearKey": "1906"
+        },
+        {
+            "id": "Composition_with_a_Skull",
+            "large": "Composition_with_a_Skull__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Composition with a Skull",
+            "year": "1907",
+            "yearKey": "1907"
+        },
+        {
+            "id": "Head_of_a_Woman",
+            "large": "Head_of_a_Woman__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Head of a Woman",
+            "year": "1907",
+            "yearKey": "1907"
+        },
+        {
+            "id": "Les_Demoiselles_dAvignon",
+            "large": "Les_Demoiselles_dAvignon__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Les Demoiselles dAvignon",
+            "year": "1907",
+            "yearKey": "1907"
+        },
+        {
+            "id": "Nude_Half_Length",
+            "large": "Nude_Half_Length__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude Half Length",
+            "year": "1907",
+            "yearKey": "1907"
+        },
+        {
+            "id": "Self_Portrait",
+            "large": "Self_Portrait__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Self Portrait",
+            "year": "1907",
+            "yearKey": "1907"
+        },
+        {
+            "id": "Sketch_for_The_Demoiselles_dAvignon",
+            "large": "Sketch_for_The_Demoiselles_dAvignon__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Sketch for The Demoiselles dAvignon",
+            "year": "1907",
+            "yearKey": "1907"
+        },
+        {
+            "id": "The_Dance_of_the_Veils",
+            "large": "The_Dance_of_the_Veils__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Dance of the Veils",
+            "year": "1907",
+            "yearKey": "1907"
+        },
+        {
+            "id": "Decanter_and_Tureens",
+            "large": "Decanter_and_Tureens__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Decanter and Tureens",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Dryad",
+            "large": "Dryad__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Dryad",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Flowers_in_a_Grey_Jug_and_Wine_Glass_with_Spoon",
+            "large": "Flowers_in_a_Grey_Jug_and_Wine_Glass_with_Spoon__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Flowers in a Grey Jug and Wine Glass with Spoon",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Friendship",
+            "large": "Friendship__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Friendship",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Green_Bowl_and_Black_Bottle",
+            "large": "Green_Bowl_and_Black_Bottle__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Green Bowl and Black Bottle",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "House_in_a_Garden",
+            "large": "House_in_a_Garden__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "House in a Garden",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "La_Fermiere_full_length",
+            "large": "La_Fermiere_full_length__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "La Fermiere full length",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "La_Fermiere_half_length",
+            "large": "La_Fermiere_half_length__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "La Fermiere half length",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Pot_Wine_Glass_and_Book",
+            "large": "Pot_Wine_Glass_and_Book__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Pot Wine Glass and Book",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Three_Women",
+            "large": "Three_Women__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Three Women",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Two_Naked_Figures",
+            "large": "Two_Naked_Figures__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Two Naked Figures",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Woman_Seated",
+            "large": "Woman_Seated__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman Seated",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Woman_with_a_Fan",
+            "large": "Woman_with_a_Fan__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman with a Fan",
+            "year": "1908",
+            "yearKey": "1908"
+        },
+        {
+            "id": "Bread_and_Fruit_Dish_on_a_Table",
+            "large": "Bread_and_Fruit_Dish_on_a_Table__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Bread and Fruit Dish on a Table",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Compotier_Fruit_and_Glass",
+            "large": "Compotier_Fruit_and_Glass__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Compotier Fruit and Glass",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Factory_in_Horta_de_Ebbo",
+            "large": "Factory_in_Horta_de_Ebbo__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Factory in Horta de Ebbo",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Man_with_Arms_Crossed",
+            "large": "Man_with_Arms_Crossed__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Man with Arms Crossed",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Nude",
+            "large": "Nude__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Portrait_of_Fernarde",
+            "large": "Portrait_of_Fernarde__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Fernarde",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Woman_Playing_the_Mandoline",
+            "large": "Woman_Playing_the_Mandoline__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman Playing the Mandoline",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Woman_with_Fan",
+            "large": "Woman_with_Fan__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman with Fan",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Young_Woman",
+            "large": "Young_Woman__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Young Woman",
+            "year": "1909",
+            "yearKey": "1909"
+        },
+        {
+            "id": "Nude_Woman",
+            "large": "Nude_Woman__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude Woman",
+            "year": "1910",
+            "yearKey": "1910"
+        },
+        {
+            "id": "Portrait_of_Ambroise_Vollard",
+            "large": "Portrait_of_Ambroise_Vollard__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Ambroise Vollard",
+            "year": "1910",
+            "yearKey": "1910"
+        },
+        {
+            "id": "Portrait_of_Kahnweiler",
+            "large": "Portrait_of_Kahnweiler__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Kahnweiler",
+            "year": "1910",
+            "yearKey": "1910"
+        },
+        {
+            "id": "Still_Life_with_Chair_Caning",
+            "large": "Still_Life_with_Chair_Caning__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life with Chair Caning",
+            "year": "1911",
+            "yearKey": "1911"
+        },
+        {
+            "id": "Bottle_of_Pernod_Table_in_a_Cafe",
+            "large": "Bottle_of_Pernod_Table_in_a_Cafe__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Bottle of Pernod Table in a Cafe",
+            "year": "1912",
+            "yearKey": "1912"
+        },
+        {
+            "id": "Musical_Instruments",
+            "large": "Musical_Instruments__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Musical Instruments",
+            "year": "1912",
+            "yearKey": "1912"
+        },
+        {
+            "id": "Nude_I_love_Eva",
+            "large": "Nude_I_love_Eva__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude I love Eva",
+            "year": "1912",
+            "yearKey": "1912"
+        },
+        {
+            "id": "Tavern_The_Ham",
+            "large": "Tavern_The_Ham__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Tavern The Ham",
+            "year": "1912",
+            "yearKey": "1912"
+        },
+        {
+            "id": "The_Restaurant_Turkey_with_Truffles_and_Wine",
+            "large": "The_Restaurant_Turkey_with_Truffles_and_Wine__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Restaurant Turkey with Truffles and Wine",
+            "year": "1912",
+            "yearKey": "1912"
+        },
+        {
+            "id": "Violin",
+            "large": "Violin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Violin",
+            "year": "1912",
+            "yearKey": "1912"
+        },
+        {
+            "id": "Clarinet_and_Violin",
+            "large": "Clarinet_and_Violin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Clarinet and Violin",
+            "year": "1913",
+            "yearKey": "1913"
+        },
+        {
+            "id": "The_Card_Player",
+            "large": "The_Card_Player__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Card Player",
+            "year": "1913",
+            "yearKey": "1913"
+        },
+        {
+            "id": "Violin_and_Guitar",
+            "large": "Violin_and_Guitar__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Violin and Guitar",
+            "year": "1913",
+            "yearKey": "1913"
+        },
+        {
+            "id": "Composition_Bowl_of_Fruit_and_Sliced_Pear",
+            "large": "Composition_Bowl_of_Fruit_and_Sliced_Pear__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Composition Bowl of Fruit and Sliced Pear",
+            "year": "1914",
+            "yearKey": "1914"
+        },
+        {
+            "id": "Fruit_Vase_and_Bunch_of_Grapes",
+            "large": "Fruit_Vase_and_Bunch_of_Grapes__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Fruit Vase and Bunch of Grapes",
+            "year": "1914",
+            "yearKey": "1914"
+        },
+        {
+            "id": "Harlequin",
+            "large": "Harlequin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Harlequin",
+            "year": "1915",
+            "yearKey": "1915"
+        },
+        {
+            "id": "Portrait_of_Olga_in_the_Armchair",
+            "large": "Portrait_of_Olga_in_the_Armchair__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Olga in the Armchair",
+            "year": "1917",
+            "yearKey": "1917"
+        },
+        {
+            "id": "Sketch_of_Set_for_the_Parade",
+            "large": "Sketch_of_Set_for_the_Parade__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Sketch of Set for the Parade",
+            "year": "1917",
+            "yearKey": "1917"
+        },
+        {
+            "id": "Harlequin_with_a_Guitar",
+            "large": "Harlequin_with_a_Guitar__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Harlequin with a Guitar",
+            "year": "1918",
+            "yearKey": "1918"
+        },
+        {
+            "id": "Pierrot",
+            "large": "Pierrot__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Pierrot",
+            "year": "1918",
+            "yearKey": "1918"
+        },
+        {
+            "id": "Still_Life",
+            "large": "Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life",
+            "year": "1918",
+            "yearKey": "1918"
+        },
+        {
+            "id": "The_Bathers",
+            "large": "The_Bathers__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bathers",
+            "year": "1918",
+            "yearKey": "1918"
+        },
+        {
+            "id": "Group_of_Dancers_Olga_Kokhlova_is_Lying_in_the_Foreground",
+            "large": "Group_of_Dancers_Olga_Kokhlova_is_Lying_in_the_Foreground__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Group of Dancers Olga Kokhlova is Lying in the Foreground",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Guitar_Bottle_Bowl_with_Fruit_and_Glass_on_Table",
+            "large": "Guitar_Bottle_Bowl_with_Fruit_and_Glass_on_Table__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Guitar Bottle Bowl with Fruit and Glass on Table",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Polichinelle_with_Guitar_Before_the_Stage_Curtain",
+            "large": "Polichinelle_with_Guitar_Before_the_Stage_Curtain__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Polichinelle with Guitar Before the Stage Curtain",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Sleeping_Peasants",
+            "large": "Sleeping_Peasants__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Sleeping Peasants",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Still_Life",
+            "large": "Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Still_Life_with_a_Pitcher_and_Apples",
+            "large": "Still_Life_with_a_Pitcher_and_Apples__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life with a Pitcher and Apples",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Three_Dancers",
+            "large": "Three_Dancers__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Three Dancers",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Torero_Study_for_Le_Tricorne",
+            "large": "Torero_Study_for_Le_Tricorne__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Torero Study for Le Tricorne",
+            "year": "1919",
+            "yearKey": "1919"
+        },
+        {
+            "id": "Juan_les_Pins",
+            "large": "Juan_les_Pins__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Juan les Pins",
+            "year": "1920",
+            "yearKey": "1920"
+        },
+        {
+            "id": "Portrait_of_Igor_Stravinsky",
+            "large": "Portrait_of_Igor_Stravinsky__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Igor Stravinsky",
+            "year": "1920",
+            "yearKey": "1920"
+        },
+        {
+            "id": "Mother_and_Child",
+            "large": "Mother_and_Child__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Mother and Child",
+            "year": "1921",
+            "yearKey": "1921"
+        },
+        {
+            "id": "Reading_of_Letter",
+            "large": "Reading_of_Letter__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Reading of Letter",
+            "year": "1921",
+            "yearKey": "1921"
+        },
+        {
+            "id": "Three_Musicians",
+            "large": "Three_Musicians__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Three Musicians",
+            "year": "1921",
+            "yearKey": "1921"
+        },
+        {
+            "id": "Three_Musicians_or_Musicians_in_Masks",
+            "large": "Three_Musicians_or_Musicians_in_Masks__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Three Musicians or Musicians in Masks",
+            "year": "1921",
+            "yearKey": "1921"
+        },
+        {
+            "id": "La_Danse_Villageoise",
+            "large": "La_Danse_Villageoise__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "La Danse Villageoise",
+            "year": "1922",
+            "yearKey": "1922"
+        },
+        {
+            "id": "Portrait_of_Mme_Olga_Picasso",
+            "large": "Portrait_of_Mme_Olga_Picasso__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Mme Olga Picasso",
+            "year": "1922",
+            "yearKey": "1922"
+        },
+        {
+            "id": "Still_Life_with_Guitar",
+            "large": "Still_Life_with_Guitar__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life with Guitar",
+            "year": "1922",
+            "yearKey": "1922"
+        },
+        {
+            "id": "The_Classical_Head",
+            "large": "The_Classical_Head__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Classical Head",
+            "year": "1922",
+            "yearKey": "1922"
+        },
+        {
+            "id": "Women_Running_on_the_Beach",
+            "large": "Women_Running_on_the_Beach__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Women Running on the Beach",
+            "year": "1922",
+            "yearKey": "1922"
+        },
+        {
+            "id": "Madame_Olga_Picasso",
+            "large": "Madame_Olga_Picasso__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Madame Olga Picasso",
+            "year": "1923",
+            "yearKey": "1923"
+        },
+        {
+            "id": "Olga_Koklova_Picassos_First_Wife",
+            "large": "Olga_Koklova_Picassos_First_Wife__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Olga Koklova Picassos First Wife",
+            "year": "1923",
+            "yearKey": "1923"
+        },
+        {
+            "id": "Picassos_Mother",
+            "large": "Picassos_Mother__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Picassos Mother",
+            "year": "1923",
+            "yearKey": "1923"
+        },
+        {
+            "id": "Portrait_of_Paul_Picasso_as_a_Child",
+            "large": "Portrait_of_Paul_Picasso_as_a_Child__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Paul Picasso as a Child",
+            "year": "1923",
+            "yearKey": "1923"
+        },
+        {
+            "id": "The_Lovers",
+            "large": "The_Lovers__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Lovers",
+            "year": "1923",
+            "yearKey": "1923"
+        },
+        {
+            "id": "The_Pipes_of_Pan",
+            "large": "The_Pipes_of_Pan__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Pipes of Pan",
+            "year": "1923",
+            "yearKey": "1923"
+        },
+        {
+            "id": "The_Seated_Harlequin",
+            "large": "The_Seated_Harlequin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Seated Harlequin",
+            "year": "1923",
+            "yearKey": "1923"
+        },
+        {
+            "id": "Paulo_Picassos_Son_as_Harlequin",
+            "large": "Paulo_Picassos_Son_as_Harlequin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Paulo Picassos Son as Harlequin",
+            "year": "1924",
+            "yearKey": "1924"
+        },
+        {
+            "id": "Paulo_Picassos_Son_as_Pierrot",
+            "large": "Paulo_Picassos_Son_as_Pierrot__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Paulo Picassos Son as Pierrot",
+            "year": "1925",
+            "yearKey": "1925"
+        },
+        {
+            "id": "Studio_with_Plaster_Head",
+            "large": "Studio_with_Plaster_Head__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Studio with Plaster Head",
+            "year": "1925",
+            "yearKey": "1925"
+        },
+        {
+            "id": "The_Three_Graces",
+            "large": "The_Three_Graces__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Three Graces",
+            "year": "1925",
+            "yearKey": "1925"
+        },
+        {
+            "id": "Three_Dancers",
+            "large": "Three_Dancers__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Three Dancers",
+            "year": "1925",
+            "yearKey": "1925"
+        },
+        {
+            "id": "Bather_Opening_a_Cabin",
+            "large": "Bather_Opening_a_Cabin__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Bather Opening a Cabin",
+            "year": "1928",
+            "yearKey": "1928"
+        },
+        {
+            "id": "Nude_in_an_Armchair",
+            "large": "Nude_in_an_Armchair__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude in an Armchair",
+            "year": "1929",
+            "yearKey": "1929"
+        },
+        {
+            "id": "Nude_on_a_Beach_1",
+            "large": "Nude_on_a_Beach_1__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude on a Beach 1",
+            "year": "1929",
+            "yearKey": "1929"
+        },
+        {
+            "id": "Nude_on_a_Beach",
+            "large": "Nude_on_a_Beach__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude on a Beach",
+            "year": "1929",
+            "yearKey": "1929"
+        },
+        {
+            "id": "Nude_on_a_Beach_2",
+            "large": "Nude_on_a_Beach_2__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude on a Beach 2",
+            "year": "1929",
+            "yearKey": "1929"
+        },
+        {
+            "id": "Acrobat",
+            "large": "Acrobat__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Acrobat",
+            "year": "1930",
+            "yearKey": "1930"
+        },
+        {
+            "id": "Crucifixion",
+            "large": "Crucifixion__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Crucifixion",
+            "year": "1930",
+            "yearKey": "1930"
+        },
+        {
+            "id": "Figures_on_a_Beach",
+            "large": "Figures_on_a_Beach__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Figures on a Beach",
+            "year": "1931",
+            "yearKey": "1931"
+        },
+        {
+            "id": "Nude_and_Still_life",
+            "large": "Nude_and_Still_life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude and Still life",
+            "year": "1931",
+            "yearKey": "1931"
+        },
+        {
+            "id": "Young_Girl_Throwing_a_Rock",
+            "large": "Young_Girl_Throwing_a_Rock__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Young Girl Throwing a Rock",
+            "year": "1931",
+            "yearKey": "1931"
+        },
+        {
+            "id": "Girl_Before_a_Mirror",
+            "large": "Girl_Before_a_Mirror__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Girl Before a Mirror",
+            "year": "1932",
+            "yearKey": "1932"
+        },
+        {
+            "id": "Nude_in_an_Armchair",
+            "large": "Nude_in_an_Armchair__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude in an Armchair",
+            "year": "1932",
+            "yearKey": "1932"
+        },
+        {
+            "id": "Still_Life",
+            "large": "Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life",
+            "year": "1932",
+            "yearKey": "1932"
+        },
+        {
+            "id": "Woman_with_a_Flower",
+            "large": "Woman_with_a_Flower__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman with a Flower",
+            "year": "1932",
+            "yearKey": "1932"
+        },
+        {
+            "id": "Minotaur_with_a_Javelin_and_Woman_Hostage",
+            "large": "Minotaur_with_a_Javelin_and_Woman_Hostage__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Minotaur with a Javelin and Woman Hostage",
+            "year": "1934",
+            "yearKey": "1934"
+        },
+        {
+            "id": "Interior_with_a_Girl_Drawing",
+            "large": "Interior_with_a_Girl_Drawing__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Interior with a Girl Drawing",
+            "year": "1935",
+            "yearKey": "1935"
+        },
+        {
+            "id": "Girl_on_a_Pillow",
+            "large": "Girl_on_a_Pillow__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Girl on a Pillow",
+            "year": "1936",
+            "yearKey": "1936"
+        },
+        {
+            "id": "Sketch_of_Set_for_Le_14_Juillet_by_Romain_Rolland",
+            "large": "Sketch_of_Set_for_Le_14_Juillet_by_Romain_Rolland__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Sketch of Set for Le 14 Juillet by Romain Rolland",
+            "year": "1936",
+            "yearKey": "1936"
+        },
+        {
+            "id": "Still_Life",
+            "large": "Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life",
+            "year": "1936",
+            "yearKey": "1936"
+        },
+        {
+            "id": "A_Woman_in_Tears",
+            "large": "A_Woman_in_Tears__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "A Woman in Tears",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Bathers_with_a_Toy_Boat",
+            "large": "Bathers_with_a_Toy_Boat__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Bathers with a Toy Boat",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Dora_Maar",
+            "large": "Dora_Maar__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Dora Maar",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Guernica",
+            "large": "Guernica__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Guernica",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Guernica_Detail_1",
+            "large": "Guernica_Detail_1__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Guernica Detail 1",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Guernica_Detail_2",
+            "large": "Guernica_Detail_2__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Guernica Detail 2",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "La_Suppliante",
+            "large": "La_Suppliante__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "La Suppliante",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Lee_Miller",
+            "large": "Lee_Miller__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Lee Miller",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Marie_Therese_Walter_1",
+            "large": "Marie_Therese_Walter_1__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Marie Therese Walter 1",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Marie_Therese_Walter_2",
+            "large": "Marie_Therese_Walter_2__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Marie Therese Walter 2",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Marie_Therese_Walter_3",
+            "large": "Marie_Therese_Walter_3__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Marie Therese Walter 3",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Marie_Therese_Walter_4",
+            "large": "Marie_Therese_Walter_4__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Marie Therese Walter 4",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Marie_Therese_Walter_5",
+            "large": "Marie_Therese_Walter_5__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Marie Therese Walter 5",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Minotaur_and_His_Wife",
+            "large": "Minotaur_and_His_Wife__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Minotaur and His Wife",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Nusch_eluard",
+            "large": "Nusch_eluard__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nusch eluard",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Portrait_of_Dora_Maar",
+            "large": "Portrait_of_Dora_Maar__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Dora Maar",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Portrait_of_Marie_Therese",
+            "large": "Portrait_of_Marie_Therese__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Marie Therese",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Portrait_of_Nusche_Eluard",
+            "large": "Portrait_of_Nusche_Eluard__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Nusche Eluard",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Still_Life",
+            "large": "Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Weeping_Woman",
+            "large": "Weeping_Woman__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Weeping Woman",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Young_Girl_in_an_Armchair",
+            "large": "Young_Girl_in_an_Armchair__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Young Girl in an Armchair",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "Young_Girl_Reading_a_Book_on_the_Beach",
+            "large": "Young_Girl_Reading_a_Book_on_the_Beach__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Young Girl Reading a Book on the Beach",
+            "year": "1937",
+            "yearKey": "1937"
+        },
+        {
+            "id": "A_Young_Faun_Playing_a_Serenade_to_a_Young_Girl",
+            "large": "A_Young_Faun_Playing_a_Serenade_to_a_Young_Girl__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "A Young Faun Playing a Serenade to a Young Girl",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Farmer_and_Nude_Surrounded_by_Hens",
+            "large": "Farmer_and_Nude_Surrounded_by_Hens__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Farmer and Nude Surrounded by Hens",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Girl_with_a_Boat_Maya_Picasso",
+            "large": "Girl_with_a_Boat_Maya_Picasso__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Girl with a Boat Maya Picasso",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Maya_Picassos_Daughter_with_a_Doll",
+            "large": "Maya_Picassos_Daughter_with_a_Doll__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Maya Picassos Daughter with a Doll",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Maya_with_a_Doll",
+            "large": "Maya_with_a_Doll__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Maya with a Doll",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Nusch_eluard",
+            "large": "Nusch_eluard__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nusch eluard",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Nusch_eluard",
+            "large": "Nusch_eluard__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nusch eluard",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Nusch_eluard",
+            "large": "Nusch_eluard__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nusch eluard",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Portrait_of_a_Young_Girl_1",
+            "large": "Portrait_of_a_Young_Girl_1__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of a Young Girl 1",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Portrait_of_a_Young_Girl_2",
+            "large": "Portrait_of_a_Young_Girl_2__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of a Young Girl 2",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Portrait_of_a_Young_Girl_3",
+            "large": "Portrait_of_a_Young_Girl_3__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of a Young Girl 3",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Portrait_of_a_Young_Girl_4",
+            "large": "Portrait_of_a_Young_Girl_4__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of a Young Girl 4",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Self_Portrait",
+            "large": "Self_Portrait__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Self Portrait",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Still_Life",
+            "large": "Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Wounded_Bird_and_Cat",
+            "large": "Wounded_Bird_and_Cat__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Wounded Bird and Cat",
+            "year": "1938",
+            "yearKey": "1938"
+        },
+        {
+            "id": "Night_Fishing_at_Antibes",
+            "large": "Night_Fishing_at_Antibes__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Night Fishing at Antibes",
+            "year": "1939",
+            "yearKey": "1939"
+        },
+        {
+            "id": "Woman_in_a_Stripped_Hat",
+            "large": "Woman_in_a_Stripped_Hat__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman in a Stripped Hat",
+            "year": "1939",
+            "yearKey": "1939"
+        },
+        {
+            "id": "Young_Girl_Struck_by_Sadness",
+            "large": "Young_Girl_Struck_by_Sadness__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Young Girl Struck by Sadness",
+            "year": "1939",
+            "yearKey": "1939"
+        },
+        {
+            "id": "Young_Tormented_Girl",
+            "large": "Young_Tormented_Girl__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Young Tormented Girl",
+            "year": "1939",
+            "yearKey": "1939"
+        },
+        {
+            "id": "Silhoutte_of_Piccasso_and_Young_Girl_Crying",
+            "large": "Silhoutte_of_Piccasso_and_Young_Girl_Crying__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Silhoutte of Piccasso and Young Girl Crying",
+            "year": "1940",
+            "yearKey": "1940"
+        },
+        {
+            "id": "Dora_Maar",
+            "large": "Dora_Maar__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Dora Maar",
+            "year": "1941",
+            "yearKey": "1941"
+        },
+        {
+            "id": "Still_Life_with_Steers_Skull",
+            "large": "Still_Life_with_Steers_Skull__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life with Steers Skull",
+            "year": "1942",
+            "yearKey": "1942"
+        },
+        {
+            "id": "Still_Life_with_Cheese",
+            "large": "Still_Life_with_Cheese__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life with Cheese",
+            "year": "1944",
+            "yearKey": "1944"
+        },
+        {
+            "id": "The_Charnel_House",
+            "large": "The_Charnel_House__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Charnel House",
+            "year": "1944",
+            "yearKey": "1944"
+        },
+        {
+            "id": "Still_Life",
+            "large": "Still_Life__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Still Life",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_I",
+            "large": "The_Bull_State_I__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State I",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_II",
+            "large": "The_Bull_State_II__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State II",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_III",
+            "large": "The_Bull_State_III__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State III",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_IV",
+            "large": "The_Bull_State_IV__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State IV",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_IX",
+            "large": "The_Bull_State_IX__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State IX",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_V",
+            "large": "The_Bull_State_V__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State V",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_VI",
+            "large": "The_Bull_State_VI__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State VI",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_VII",
+            "large": "The_Bull_State_VII__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State VII",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_VIII",
+            "large": "The_Bull_State_VIII__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State VIII",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "The_Bull_State_XI",
+            "large": "The_Bull_State_XI__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Bull State XI",
+            "year": "1945",
+            "yearKey": "1945"
+        },
+        {
+            "id": "Portrait_of_Francoise",
+            "large": "Portrait_of_Francoise__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Francoise",
+            "year": "1946",
+            "yearKey": "1946"
+        },
+        {
+            "id": "Claude_Son_of_Picasso",
+            "large": "Claude_Son_of_Picasso__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Claude Son of Picasso",
+            "year": "1948",
+            "yearKey": "1948"
+        },
+        {
+            "id": "Woman_in_an_Armchair_I",
+            "large": "Woman_in_an_Armchair_I__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman in an Armchair I",
+            "year": "1948",
+            "yearKey": "1948"
+        },
+        {
+            "id": "Woman_with_Green_Hair",
+            "large": "Woman_with_Green_Hair__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Woman with Green Hair",
+            "year": "1949",
+            "yearKey": "1949"
+        },
+        {
+            "id": "Paloma_and_Claude_Children_of_Picasso",
+            "large": "Paloma_and_Claude_Children_of_Picasso__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Paloma and Claude Children of Picasso",
+            "year": "1950",
+            "yearKey": "1950"
+        },
+        {
+            "id": "Paloma_with_Celluloid_Fish",
+            "large": "Paloma_with_Celluloid_Fish__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Paloma with Celluloid Fish",
+            "year": "1950",
+            "yearKey": "1950"
+        },
+        {
+            "id": "Francoise_Claude_and_Paloma",
+            "large": "Francoise_Claude_and_Paloma__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Francoise Claude and Paloma",
+            "year": "1951",
+            "yearKey": "1951"
+        },
+        {
+            "id": "Francoise_Gilot_with_Claude_and_Paloma",
+            "large": "Francoise_Gilot_with_Claude_and_Paloma__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Francoise Gilot with Claude and Paloma",
+            "year": "1951",
+            "yearKey": "1951"
+        },
+        {
+            "id": "Knight_Page_and_Monk",
+            "large": "Knight_Page_and_Monk__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Knight Page and Monk",
+            "year": "1951",
+            "yearKey": "1951"
+        },
+        {
+            "id": "Francoise_Claude_and_Paloma",
+            "large": "Francoise_Claude_and_Paloma__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Francoise Claude and Paloma",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_Rocque_1",
+            "large": "Jacqueline_Rocque_1__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque 1",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_Rocque",
+            "large": "Jacqueline_Rocque__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_Rocque_2",
+            "large": "Jacqueline_Rocque_2__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque 2",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_Rocque_3",
+            "large": "Jacqueline_Rocque_3__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque 3",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_Rocque_4",
+            "large": "Jacqueline_Rocque_4__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque 4",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_with_Crossed_Hands",
+            "large": "Jacqueline_with_Crossed_Hands__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline with Crossed Hands",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_with_Flowers",
+            "large": "Jacqueline_with_Flowers__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline with Flowers",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Paloma_Playing_with_Tadpoles",
+            "large": "Paloma_Playing_with_Tadpoles__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Paloma Playing with Tadpoles",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Portrait_of_Sylvette",
+            "large": "Portrait_of_Sylvette__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Sylvette",
+            "year": "1954",
+            "yearKey": "1954"
+        },
+        {
+            "id": "Jacqueline_in_the_Studio",
+            "large": "Jacqueline_in_the_Studio__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline in the Studio",
+            "year": "1956",
+            "yearKey": "1956"
+        },
+        {
+            "id": "Paloma_Picasso",
+            "large": "Paloma_Picasso__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Paloma Picasso",
+            "year": "1956",
+            "yearKey": "1956"
+        },
+        {
+            "id": "The_Studio_of_La_Californie_at_Cannes",
+            "large": "The_Studio_of_La_Californie_at_Cannes__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Studio of La Californie at Cannes",
+            "year": "1956",
+            "yearKey": "1956"
+        },
+        {
+            "id": "Jacqueline_in_Studio",
+            "large": "Jacqueline_in_Studio__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline in Studio",
+            "year": "1957",
+            "yearKey": "1957"
+        },
+        {
+            "id": "Jacqueline_Rocque_1",
+            "large": "Jacqueline_Rocque_1__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque 1",
+            "year": "1957",
+            "yearKey": "1957"
+        },
+        {
+            "id": "Jacqueline_Rocque",
+            "large": "Jacqueline_Rocque__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque",
+            "year": "1957",
+            "yearKey": "1957"
+        },
+        {
+            "id": "Las_Meninas_After_Velazquez",
+            "large": "Las_Meninas_After_Velazquez__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Las Meninas After Velazquez",
+            "year": "1957",
+            "yearKey": "1957"
+        },
+        {
+            "id": "The_Doves",
+            "large": "The_Doves__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Doves",
+            "year": "1957",
+            "yearKey": "1957"
+        },
+        {
+            "id": "Jacqueline_Rocque",
+            "large": "Jacqueline_Rocque__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline Rocque",
+            "year": "1958",
+            "yearKey": "1958"
+        },
+        {
+            "id": "La_Californie",
+            "large": "La_Californie__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "La Californie",
+            "year": "1958",
+            "yearKey": "1958"
+        },
+        {
+            "id": "Monolithic_Nude",
+            "large": "Monolithic_Nude__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Monolithic Nude",
+            "year": "1958",
+            "yearKey": "1958"
+        },
+        {
+            "id": "The_King_of_the_Minotaurs",
+            "large": "The_King_of_the_Minotaurs__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The King of the Minotaurs",
+            "year": "1958",
+            "yearKey": "1958"
+        },
+        {
+            "id": "Nude_in_an_Armchair",
+            "large": "Nude_in_an_Armchair__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude in an Armchair",
+            "year": "1959",
+            "yearKey": "1959"
+        },
+        {
+            "id": "Nude_in_an_Armchair_with_a_Bottle_of_Evian_Water_a_Glass_and_Shoes",
+            "large": "Nude_in_an_Armchair_with_a_Bottle_of_Evian_Water_a_Glass_and_Shoes__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude in an Armchair with a Bottle of Evian Water a Glass and Shoes",
+            "year": "1959",
+            "yearKey": "1959"
+        },
+        {
+            "id": "Jacqueline",
+            "large": "Jacqueline__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline",
+            "year": "1960",
+            "yearKey": "1960"
+        },
+        {
+            "id": "Nude_Queen_of_the_Amazons_with_Servant",
+            "large": "Nude_Queen_of_the_Amazons_with_Servant__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Nude Queen of the Amazons with Servant",
+            "year": "1960",
+            "yearKey": "1960"
+        },
+        {
+            "id": "Portrait_of_a_Sitting_Woman",
+            "large": "Portrait_of_a_Sitting_Woman__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of a Sitting Woman",
+            "year": "1960",
+            "yearKey": "1960"
+        },
+        {
+            "id": "Luncheon_on_the_Grass_After_Manet",
+            "large": "Luncheon_on_the_Grass_After_Manet__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Luncheon on the Grass After Manet",
+            "year": "1961",
+            "yearKey": "1961"
+        },
+        {
+            "id": "The_Rape_of_the_Sabine_Women",
+            "large": "The_Rape_of_the_Sabine_Women__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Rape of the Sabine Women",
+            "year": "1962",
+            "yearKey": "1962"
+        },
+        {
+            "id": "Cavalier_with_Pipe",
+            "large": "Cavalier_with_Pipe__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Cavalier with Pipe",
+            "year": "1968",
+            "yearKey": "1968"
+        },
+        {
+            "id": "Female_Nude_and_Smoker",
+            "large": "Female_Nude_and_Smoker__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Female Nude and Smoker",
+            "year": "1968",
+            "yearKey": "1968"
+        },
+        {
+            "id": "Rembrandt_Figure_and_Eros",
+            "large": "Rembrandt_Figure_and_Eros__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Rembrandt Figure and Eros",
+            "year": "1969",
+            "yearKey": "1969"
+        },
+        {
+            "id": "The_Kiss",
+            "large": "The_Kiss__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "The Kiss",
+            "year": "1969",
+            "yearKey": "1969"
+        },
+        {
+            "id": "Portrait_of_Man_in_a_Hat",
+            "large": "Portrait_of_Man_in_a_Hat__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Portrait of Man in a Hat",
+            "year": "1971",
+            "yearKey": "1971"
+        },
+        {
+            "id": "Self_Portrait",
+            "large": "Self_Portrait__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Self Portrait",
+            "year": "1972",
+            "yearKey": "1972"
+        },
+        {
+            "id": "El_Bobo",
+            "large": "El_Bobo__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "El Bobo",
+            "year": "3000",
+            "yearKey": "3000"
+        },
+        {
+            "id": "Head_of_a_Man",
+            "large": "Head_of_a_Man__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Head of a Man",
+            "year": "3000",
+            "yearKey": "3000"
+        },
+        {
+            "id": "Jacqueline_de_Vauvenargues",
+            "large": "Jacqueline_de_Vauvenargues__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Jacqueline de Vauvenargues",
+            "year": "3000",
+            "yearKey": "3000"
+        },
+        {
+            "id": "Old_Beggar_with_a_Bo,y_1903",
+            "large": "Old_Beggar_with_a_Bo,y_1903__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Old Beggar with a Bo,y 1903",
+            "year": "3000",
+            "yearKey": "3000"
+        },
+        {
+            "id": "Vauvenargues",
+            "large": "Vauvenargues__large.JPG",
+            "small": false,
+            "tech": "",
+            "title": "Vauvenargues",
+            "year": "3000",
+            "yearKey": "3000"
+        }
+    ]
+}

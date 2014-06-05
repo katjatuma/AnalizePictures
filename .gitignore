@@ -3,7 +3,7 @@ build/
 
 # Data dirs
 data/brugel/
-data/brugel/
-data/manet/
 data/raphael/
 data/vermeer/
+data/picasso/
+data/rembrandt/
