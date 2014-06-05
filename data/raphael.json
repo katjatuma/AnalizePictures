@@ -1,0 +1,1000 @@
+{
+    "birth": "",
+    "country": "",
+    "death": "",
+    "events": {},
+    "language": "",
+    "name": "Raphael",
+    "works": [
+        {
+            "id": "Resurrection_of_Christ",
+            "large": "Resurrection_of_Christ__large.jpg",
+            "small": "Resurrection_of_Christ__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Resurrection of Christ",
+            "year": "1499-1502",
+            "yearKey": "1499"
+        },
+        {
+            "id": "The_Holy_Trinity",
+            "large": "The_Holy_Trinity__large.jpg",
+            "small": "The_Holy_Trinity__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Holy Trinity",
+            "year": "c. 1499",
+            "yearKey": "1499"
+        },
+        {
+            "id": "The_Creation_of_Eve_from_Adam",
+            "large": "The_Creation_of_Eve_from_Adam__large.jpg",
+            "small": "The_Creation_of_Eve_from_Adam__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Creation of Eve from Adam",
+            "year": "c. 1499",
+            "yearKey": "1499"
+        },
+        {
+            "id": "Angel",
+            "large": "Angel__large.jpg",
+            "small": "Angel__small.jpg",
+            "teh": "Oil on canvas transferred from panel",
+            "title": "Angel",
+            "year": "1500-1501",
+            "yearKey": "1500"
+        },
+        {
+            "id": "Angel_Holding_a_Scroll",
+            "large": "Angel_Holding_a_Scroll__large.jpg",
+            "small": "Angel_Holding_a_Scroll__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Angel Holding a Scroll",
+            "year": "1500-1501",
+            "yearKey": "1500"
+        },
+        {
+            "id": "God_the_Father_and_the_Virgin_Mary",
+            "large": "God_the_Father_and_the_Virgin_Mary__large.jpg",
+            "small": "God_the_Father_and_the_Virgin_Mary__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "God the Father and the Virgin Mary",
+            "year": "1500-1501",
+            "yearKey": "1500"
+        },
+        {
+            "id": "St._Sebastian",
+            "large": "St._Sebastian__large.jpg",
+            "small": "St._Sebastian__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. Sebastian",
+            "year": "1501-1502",
+            "yearKey": "1501"
+        },
+        {
+            "id": "Saint_Francis_of_Assisi",
+            "large": "Saint_Francis_of_Assisi__large.jpg",
+            "small": "Saint_Francis_of_Assisi__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Saint Francis of Assisi",
+            "year": "c. 1502",
+            "yearKey": "1502"
+        },
+        {
+            "id": "Saint_Anthony_of_Padua",
+            "large": "Saint_Anthony_of_Padua__large.jpg",
+            "small": "Saint_Anthony_of_Padua__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Saint Anthony of Padua",
+            "year": "c. 1502",
+            "yearKey": "1502"
+        },
+        {
+            "id": "Portrait_of_a_Man",
+            "large": "Portrait_of_a_Man__large.jpg",
+            "small": "Portrait_of_a_Man__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of a Man",
+            "year": "c. 1502",
+            "yearKey": "1502"
+        },
+        {
+            "id": "Madonna_with_Child_and_Saints",
+            "large": "Madonna_with_Child_and_Saints__large.jpg",
+            "small": "Madonna_with_Child_and_Saints__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna with Child and Saints",
+            "year": "c. 1502",
+            "yearKey": "1502"
+        },
+        {
+            "id": "Madonna_Solly",
+            "large": "Madonna_Solly__large.jpg",
+            "small": "Madonna_Solly__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna Solly",
+            "year": "c. 1502",
+            "yearKey": "1502"
+        },
+        {
+            "id": "Madonna_and_Child_with_the_Book",
+            "large": "Madonna_and_Child_with_the_Book__large.jpg",
+            "small": "Madonna_and_Child_with_the_Book__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna and Child with the Book",
+            "year": "1502-1503",
+            "yearKey": "1502"
+        },
+        {
+            "id": "The_Mond_Crucifixion",
+            "large": "The_Mond_Crucifixion__large.jpg",
+            "small": "The_Mond_Crucifixion__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Mond Crucifixion",
+            "year": "1502-1503",
+            "yearKey": "1502"
+        },
+        {
+            "id": "Eusebius_of_Cremona_Raising_Three_Men_from_the_Dead_with_Saint_Jerome's_Cloak",
+            "large": "Eusebius_of_Cremona_Raising_Three_Men_from_the_Dead_with_Saint_Jerome's_Cloak__large.jpg",
+            "small": "Eusebius_of_Cremona_Raising_Three_Men_from_the_Dead_with_Saint_Jerome's_Cloak__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Eusebius of Cremona Raising Three Men from the Dead with Saint Jerome's Cloak",
+            "year": "1502-1503",
+            "yearKey": "1502"
+        },
+        {
+            "id": "Crowning_of_the_Virgin",
+            "large": "Crowning_of_the_Virgin__large.jpg",
+            "small": "Crowning_of_the_Virgin__small.jpg",
+            "teh": "Tempera on panel transferred to canvas",
+            "title": "Crowning of the Virgin",
+            "year": "1502-1504",
+            "yearKey": "1502"
+        },
+        {
+            "id": "The_Annunciation",
+            "large": "The_Annunciation__large.jpg",
+            "small": "The_Annunciation__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "The Annunciation",
+            "year": "1502-1504",
+            "yearKey": "1502"
+        },
+        {
+            "id": "The_Adoration_of_the_Magi",
+            "large": "The_Adoration_of_the_Magi__large.jpg",
+            "small": "The_Adoration_of_the_Magi__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "The Adoration of the Magi",
+            "year": "1502-1504",
+            "yearKey": "1502"
+        },
+        {
+            "id": "The_Presentation_in_the_Temple",
+            "large": "The_Presentation_in_the_Temple__large.jpg",
+            "small": "The_Presentation_in_the_Temple__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "The Presentation in the Temple",
+            "year": "1502-1504",
+            "yearKey": "1502"
+        },
+        {
+            "id": "St._Jerome_Saving_Sylvanus_and_Punishing_the_Heretic_Sabinianus",
+            "large": "St._Jerome_Saving_Sylvanus_and_Punishing_the_Heretic_Sabinianus__large.jpg",
+            "small": "St._Jerome_Saving_Sylvanus_and_Punishing_the_Heretic_Sabinianus__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. Jerome Saving Sylvanus and Punishing the Heretic Sabinianus",
+            "year": "1503",
+            "yearKey": "1503"
+        },
+        {
+            "id": "Diotalevi_Madonna",
+            "large": "Diotalevi_Madonna__large.jpg",
+            "small": "Diotalevi_Madonna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Diotalevi Madonna",
+            "year": "c. 1503",
+            "yearKey": "1503"
+        },
+        {
+            "id": "Portrait_of_a_Man,_thought_to_be_Francesco_Maria_della_Rovere",
+            "large": "Portrait_of_a_Man,_thought_to_be_Francesco_Maria_della_Rovere__large.jpg",
+            "small": "Portrait_of_a_Man,_thought_to_be_Francesco_Maria_della_Rovere__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "Portrait of a Man, thought to be Francesco Maria della Rovere",
+            "year": "1503-1504",
+            "yearKey": "1503"
+        },
+        {
+            "id": "St._George_Fighting_the_Dragon",
+            "large": "St._George_Fighting_the_Dragon__large.jpg",
+            "small": "St._George_Fighting_the_Dragon__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. George Fighting the Dragon",
+            "year": "1503-1505",
+            "yearKey": "1503"
+        },
+        {
+            "id": "St._Michael_Slaying_the_Devil",
+            "large": "St._Michael_Slaying_the_Devil__large.jpg",
+            "small": "St._Michael_Slaying_the_Devil__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. Michael Slaying the Devil",
+            "year": "1503-1505",
+            "yearKey": "1503"
+        },
+        {
+            "id": "Portrait_of_a_Young_Man_-Ippolito_d'Este?",
+            "large": "Portrait_of_a_Young_Man_-Ippolito_d'Este?__large.jpg",
+            "small": "Portrait_of_a_Young_Man_-Ippolito_d'Este?__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of a Young Man (Ippolito d'Este?)",
+            "year": "1503-1505",
+            "yearKey": "1503"
+        },
+        {
+            "id": "Julius_II._-Guiliano_della_Rovere",
+            "large": "Julius_II._-Guiliano_della_Rovere__large.jpg",
+            "small": "Julius_II._-Guiliano_della_Rovere__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Julius II. (Guiliano della Rovere)",
+            "year": "1503-1513",
+            "yearKey": "1503"
+        },
+        {
+            "id": "The_Marriage_of_the_Virgin",
+            "large": "The_Marriage_of_the_Virgin__large.jpg",
+            "small": "The_Marriage_of_the_Virgin__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Marriage of the Virgin",
+            "year": "1504",
+            "yearKey": "1504"
+        },
+        {
+            "id": "The_Madonna_Connestabile",
+            "large": "The_Madonna_Connestabile__large.jpg",
+            "small": "The_Madonna_Connestabile__small.jpg",
+            "teh": "Tempera on canvas transferred from panel",
+            "title": "The Madonna Connestabile",
+            "year": "1504",
+            "yearKey": "1504"
+        },
+        {
+            "id": "Madonna_and_Child_Enthroned_with_Saints",
+            "large": "Madonna_and_Child_Enthroned_with_Saints__large.jpg",
+            "small": "Madonna_and_Child_Enthroned_with_Saints__small.jpg",
+            "teh": "Oil and gold on panel",
+            "title": "Madonna and Child Enthroned with Saints",
+            "year": "c. 1504",
+            "yearKey": "1504"
+        },
+        {
+            "id": "The_Agony_in_the_Garden",
+            "large": "The_Agony_in_the_Garden__large.jpg",
+            "small": "The_Agony_in_the_Garden__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Agony in the Garden",
+            "year": "c. 1504",
+            "yearKey": "1504"
+        },
+        {
+            "id": "Piet\u00e0",
+            "large": "Piet\u00e0__large.jpg",
+            "small": "Piet\u00e0__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Piet\u00e0",
+            "year": "c. 1504",
+            "yearKey": "1504"
+        },
+        {
+            "id": "An_Allegory_-'Vision_of_a_Knight'",
+            "large": "An_Allegory_-'Vision_of_a_Knight'__large.jpg",
+            "small": "An_Allegory_-'Vision_of_a_Knight'__small.jpg",
+            "teh": "Oil on panel",
+            "title": "An Allegory ('Vision of a Knight')",
+            "year": "c. 1504",
+            "yearKey": "1504"
+        },
+        {
+            "id": "Three_Graces",
+            "large": "Three_Graces__large.jpg",
+            "small": "Three_Graces__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Three Graces",
+            "year": "c. 1504",
+            "yearKey": "1504"
+        },
+        {
+            "id": "The_Procession_to_Calvary",
+            "large": "The_Procession_to_Calvary__large.jpg",
+            "small": "The_Procession_to_Calvary__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Procession to Calvary",
+            "year": "1504-1505",
+            "yearKey": "1504"
+        },
+        {
+            "id": "Madonna_del_Granduca",
+            "large": "Madonna_del_Granduca__large.jpg",
+            "small": "Madonna_del_Granduca__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna del Granduca",
+            "year": "1504-1505",
+            "yearKey": "1504"
+        },
+        {
+            "id": "The_Ansidei_Madonna",
+            "large": "The_Ansidei_Madonna__large.jpg",
+            "small": "The_Ansidei_Madonna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Ansidei Madonna",
+            "year": "1505",
+            "yearKey": "1505"
+        },
+        {
+            "id": "Saint_John_the_Baptist_Preaching",
+            "large": "Saint_John_the_Baptist_Preaching__large.JPG",
+            "small": "Saint_John_the_Baptist_Preaching__small.JPG",
+            "teh": "Oil on panel",
+            "title": "Saint John the Baptist Preaching",
+            "year": "1505",
+            "yearKey": "1505"
+        },
+        {
+            "id": "The_Small_Cowper_Madonna",
+            "large": "The_Small_Cowper_Madonna__large.jpg",
+            "small": "The_Small_Cowper_Madonna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Small Cowper Madonna",
+            "year": "c. 1505",
+            "yearKey": "1505"
+        },
+        {
+            "id": "Madonna_Terranuova",
+            "large": "Madonna_Terranuova__large.jpg",
+            "small": "Madonna_Terranuova__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna Terranuova",
+            "year": "c. 1505",
+            "yearKey": "1505"
+        },
+        {
+            "id": "Christ_Blessing",
+            "large": "Christ_Blessing__large.jpg",
+            "small": "Christ_Blessing__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Christ Blessing",
+            "year": "1505-1506",
+            "yearKey": "1505"
+        },
+        {
+            "id": "Madonna_of_the_Goldfinch",
+            "large": "Madonna_of_the_Goldfinch__large.jpg",
+            "small": "Madonna_of_the_Goldfinch__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "Madonna of the Goldfinch",
+            "year": "1505-1506",
+            "yearKey": "1505"
+        },
+        {
+            "id": "Madonna_of_the_Meadow",
+            "large": "Madonna_of_the_Meadow__large.jpg",
+            "small": "Madonna_of_the_Meadow__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna of the Meadow",
+            "year": "1505-1506",
+            "yearKey": "1505"
+        },
+        {
+            "id": "La_Donna_Gravida",
+            "large": "La_Donna_Gravida__large.jpg",
+            "small": "La_Donna_Gravida__small.jpg",
+            "teh": "Oil on panel",
+            "title": "La Donna Gravida",
+            "year": "1505-1506",
+            "yearKey": "1505"
+        },
+        {
+            "id": "Holy_Family_-Madonna_with_Beardless_Joseph",
+            "large": "Holy_Family_-Madonna_with_Beardless_Joseph__large.jpg",
+            "small": "Holy_Family_-Madonna_with_Beardless_Joseph__small.jpg",
+            "teh": "Tempera on canvas transferred from panel",
+            "title": "Holy Family (Madonna with Beardless Joseph)",
+            "year": "1505-1507",
+            "yearKey": "1505"
+        },
+        {
+            "id": "Portrait_of_Agnolo_Doni",
+            "large": "Portrait_of_Agnolo_Doni__large.jpg",
+            "small": "Portrait_of_Agnolo_Doni__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Agnolo Doni",
+            "year": "1506",
+            "yearKey": "1506"
+        },
+        {
+            "id": "Portrait_of_Maddalena_Doni",
+            "large": "Portrait_of_Maddalena_Doni__large.jpg",
+            "small": "Portrait_of_Maddalena_Doni__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Maddalena Doni",
+            "year": "1506",
+            "yearKey": "1506"
+        },
+        {
+            "id": "Lady_with_a_Unicorn",
+            "large": "Lady_with_a_Unicorn__large.jpg",
+            "small": "Lady_with_a_Unicorn__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Lady with a Unicorn",
+            "year": "1506",
+            "yearKey": "1506"
+        },
+        {
+            "id": "The_Holy_Family_with_a_Palm_Tree",
+            "large": "The_Holy_Family_with_a_Palm_Tree__large.jpg",
+            "small": "The_Holy_Family_with_a_Palm_Tree__small.jpg",
+            "teh": "Oil and gold on canvas transferred from panel",
+            "title": "The Holy Family with a Palm Tree",
+            "year": "1506",
+            "yearKey": "1506"
+        },
+        {
+            "id": "Self-portrait",
+            "large": "Self-portrait__large.jpg",
+            "small": "Self-portrait__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "Self-portrait",
+            "year": "c. 1506",
+            "yearKey": "1506"
+        },
+        {
+            "id": "St._George_and_the_Dragon",
+            "large": "St._George_and_the_Dragon__large.jpg",
+            "small": "St._George_and_the_Dragon__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. George and the Dragon",
+            "year": "c. 1506",
+            "yearKey": "1506"
+        },
+        {
+            "id": "The_Madonna_of_the_Pinks_-'La_Madonna_dei_Garofani'",
+            "large": "The_Madonna_of_the_Pinks_-'La_Madonna_dei_Garofani'__large.jpg",
+            "small": "The_Madonna_of_the_Pinks_-'La_Madonna_dei_Garofani'__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Madonna of the Pinks ('La Madonna dei Garofani')",
+            "year": "1506-1507",
+            "yearKey": "1506"
+        },
+        {
+            "id": "The_Canigiani_Holy_Family",
+            "large": "The_Canigiani_Holy_Family__large.jpg",
+            "small": "The_Canigiani_Holy_Family__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Canigiani Holy Family",
+            "year": "1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "The_Holy_Family_with_a_Lamb",
+            "large": "The_Holy_Family_with_a_Lamb__large.jpg",
+            "small": "The_Holy_Family_with_a_Lamb__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Holy Family with a Lamb",
+            "year": "1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "La_Madonna_de_Bogota_-Madonna_with_the_Child",
+            "large": "La_Madonna_de_Bogota_-Madonna_with_the_Child__large.jpg",
+            "small": "La_Madonna_de_Bogota_-Madonna_with_the_Child__small.jpg",
+            "teh": "?",
+            "title": "La Madonna de Bogota (Madonna with the Child)",
+            "year": "1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "The_Deposition",
+            "large": "The_Deposition__large.jpg",
+            "small": "The_Deposition__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Deposition",
+            "year": "1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "Faith,_Hope,_Charity",
+            "large": "Faith,_Hope,_Charity__large.jpg",
+            "small": "Faith,_Hope,_Charity__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "Faith, Hope, Charity",
+            "year": "1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "Orleans_Madonna",
+            "large": "Orleans_Madonna__large.jpg",
+            "small": "Orleans_Madonna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Orleans Madonna",
+            "year": "c. 1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "Saint_Catherine_of_Alexandria",
+            "large": "Saint_Catherine_of_Alexandria__large.jpg",
+            "small": "Saint_Catherine_of_Alexandria__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Saint Catherine of Alexandria",
+            "year": "c. 1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "The_Bridgewater_Madonna",
+            "large": "The_Bridgewater_Madonna__large.jpg",
+            "small": "The_Bridgewater_Madonna__small.jpg",
+            "teh": "Oil and gold on canvas, transferred from panel",
+            "title": "The Bridgewater Madonna",
+            "year": "c. 1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "Portrait_of_a_Young_Woman_-La_Muta",
+            "large": "Portrait_of_a_Young_Woman_-La_Muta__large.jpg",
+            "small": "Portrait_of_a_Young_Woman_-La_Muta__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of a Young Woman (La Muta)",
+            "year": "c. 1507",
+            "yearKey": "1507"
+        },
+        {
+            "id": "The_Virgin_and_Child_with_the_Infant_St._John_the_Baptist_-La_belle_jardini\u00e8re",
+            "large": "The_Virgin_and_Child_with_the_Infant_St._John_the_Baptist_-La_belle_jardini\u00e8re__large.jpg",
+            "small": "The_Virgin_and_Child_with_the_Infant_St._John_the_Baptist_-La_belle_jardini\u00e8re__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Virgin and Child with the Infant St. John the Baptist (La belle jardini\u00e8re)",
+            "year": "1507-1508",
+            "yearKey": "1507"
+        },
+        {
+            "id": "Madonna_del_Baldacchino",
+            "large": "Madonna_del_Baldacchino__large.jpg",
+            "small": "Madonna_del_Baldacchino__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Madonna del Baldacchino",
+            "year": "1507-1508",
+            "yearKey": "1507"
+        },
+        {
+            "id": "Colonna_Madonna",
+            "large": "Colonna_Madonna__large.jpg",
+            "small": "Colonna_Madonna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Colonna Madonna",
+            "year": "1507-1508",
+            "yearKey": "1507"
+        },
+        {
+            "id": "Madonna_Tempi",
+            "large": "Madonna_Tempi__large.jpg",
+            "small": "Madonna_Tempi__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna Tempi",
+            "year": "1508",
+            "yearKey": "1508"
+        },
+        {
+            "id": "The_Niccolini-Cowper_Madonna",
+            "large": "The_Niccolini-Cowper_Madonna__large.jpg",
+            "small": "The_Niccolini-Cowper_Madonna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Niccolini-Cowper Madonna",
+            "year": "1508",
+            "yearKey": "1508"
+        },
+        {
+            "id": "Madonna_Esterhazy",
+            "large": "Madonna_Esterhazy__large.jpg",
+            "small": "Madonna_Esterhazy__small.jpg",
+            "teh": "Tempera and oil on panel",
+            "title": "Madonna Esterhazy",
+            "year": "1508",
+            "yearKey": "1508"
+        },
+        {
+            "id": "The_Garvagh_Madonna",
+            "large": "The_Garvagh_Madonna__large.jpg",
+            "small": "The_Garvagh_Madonna__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Garvagh Madonna",
+            "year": "1509-1510",
+            "yearKey": "1509"
+        },
+        {
+            "id": "La_Disputa",
+            "large": "La_Disputa__large.jpg",
+            "small": "La_Disputa__small.jpg",
+            "teh": "Fresco",
+            "title": "La Disputa",
+            "year": "1509-1510",
+            "yearKey": "1509"
+        },
+        {
+            "id": "The_School_of_Athens",
+            "large": "The_School_of_Athens__large.jpg",
+            "small": "The_School_of_Athens__small.jpg",
+            "teh": "Fresco",
+            "title": "The School of Athens",
+            "year": "1509-1510",
+            "yearKey": "1509"
+        },
+        {
+            "id": "Madonna_of_Loreto",
+            "large": "Madonna_of_Loreto__large.jpg",
+            "small": "Madonna_of_Loreto__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna of Loreto",
+            "year": "1509-1510",
+            "yearKey": "1509"
+        },
+        {
+            "id": "The_Mackintosh_Madonna",
+            "large": "The_Mackintosh_Madonna__large.JPG",
+            "small": "The_Mackintosh_Madonna__small.JPG",
+            "teh": "Oil (almost entirely repainted) on canvas, transferred from panel",
+            "title": "The Mackintosh Madonna",
+            "year": "1509-1511",
+            "yearKey": "1509"
+        },
+        {
+            "id": "Portrait_of_Cardinal_Alessandro_Farnese",
+            "large": "Portrait_of_Cardinal_Alessandro_Farnese__large.jpg",
+            "small": "Portrait_of_Cardinal_Alessandro_Farnese__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Cardinal Alessandro Farnese",
+            "year": "1509-1511",
+            "yearKey": "1509"
+        },
+        {
+            "id": "The_Alba_Madonna",
+            "large": "The_Alba_Madonna__large.jpg",
+            "small": "The_Alba_Madonna__small.jpg",
+            "teh": "Oil on panel transferred to canvas",
+            "title": "The Alba Madonna",
+            "year": "\u0441. 1510",
+            "yearKey": "1510"
+        },
+        {
+            "id": "The_Cardinal",
+            "large": "The_Cardinal__large.jpg",
+            "small": "The_Cardinal__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Cardinal",
+            "year": "1510-1511",
+            "yearKey": "1510"
+        },
+        {
+            "id": "The_Parnassus",
+            "large": "The_Parnassus__large.jpg",
+            "small": "The_Parnassus__small.jpg",
+            "teh": "Fresco",
+            "title": "The Parnassus",
+            "year": "1511",
+            "yearKey": "1511"
+        },
+        {
+            "id": "The_Cardinal_Virtues",
+            "large": "The_Cardinal_Virtues__large.jpg",
+            "small": "The_Cardinal_Virtues__small.jpg",
+            "teh": "Fresco",
+            "title": "The Cardinal Virtues",
+            "year": "1511",
+            "yearKey": "1511"
+        },
+        {
+            "id": "Portrait_of_Pope_Julius_II",
+            "large": "Portrait_of_Pope_Julius_II__large.jpg",
+            "small": "Portrait_of_Pope_Julius_II__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Pope Julius II",
+            "year": "1511",
+            "yearKey": "1511"
+        },
+        {
+            "id": "The_Prophet_Isaiah",
+            "large": "The_Prophet_Isaiah__large.jpg",
+            "small": "The_Prophet_Isaiah__small.jpg",
+            "teh": "Fresco",
+            "title": "The Prophet Isaiah",
+            "year": "1511-1512",
+            "yearKey": "1511"
+        },
+        {
+            "id": "The_Expulsion_of_Heliodorus_from_the_Temple",
+            "large": "The_Expulsion_of_Heliodorus_from_the_Temple__large.jpg",
+            "small": "The_Expulsion_of_Heliodorus_from_the_Temple__small.jpg",
+            "teh": "Fresco",
+            "title": "The Expulsion of Heliodorus from the Temple",
+            "year": "1511-1512",
+            "yearKey": "1511"
+        },
+        {
+            "id": "The_Madonna_of_Foligno",
+            "large": "The_Madonna_of_Foligno__large.jpg",
+            "small": "The_Madonna_of_Foligno__small.jpg",
+            "teh": "Tempera on panel transferred onto canvas",
+            "title": "The Madonna of Foligno",
+            "year": "1511-1512",
+            "yearKey": "1511"
+        },
+        {
+            "id": "The_Triumph_of_Galatea",
+            "large": "The_Triumph_of_Galatea__large.jpg",
+            "small": "The_Triumph_of_Galatea__small.jpg",
+            "teh": "Fresco",
+            "title": "The Triumph of Galatea",
+            "year": "1511-1513",
+            "yearKey": "1511"
+        },
+        {
+            "id": "Portrait_of_Pope_Julius_II",
+            "large": "Portrait_of_Pope_Julius_II__large.jpg",
+            "small": "Portrait_of_Pope_Julius_II__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Pope Julius II",
+            "year": "c. 1512",
+            "yearKey": "1512"
+        },
+        {
+            "id": "Sistine_Madonna",
+            "large": "Sistine_Madonna__large.jpg",
+            "small": "Sistine_Madonna__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Sistine Madonna",
+            "year": "1512-1513",
+            "yearKey": "1512"
+        },
+        {
+            "id": "The_Holy_Family_with_Raphael,_Tobias_and_Saint_Jerome,_or_the_Virgin_with_a_Fish",
+            "large": "The_Holy_Family_with_Raphael,_Tobias_and_Saint_Jerome,_or_the_Virgin_with_a_Fish__large.jpg",
+            "small": "The_Holy_Family_with_Raphael,_Tobias_and_Saint_Jerome,_or_the_Virgin_with_a_Fish__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Holy Family with Raphael, Tobias and Saint Jerome, or the Virgin with a Fish",
+            "year": "1513-1514",
+            "yearKey": "1513"
+        },
+        {
+            "id": "Madonna_della_seggiola_-Madonna_with_the_Child_and_Young_St._John",
+            "large": "Madonna_della_seggiola_-Madonna_with_the_Child_and_Young_St._John__large.jpg",
+            "small": "Madonna_della_seggiola_-Madonna_with_the_Child_and_Young_St._John__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna della seggiola (Madonna with the Child and Young St. John)",
+            "year": "1513-1514",
+            "yearKey": "1513"
+        },
+        {
+            "id": "Madonna_dell'Impannata",
+            "large": "Madonna_dell'Impannata__large.jpg",
+            "small": "Madonna_dell'Impannata__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna dell'Impannata",
+            "year": "1513-1514",
+            "yearKey": "1513"
+        },
+        {
+            "id": "Leo_X._-Giovanni_Medici",
+            "large": "Leo_X._-Giovanni_Medici__large.jpg",
+            "small": "Leo_X._-Giovanni_Medici__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Leo X. (Giovanni Medici)",
+            "year": "1513-1520",
+            "yearKey": "1513"
+        },
+        {
+            "id": "Madonna_della_tenda",
+            "large": "Madonna_della_tenda__large.jpg",
+            "small": "Madonna_della_tenda__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Madonna della tenda",
+            "year": "1514",
+            "yearKey": "1514"
+        },
+        {
+            "id": "The_Sibyls",
+            "large": "The_Sibyls__large.jpg",
+            "small": "The_Sibyls__small.jpg",
+            "teh": "Fresco",
+            "title": "The Sibyls",
+            "year": "1514",
+            "yearKey": "1514"
+        },
+        {
+            "id": "Portrait_of_Balthasar_Castiglione",
+            "large": "Portrait_of_Balthasar_Castiglione__large.jpg",
+            "small": "Portrait_of_Balthasar_Castiglione__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Balthasar Castiglione",
+            "year": "1514-1515",
+            "yearKey": "1514"
+        },
+        {
+            "id": "Ecstasy_of_St._Cecilia_between_Saints_Paul,_John_Evangelist,_Augustine_and_Mary_Magdalene",
+            "large": "Ecstasy_of_St._Cecilia_between_Saints_Paul,_John_Evangelist,_Augustine_and_Mary_Magdalene__large.jpg",
+            "small": "Ecstasy_of_St._Cecilia_between_Saints_Paul,_John_Evangelist,_Augustine_and_Mary_Magdalene__small.jpg",
+            "teh": "Oil on panel transferred to canvas",
+            "title": "Ecstasy of St. Cecilia between Saints Paul, John Evangelist, Augustine and Mary Magdalene",
+            "year": "1514-1515",
+            "yearKey": "1514"
+        },
+        {
+            "id": "Portrait_of_Bindo_Altoviti",
+            "large": "Portrait_of_Bindo_Altoviti__large.jpg",
+            "small": "Portrait_of_Bindo_Altoviti__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Bindo Altoviti",
+            "year": "c. 1515",
+            "yearKey": "1515"
+        },
+        {
+            "id": "Christ_Falls_on_the_Way_to_Calvary",
+            "large": "Christ_Falls_on_the_Way_to_Calvary__large.jpg",
+            "small": "Christ_Falls_on_the_Way_to_Calvary__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Christ Falls on the Way to Calvary",
+            "year": "1515-1516",
+            "yearKey": "1515"
+        },
+        {
+            "id": "Woman_with_a_Veil_-La_donna_velata",
+            "large": "Woman_with_a_Veil_-La_donna_velata__large.jpg",
+            "small": "Woman_with_a_Veil_-La_donna_velata__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Woman with a Veil (La donna velata)",
+            "year": "1515-1516",
+            "yearKey": "1515"
+        },
+        {
+            "id": "Portrait_of_Tommaso_Inghirami",
+            "large": "Portrait_of_Tommaso_Inghirami__large.jpg",
+            "small": "Portrait_of_Tommaso_Inghirami__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Tommaso Inghirami",
+            "year": "1515-1516",
+            "yearKey": "1515"
+        },
+        {
+            "id": "Portrait_of_Tommaso_Inghirami",
+            "large": "Portrait_of_Tommaso_Inghirami__large.jpg",
+            "small": "Portrait_of_Tommaso_Inghirami__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Portrait of Tommaso Inghirami",
+            "year": "c. 1516",
+            "yearKey": "1516"
+        },
+        {
+            "id": "Portrait_of_Cardinal_Bibbiena",
+            "large": "Portrait_of_Cardinal_Bibbiena__large.jpg",
+            "small": "Portrait_of_Cardinal_Bibbiena__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Portrait of Cardinal Bibbiena",
+            "year": "c. 1516",
+            "yearKey": "1516"
+        },
+        {
+            "id": "Double_Portrait",
+            "large": "Double_Portrait__large.jpg",
+            "small": "Double_Portrait__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Double Portrait",
+            "year": "c. 1516",
+            "yearKey": "1516"
+        },
+        {
+            "id": "The_Holy_Family_Meeting_the_Infant_St_John_the_Baptist_-'The_Madonna_del_Passeggio'",
+            "large": "The_Holy_Family_Meeting_the_Infant_St_John_the_Baptist_-'The_Madonna_del_Passeggio'__large.jpg",
+            "small": "The_Holy_Family_Meeting_the_Infant_St_John_the_Baptist_-'The_Madonna_del_Passeggio'__small.jpg",
+            "teh": "Oil and gold on panel",
+            "title": "The Holy Family Meeting the Infant St John the Baptist ('The Madonna del Passeggio')",
+            "year": "c. 1516",
+            "yearKey": "1516"
+        },
+        {
+            "id": "The_Holy_Family_with_little_Saint_John,_or_The_Virgin_with_a_Rose",
+            "large": "The_Holy_Family_with_little_Saint_John,_or_The_Virgin_with_a_Rose__large.jpg",
+            "small": "The_Holy_Family_with_little_Saint_John,_or_The_Virgin_with_a_Rose__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "The Holy Family with little Saint John, or The Virgin with a Rose",
+            "year": "c. 1516",
+            "yearKey": "1516"
+        },
+        {
+            "id": "The_Transfiguration",
+            "large": "The_Transfiguration__large.jpg",
+            "small": "The_Transfiguration__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "The Transfiguration",
+            "year": "1516-1520",
+            "yearKey": "1516"
+        },
+        {
+            "id": "Visitation",
+            "large": "Visitation__large.jpg",
+            "small": "Visitation__small.jpg",
+            "teh": "Oil on panel",
+            "title": "Visitation",
+            "year": "c. 1517",
+            "yearKey": "1517"
+        },
+        {
+            "id": "Holy_Family_with_Saint_Elizabeth,_the_infant_St._John_and_two_angels_-La_Grande_Sainte_Famille",
+            "large": "Holy_Family_with_Saint_Elizabeth,_the_infant_St._John_and_two_angels_-La_Grande_Sainte_Famille__large.jpg",
+            "small": "Holy_Family_with_Saint_Elizabeth,_the_infant_St._John_and_two_angels_-La_Grande_Sainte_Famille__small.jpg",
+            "teh": "Oil on canvas transferred from panel",
+            "title": "Holy Family with Saint Elizabeth, the infant St. John and two angels (La Grande Sainte Famille)",
+            "year": "1518",
+            "yearKey": "1518"
+        },
+        {
+            "id": "The_Vision_of_Ezekiel",
+            "large": "The_Vision_of_Ezekiel__large.jpg",
+            "small": "The_Vision_of_Ezekiel__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Vision of Ezekiel",
+            "year": "1518",
+            "yearKey": "1518"
+        },
+        {
+            "id": "St._Michael_slaying_the_devil_-Le_Grand_Saint_Michel",
+            "large": "St._Michael_slaying_the_devil_-Le_Grand_Saint_Michel__large.jpg",
+            "small": "St._Michael_slaying_the_devil_-Le_Grand_Saint_Michel__small.jpg",
+            "teh": "Oil on canvas transferred from panel",
+            "title": "St. Michael slaying the devil (Le Grand Saint Michel)",
+            "year": "1518",
+            "yearKey": "1518"
+        },
+        {
+            "id": "St._Margaret",
+            "large": "St._Margaret__large.jpg",
+            "small": "St._Margaret__small.jpg",
+            "teh": "Oil on panel",
+            "title": "St. Margaret",
+            "year": "c. 1518",
+            "yearKey": "1518"
+        },
+        {
+            "id": "Pope_Leo_X_with_Cardinals_Giulio_de'_Medici_and_Luigi_de'_Rossi",
+            "large": "Pope_Leo_X_with_Cardinals_Giulio_de'_Medici_and_Luigi_de'_Rossi__large.jpg",
+            "small": "Pope_Leo_X_with_Cardinals_Giulio_de'_Medici_and_Luigi_de'_Rossi__small.jpg",
+            "teh": "Tempera on panel",
+            "title": "Pope Leo X with Cardinals Giulio de' Medici and Luigi de' Rossi",
+            "year": "c. 1518",
+            "yearKey": "1518"
+        },
+        {
+            "id": "Self-portrait_with_a_Friend",
+            "large": "Self-portrait_with_a_Friend__large.jpg",
+            "small": "Self-portrait_with_a_Friend__small.jpg",
+            "teh": "Oil on canvas",
+            "title": "Self-portrait with a Friend",
+            "year": "1518-1519",
+            "yearKey": "1518"
+        },
+        {
+            "id": "The_Holy_Family_with_an_Oak_Tree",
+            "large": "The_Holy_Family_with_an_Oak_Tree__large.jpg",
+            "small": "The_Holy_Family_with_an_Oak_Tree__small.jpg",
+            "teh": "Oil on panel",
+            "title": "The Holy Family with an Oak Tree",
+            "year": "1518-1520",
+            "yearKey": "1518"
+        },
+        {
+            "id": "La_fornarina",
+            "large": "La_fornarina__large.jpg",
+            "small": "La_fornarina__small.jpg",
+            "teh": "Oil on panel",
+            "title": "La fornarina",
+            "year": "1520",
+            "yearKey": "1520"
+        }
+    ]
+}
