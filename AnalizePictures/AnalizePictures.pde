@@ -302,34 +302,34 @@ void drawWorks() {
     boolean newYear = year != lastYear;
 
     if (newYear) {
-      workInYear = 0;
-      String yearString = new String(year + "");
-      String yearEvent = events.getString(yearString, "");
-      
+      for (int yr = (lastYear + 1); yr <= year; yr++) {
+        String yearString = new String(yr + "");
+        String yearEvent = events.getString(yearString, "");
 
-      pushMatrix();
-      translate(2, workY);
-      scale(zoom);
-      fill(0);
-      stroke(0);
-      strokeWeight(1);
-      if (yearEvent.length() > 0) {
-        yearString += " - " + yearEvent;
-        line(600/zoom, 23, (Globals.FRAME_WIDTH - 70)/zoom, 23);
+        if (yr != year && yearEvent.length() == 0) { continue; }
+
+        pushMatrix();
+        translate(2, workY);
+        scale(zoom);
+        fill(0);
+        stroke(0);
+        strokeWeight(1);
+        if (yearEvent.length() > 0) {
+          yearString += " - " + yearEvent;
+          line(600/zoom, 23, (Globals.FRAME_WIDTH - 70)/zoom, 23);
+        }
+        else {
+          line(100/zoom, 23, (Globals.FRAME_WIDTH - 70)/zoom, 23);
+        }
+        textFont(font24);
+        textAlign(LEFT);
+        text(yearString, 0, 30);
+        popMatrix();
+
+        translate(0, Globals.yearSepSize*zoom);
+        newYears++;
       }
-      else {
-        line(100/zoom, 23, (Globals.FRAME_WIDTH - 70)/zoom, 23);
-      }
-      textFont(font24);
-      textAlign(LEFT);
-      text(yearString, 0, 30);
-
-      popMatrix();
-
-      translate(0, Globals.yearSepSize*zoom);
-      newYears++;
     }
-
     
     if (!newYear && zoom <= Globals.COMPACT_ZOOM && (workInYear % 2 == 1)) {
       workX = Globals.FRAME_WIDTH / 2;
