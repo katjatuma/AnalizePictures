@@ -292,7 +292,7 @@ void drawWorks() {
   positions = new int[Globals.works.size()][2];
   positionBounds = new float[Globals.works.size()][2];
   pushMatrix();
-  println(dragIndex);
+
   translate(fromX, fromY - dragIndex);
   for (int i = 0; i < Globals.works.size(); i++) {
     JSONObject workMeta = Globals.author.getJSONArray("works").getJSONObject(i);
@@ -339,9 +339,10 @@ void drawWorks() {
     }
     else {
       positions[row][0] = i;
+      positions[row][1] = i;
       positionBounds[row] = new float[] {
-        fromY + Globals.yearSepSize*newYears + row*Globals.WORK_HEIGHT,
-        fromY + Globals.yearSepSize*newYears + (row+1)*Globals.WORK_HEIGHT
+        fromY/zoom + Globals.yearSepSize*newYears + row*Globals.WORK_HEIGHT,
+        fromY/zoom + Globals.yearSepSize*newYears + (row+1)*Globals.WORK_HEIGHT
       };
     }
     
@@ -394,9 +395,6 @@ void mouseDragged() { // TODO: more smooth
   if (dragIndex < 0) { dragIndex = 0; }
   drawChanges = true;
 
-  println("selected");
-  println(Globals.selectedWork1);
-  println(Globals.selectedWork2);
 }
 
 void mouseMoved() {
@@ -430,6 +428,7 @@ int workNum(int x, int y) {
   float rY = (dragIndex + y);
   for (int i = 0; i < Globals.works.size(); i++) {
     float up = positionBounds[i][0]*zoom, down = positionBounds[i][1]*zoom;
+
     if (up < rY && rY < down) {
       if (zoom <= Globals.COMPACT_ZOOM) {
         return x/zoom < Globals.FRAME_WIDTH/2.0 ? positions[i][0] : positions[i][1];
