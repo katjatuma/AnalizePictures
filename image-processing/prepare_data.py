@@ -47,7 +47,8 @@ def color_distance(c1, c2):
 	
 for work_i, work in enumerate(author['works']):
 	fjson = os.path.join(author_work_dir, work['id'] + '.json')
-
+	if os.path.exists(fjson):
+		continue
 	img_small = work['small'] and os.path.join(author_work_dir, work['small'])
 	img_large = work['large'] and os.path.join(author_work_dir, work['large'])
 
@@ -58,25 +59,31 @@ for work_i, work in enumerate(author['works']):
 		w, h = im.size
 		
 		colors = list(im.getcolors(w*h))
-		mains = {}
+		sorted_colors = sorted(colors, reverse=True)
 
-		for cnt, col in sorted(colors, reverse=True):
-			if cnt > COLOR_SIMILARITY_CNT_MIN:
-				for mcol in mains:
-					if color_distance(np.array(col), np.array(mcol)) < COLOR_SIMILARITY:
-						break
-				else:
-					mains[col] = 0
-			if len(mains) > 20*MAIN_COLORS:
-				break
+		mains = {}
+		color_sim_cnt_min = COLOR_SIMILARITY_CNT_MIN
+		while len(mains) < MAIN_COLORS:
+			mains = {}
+			for cnt, col in sorted_colors:
+				if cnt > color_sim_cnt_min:
+					for mcol in mains:
+						if color_distance(np.array(col[:3]), np.array(mcol[:3])) < COLOR_SIMILARITY:
+							break
+					else:
+						mains[col[:3]] = 0
+				if len(mains) > 20*MAIN_COLORS:
+					break
+			color_sim_cnt_min *= 0.8
+
 		print len(colors), len(mains)
 		
 		img_data['huehist'] = {}
 		img_data['grayhist'] = {}
 		img_data['valhist'] = {}
 		for cnt, col in colors:
-			rgb_ary = np.array(col)
-			hsv = colorsys.rgb_to_hsv(*(np.array(col)/255.))
+			rgb_ary = np.array(col[:3])
+			hsv = colorsys.rgb_to_hsv(*(rgb_ary/255.))
 			hsv_ary = np.array(hsv)
 
 			vkey = int(round(hsv[2]*255))
@@ -110,7 +117,7 @@ for work_i, work in enumerate(author['works']):
 		img_data['maxV'] = max(img_data['valhist'].values())
 		img_data['maxHG'] = max(
 			max(img_data['huehist'].values()),
-			max(img_data['grayhist'].values())
+			max(img_data['grayhist'].values()) if img_data['grayhist'] else -1,
 		)
 		mains = sorted([(cnt, col) for col, cnt in mains.iteritems()],
 					   reverse=True)[:MAIN_COLORS]
