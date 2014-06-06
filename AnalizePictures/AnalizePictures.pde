@@ -12,7 +12,6 @@ PImage img2;
 
 import controlP5.*;
 ControlP5 cp5;
-DropdownList d1, d2, d3, d4;
 DropdownList ddAuthors, ddAbsolute;
 int cnt = 0;
 
@@ -53,38 +52,8 @@ void setup() {
   
   customize(ddAuthors);
   customize(ddAbsolute);
-  
-  d1 = cp5.addDropdownList("list1_0")
-    .setSize(Globals.boderLeftDD, Globals.boderLeftDD)
-    .setPosition(Fwidth/4 - Globals.boderLeftDD, Globals.bodertopDD)
-    .setGroup(compareViewElements)
-    ;
 
-  d2 = cp5.addDropdownList("list1_1")
-    .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
-    .setPosition(Fwidth/4 + 3, Globals.bodertopDD)
-    .setGroup(compareViewElements)
-    ;
-  d3 = cp5.addDropdownList("list2_0")
-    .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
-    .setPosition( 3*(Fwidth/4) - Globals.boderLeftDD, Globals.bodertopDD)
-    .setGroup(compareViewElements)    
-    ;
-  d4 = cp5.addDropdownList("list2_1")
-    .setSize(Globals.boderLeftDD,Globals.boderLeftDD)
-    .setPosition( 3*(Fwidth/4) + 3 , Globals.bodertopDD)
-    .setGroup(compareViewElements)
-    ;
-  
-  d1.captionLabel().set("Pick a painter");
-  d2.captionLabel().set("Pick a painting");
-  d3.captionLabel().set("Pick another painter");
-  d4.captionLabel().set("Pick another painting");
-  customize(d1); 
-  customize(d2);
-  customize(d3);
-  customize(d4); 
-  //buttons
+//buttons
   cp5.addButton("back")
     .setValue(0)
     .setLabel("Return")
@@ -105,47 +74,6 @@ void setup() {
       })
     ;
   
-  cp5.addButton("RGB1")
-    .setValue(0)
-    .setPosition(Fwidth/Globals.buttonHeight,Fheight/2 - Globals.buttonWidth)
-    .setSize(Globals.buttonWidth,Globals.buttonHeight)
-    .setGroup(compareViewElements)
-    ;
-  
-  cp5.addButton("HSB1")
-    .setValue(0)
-    .setPosition(Fwidth/Globals.buttonHeight + Globals.buttonWidth + Globals.spaceBetweenButtons,Fheight/2 - Globals.buttonWidth)
-    .setSize(Globals.buttonWidth,Globals.buttonHeight)
-    .setGroup(compareViewElements)
-    ;
-     
-  cp5.addButton("...")
-    .setValue(0)
-    .setPosition(Fwidth/Globals.buttonHeight + Globals.buttonWidth*2 + Globals.spaceBetweenButtons*2,Fheight/2 - Globals.buttonWidth)
-    .setSize(Globals.buttonWidth,Globals.buttonHeight)
-    .setGroup(compareViewElements)
-    ;
-  cp5.addButton("RGB2")
-    .setValue(0)
-    .setPosition((Fwidth/2) + Fwidth/Globals.buttonHeight,Fheight/2 - Globals.buttonWidth)
-    .setSize(Globals.buttonWidth,Globals.buttonHeight)
-    .setGroup(compareViewElements)
-    ;
-
-  cp5.addButton("HSB2")
-    .setValue(0)
-    .setPosition((Fwidth/2) + Fwidth/Globals.buttonHeight  + Globals.buttonWidth + Globals.spaceBetweenButtons,Fheight/2 - Globals.buttonWidth)
-    .setSize(Globals.buttonWidth,Globals.buttonHeight)
-    .setGroup(compareViewElements)
-    ;
-     
-  cp5.addButton("....")
-    .setValue(0)
-    .setPosition((Fwidth/2) + Fwidth/Globals.buttonHeight + Globals.buttonWidth*2 + Globals.spaceBetweenButtons*2,Fheight/2 - Globals.buttonWidth)
-    .setSize(Globals.buttonWidth,Globals.buttonHeight)
-    .setGroup(compareViewElements)
-    ;
-
   prepareData("brugel");
 }
 
@@ -250,25 +178,34 @@ void drawCompare() {
   JSONObject work2 = Globals.works.getJSONObject(Globals.selectedWork2);
   JSONObject workMeta2 = Globals.author.getJSONArray("works").getJSONObject(Globals.selectedWork2);
 
+  float imgHeight = Globals.FRAME_HEIGHT/2 * 0.7;
   if (img1 == null) {
     img1 = loadImage(imgDir + workMeta1.getString("large"));
-    img1.resize(0,200);
+    img1.resize(0, (int)imgHeight);
   }
   if (img2 == null) {
     img2 = loadImage(imgDir + workMeta2.getString("large"));
-    img2.resize(0,200);
+    img2.resize(0, (int)imgHeight);
   }
 
   compareViewElements.show();
   worksViewElements.hide();
   
-  //draw line
-  stroke(212,212,210);
-  line(Fwidth/2,Globals.buttonWidth + Globals.buttonHeight,Fwidth/2,Fheight/2);
-  
+  //stroke(212,212,210);
+  //line(10, Globals.FRAME_HEIGHT/2 ,Globals.FRAME_WIDTH - 20, Globals.FRAME_HEIGHT / 2);
+
   imageMode(CENTER);
-  image(img1,Fwidth/4,Fheight/4 + Globals.imageMargin);
-  image(img2,(Fwidth/4)*3,Fheight/4 + Globals.imageMargin);
+  textAlign(CENTER);
+  textFont(font);
+  
+  float imgMarginY = 30;
+  image(img1, Globals.FRAME_WIDTH/2, imgMarginY + Globals.FRAME_HEIGHT/4);
+  text(workMeta1.getString("title", "No title") + ", " + workMeta1.getString("year", "unknown year"),
+       Globals.FRAME_WIDTH/2, imgMarginY + Globals.FRAME_HEIGHT/4 + imgHeight/2 + 20);
+  
+  image(img2, Globals.FRAME_WIDTH/2, Globals.FRAME_HEIGHT*3/4 - imgMarginY);
+  text(workMeta2.getString("title", "No title") + ", " + workMeta2.getString("year", "unknown year"),
+       Globals.FRAME_WIDTH/2, Globals.FRAME_HEIGHT*3/4 + imgHeight/2 + 20 - imgMarginY);
 }
 
 float zoom = 1.0, dragIndex = 0.0,
