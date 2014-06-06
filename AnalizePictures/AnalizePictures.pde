@@ -74,7 +74,7 @@ void setup() {
       })
     ;
   
-  prepareData("brugel");
+  prepareData("picasso");
 }
 
 void customize(DropdownList ddl) {
@@ -369,7 +369,7 @@ int workNum(int x, int y) {
 
     if (up < rY && rY < down) {
       if (zoom <= Globals.COMPACT_ZOOM) {
-        return x/zoom < Globals.FRAME_WIDTH/2.0 ? positions[i][0] : positions[i][1];
+        return x < Globals.FRAME_WIDTH/2.0 ? positions[i][0] : positions[i][1];
       }
       else {
         return positions[i][0];
