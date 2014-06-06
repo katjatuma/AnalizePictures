@@ -350,8 +350,9 @@ void drawWorks() {
     
     translate(workX, workY);
     scale(zoom);
-    
-    plotWork(0, 0, toX - toY, i);
+    if (positionBounds[row][0]*zoom - dragIndex >= 0 && positionBounds[row][1]*zoom - dragIndex <= (Globals.FRAME_HEIGHT + 200)) {
+      plotWork(0, 0, toX - toY, i);
+    }
     popMatrix();
 
     lastYear = year;
@@ -426,7 +427,7 @@ void plotWork(float xStart, float yStart, float graphWidth, int workId) {
 
 int workNum(int x, int y) {
   float rY = (dragIndex + y);
-  for (int i = 0; i < Globals.works.size(); i++) {
+  for (int i = 0; i < Math.min(Globals.works.size(), positions.length); i++) {
     float up = positionBounds[i][0]*zoom, down = positionBounds[i][1]*zoom;
 
     if (up < rY && rY < down) {

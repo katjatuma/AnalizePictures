@@ -27,6 +27,8 @@ def parse_picasso(options):
 		if len(title.split(' - ')) > 1:
 			title = title.split(' - ')[0]
 		year = meta[1].split(' - ')[0] if len(meta) > 1 else '3000'
+		if not year.isdigit():
+			year = "3000"
 		pid = title.replace(' ', '_').replace(')', '').replace('(','-')
 		paintings = {
 			'title': title,
