@@ -1,5 +1,5 @@
 #!/bin/bash
-./prepare_data -a picasso
-./prepare_data -a raphael
-./prepare_data -a rembrandt
-./prepare_data -a vermeer
+./prepare_data.py -a picasso
+./prepare_data.py -a raphael
+./prepare_data.py -a rembrandt
+./prepare_data.py -a vermeer
