@@ -20,7 +20,7 @@ static class Globals {
   public static final float MIN_ZOOM = 0.4, MAX_ZOOM = 1.0, COMPACT_ZOOM = 0.5;
   public static final String DATA_DIR = "../data/";
   public static final String[] AUTHORS = {
-    "brugel", "raphael", "rembrandt/", "picasso"
+    "brugel", "raphael", "rembrandt", "picasso"
   };
   public static final String[] AUTHOR_NAMES = {
     "Pieter Bruegel the Elder", "Raphael", "Rembrandt", "Picasso"
