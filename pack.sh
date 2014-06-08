@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export_dir="export"
+export_dir="AnalizaSlik-TumaStopinsek"
 
 mkdir -p "${export_dir}/data"
 cp -fR AnalizePictures $export_dir
