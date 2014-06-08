@@ -7,6 +7,7 @@ cp -fR AnalizePictures $export_dir
 cp -fR image-processing $export_dir
 cp run.sh $export_dir
 cp download.sh $export_dir
+cp "poročilo.pdf" $export_dir
 
 for data in $( ls data/ ); do
 	if [ -d "data/${data}" ]; then 
