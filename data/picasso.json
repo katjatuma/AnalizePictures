@@ -1,10 +1,10 @@
 {
-    "birth": "",
-    "country": "",
-    "death": "",
+    "birth": "5.10.1881",
+    "country": "Spain",
+    "death": "8.6.1973",
     "events": {},
     "language": "",
-    "name": "Blah",
+    "name": "Pablo Picasso",
     "works": [
         {
             "id": "First_Communion",
