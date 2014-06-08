@@ -2,7 +2,15 @@
     "birth": "28.3.1483",
     "country": "Italy",
     "death": "6.4.1520",
-    "events": {},
+    "events": {
+    "1494" : "Invasion by France",
+    "1501" : "Raphael is described as a fully trained painter",
+    "1509" : "Western Italy invaded by France and the Germans",
+    "1514" : "Engaged to Maria Bibbiena",
+    "1520" : "Death of Maria Bibbiena",
+    "1504" : "Arrival in Florence",
+    "1508" : "Raphael moved to Rome",
+    "1499" : "Venice's hinterland devastated by the Turks"},
     "language": "",
     "name": "Raffaello Sanzio da Urbino",
     "works": [
